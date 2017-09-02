@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/PCF/PCF.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/Experiment1/Experiment1.msd" folder="" />
+    </projectModules>
+  </component>
+</project>
