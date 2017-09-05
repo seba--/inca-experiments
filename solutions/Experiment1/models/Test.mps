@@ -280,6 +280,12 @@
         <child id="3248327366701057865" name="then" index="2Vsuve" />
         <child id="3248327366701057872" name="else" index="2Vsuvn" />
       </concept>
+      <concept id="3248327366706123970" name="PCF.structure.RecordType" flags="ng" index="2VDFh5">
+        <child id="3248327366706124072" name="entries" index="2VDFmJ" />
+      </concept>
+      <concept id="3248327366706124013" name="PCF.structure.RecordTypeEntry" flags="ng" index="2VDFhE">
+        <child id="3248327366706124059" name="type" index="2VDFms" />
+      </concept>
       <concept id="3248327366705935558" name="PCF.structure.Record" flags="ng" index="2VITh1">
         <child id="3248327366705936022" name="entries" index="2VIToh" />
       </concept>
@@ -5543,6 +5549,43 @@
             <property role="TrG5h" value="foo" />
             <node concept="13Yrah" id="2Oko8un5Jtt" role="2VITp0">
               <property role="TrG5h" value="nestedrec" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2SO_Oe" id="2Oko8un5Kof" role="13Yr5r">
+      <property role="TrG5h" value="appRec" />
+      <node concept="13Yr5J" id="2Oko8un5Ktb" role="2SO_Oa">
+        <property role="TrG5h" value="r" />
+        <node concept="2VDFh5" id="2Oko8un5Ktr" role="2SXt8s">
+          <node concept="2VDFhE" id="2Oko8un5Ktv" role="2VDFmJ">
+            <property role="TrG5h" value="f" />
+            <node concept="2SXtaN" id="2Oko8un5KtG" role="2VDFms">
+              <node concept="2SXtaR" id="2Oko8un5KtR" role="2SXtbO" />
+              <node concept="2SXtaR" id="2Oko8un5Kt_" role="2SXtbR" />
+            </node>
+          </node>
+          <node concept="2VDFhE" id="2Oko8un5KtV" role="2VDFmJ">
+            <property role="TrG5h" value="x" />
+            <node concept="2SXtaR" id="2Oko8un5Ku9" role="2VDFms" />
+          </node>
+        </node>
+        <node concept="13Yra8" id="2Oko8un6rOV" role="13Yr5F">
+          <node concept="2SZY0w" id="2Oko8un6rPf" role="13Yr5T">
+            <node concept="2VITou" id="2Oko8un6rPw" role="2SZY63">
+              <property role="TrG5h" value="f" />
+              <node concept="13Yrah" id="2Oko8un6rPL" role="2VITp0">
+                <property role="TrG5h" value="r" />
+              </node>
+            </node>
+          </node>
+          <node concept="2SZY0w" id="2Oko8un6rPY" role="13Yr5O">
+            <node concept="2VITou" id="2Oko8un6rQf" role="2SZY63">
+              <property role="TrG5h" value="x" />
+              <node concept="13Yrah" id="2Oko8un6rQw" role="2VITp0">
+                <property role="TrG5h" value="r" />
+              </node>
             </node>
           </node>
         </node>
