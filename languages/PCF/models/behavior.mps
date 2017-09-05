@@ -3,11 +3,17 @@
   <persistence version="9" />
   <languages>
     <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="1" />
+    <use id="b802a056-92a2-4fbc-902e-f8e5004c331f" name="com.mbeddr.mpsutil.inca.core" version="0" />
+    <use id="cd2909da-ecb4-49dc-b176-33e5c619e516" name="com.mbeddr.mpsutil.inca.gp" version="0" />
+    <use id="e6d2ffd5-9c56-41f8-99ac-9d1ceb13daa2" name="com.mbeddr.mpsutil.inca.data" version="0" />
+    <use id="8c9a2720-9d21-4370-a226-819eb3e76e1e" name="com.mbeddr.mpsutil.inca.fun" version="0" />
     <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   </languages>
   <imports>
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
-    <import index="ivid" ref="r:c2e5e24a-74d1-4c52-869b-1ee5a27bfdf8(PCF.structure)" implicit="true" />
+    <import index="hqsm" ref="r:aa4c3470-43ab-4dad-b73e-20da0ee43be1(com.mbeddr.mpsutil.inca.core.structure)" />
+    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
+    <import index="ivid" ref="r:c2e5e24a-74d1-4c52-869b-1ee5a27bfdf8(PCF.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -108,7 +114,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="2Oko8ulZUzG">
-    <ref role="13h7C2" to="ivid:2Oko8ulSr8O" resolve="Fun" />
+    <ref role="13h7C2" to="ivid:2Oko8ulSr8O" resolve="FunType" />
     <node concept="13hLZK" id="2Oko8ulZUzH" role="13h7CW">
       <node concept="3clFbS" id="2Oko8ulZUzI" role="2VODD2" />
     </node>
@@ -258,6 +264,42 @@
       </node>
       <node concept="17QB3L" id="2Oko8um$TX1" role="3clF45" />
       <node concept="3Tm1VV" id="2Oko8um$TX2" role="1B3o_S" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="2Oko8un2UwZ">
+    <ref role="13h7C2" to="ivid:2Oko8umFZqp" resolve="RecordProject" />
+    <node concept="13i0hz" id="2Oko8un2Ux2" role="13h7CS">
+      <property role="TrG5h" value="getPresentation" />
+      <property role="2Ki8OM" value="false" />
+      <ref role="13i0hy" to="tpcu:hEwIMiw" resolve="getPresentation" />
+      <node concept="3clFbS" id="2Oko8un2Ux5" role="3clF47">
+        <node concept="3cpWs6" id="2Oko8un2UxG" role="3cqZAp">
+          <node concept="3cpWs3" id="2Oko8un2Wfx" role="3cqZAk">
+            <node concept="2OqwBi" id="2Oko8un2W_y" role="3uHU7w">
+              <node concept="13iPFW" id="2Oko8un2WlD" role="2Oq$k0" />
+              <node concept="3TrcHB" id="2Oko8un2X4x" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+            <node concept="3cpWs3" id="2Oko8un2Ved" role="3uHU7B">
+              <node concept="2OqwBi" id="2Oko8un2UGM" role="3uHU7B">
+                <node concept="13iPFW" id="2Oko8un2Uyt" role="2Oq$k0" />
+                <node concept="3TrEf2" id="2Oko8un2UTP" role="2OqNvi">
+                  <ref role="3Tt5mk" to="ivid:2Oko8umFZr7" resolve="record" />
+                </node>
+              </node>
+              <node concept="Xl_RD" id="2Oko8un2VgR" role="3uHU7w">
+                <property role="Xl_RC" value="." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="2Oko8un2Uxu" role="3clF45" />
+      <node concept="3Tm1VV" id="2Oko8un2Uxv" role="1B3o_S" />
+    </node>
+    <node concept="13hLZK" id="2Oko8un2Ux0" role="13h7CW">
+      <node concept="3clFbS" id="2Oko8un2Ux1" role="2VODD2" />
     </node>
   </node>
 </model>

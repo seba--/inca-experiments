@@ -10,7 +10,11 @@
     <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="0" />
     <devkit ref="00000000-0000-4000-0000-1de82b3a4936(jetbrains.mps.devkit.aspect.typesystem)" />
   </languages>
-  <imports />
+  <imports>
+    <import index="djqa" ref="r:11183198-6bff-4be7-a226-0e078960405a(com.mbeddr.mpsutil.inca.measurements.plugin)" />
+    <import index="h57a" ref="7766a138-716a-422a-9c88-131459fb8d6a/java:org.eclipse.viatra.query.runtime.api(com.mbeddr.mpsutil.inca.core.runtime/)" />
+    <import index="r2dy" ref="r:301e1e32-5ed4-4d35-81ba-7740d4d45391(PCF.behavior)" />
+  </imports>
   <registry />
 </model>
 
