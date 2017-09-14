@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:e5492dc8-859b-4776-81f4-b45f76897019(Test)">
+<model ref="r:e5492dc8-859b-4776-81f4-b45f76897019(TestPCF)">
   <persistence version="9" />
   <languages>
     <use id="0ac86cc3-4da0-41ce-bbbd-42f64ff2e3ef" name="PCF" version="0" />
