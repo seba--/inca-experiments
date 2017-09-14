@@ -32,6 +32,7 @@
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
+      <concept id="1186414860679" name="jetbrains.mps.lang.editor.structure.EditableStyleClassItem" flags="ln" index="VPxyj" />
       <concept id="1233758997495" name="jetbrains.mps.lang.editor.structure.PunctuationLeftStyleClassItem" flags="ln" index="11L4FC" />
       <concept id="1233759184865" name="jetbrains.mps.lang.editor.structure.PunctuationRightStyleClassItem" flags="ln" index="11LMrY" />
       <concept id="1236262245656" name="jetbrains.mps.lang.editor.structure.MatchingLabelStyleClassItem" flags="ln" index="3mYdg7">
@@ -152,7 +153,7 @@
         <property role="3F0ifm" value=":" />
       </node>
       <node concept="3F1sOY" id="2Oko8ulSrbi" role="3EZMnx">
-        <ref role="1NtTu8" to="ivid:2Oko8ulSrar" resolve="type" />
+        <ref role="1NtTu8" to="ivid:2Oko8uney6i" resolve="type" />
       </node>
       <node concept="3F0ifn" id="1MxURLvm6Sr" role="3EZMnx">
         <property role="3F0ifm" value="." />
@@ -310,7 +311,7 @@
         <property role="3F0ifm" value=":" />
       </node>
       <node concept="3F1sOY" id="2Oko8umocYt" role="3EZMnx">
-        <ref role="1NtTu8" to="ivid:2Oko8ummMN5" resolve="type" />
+        <ref role="1NtTu8" to="ivid:2Oko8uney6i" resolve="type" />
       </node>
       <node concept="3F0ifn" id="2Oko8umocYu" role="3EZMnx">
         <property role="3F0ifm" value="." />
@@ -462,6 +463,14 @@
       </node>
       <node concept="3F0A7n" id="2Oko8umTjOB" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="2Oko8un6DRR">
+    <ref role="1XX52x" to="ivid:2Oko8un6DRF" resolve="EmptyModuleContent" />
+    <node concept="3F0ifn" id="2Oko8un6DRT" role="2wV5jI">
+      <node concept="VPxyj" id="2Oko8un7iYL" role="3F10Kt">
+        <property role="VOm3f" value="true" />
       </node>
     </node>
   </node>

@@ -14,7 +14,7 @@
     <import index="hqsm" ref="r:aa4c3470-43ab-4dad-b73e-20da0ee43be1(com.mbeddr.mpsutil.inca.core.structure)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="ivid" ref="r:c2e5e24a-74d1-4c52-869b-1ee5a27bfdf8(PCF.structure)" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -300,6 +300,18 @@
     </node>
     <node concept="13hLZK" id="2Oko8un2Ux0" role="13h7CW">
       <node concept="3clFbS" id="2Oko8un2Ux1" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="2Oko8unjDTJ">
+    <ref role="13h7C2" to="ivid:2Oko8unjDTI" resolve="Scope" />
+    <node concept="13hLZK" id="2Oko8unjDTK" role="13h7CW">
+      <node concept="3clFbS" id="2Oko8unjDTL" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="2Oko8unjKAn">
+    <ref role="13h7C2" to="ivid:1MxURLvm5CA" resolve="Module" />
+    <node concept="13hLZK" id="2Oko8unjKAo" role="13h7CW">
+      <node concept="3clFbS" id="2Oko8unjKAp" role="2VODD2" />
     </node>
   </node>
 </model>
