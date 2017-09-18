@@ -1,0 +1,67 @@
+IncA feedback
+
+* when calling a pattern function in IncA, the cursor should jump into the argument list
+
+* would be good to allow a default case. This can be desugared into multiple regular cases I think.
+
+* there should be support for lattices over generic element types (e.g., PowerSet<T> or Singleton<T>)
+
+* would be nice to add a keyword “fail” such that unsuccessful cases can still be listed
+def allrefs(e : Exp) : string = { 
+  assert e instanceOf NumericLit 
+  fail // no reference in a numeric literal
+}
+
+* would be nice to support alias functions. For example, one of the following two functions can be made an alias:
+def allrefs(e : Exp) : string = alias { occurs(out_1, e) = () }
+def occurs(v : string, e : Exp) : Void = alias { allrefs(e) = v }
+This would allow me to avoid weird-looking constraints like: “assert allrefs(e) == v”
+
+* I am missing some form of “union” operator for collecting results from multiple children of a concept. Like:
+{ 
+  assert e instanceOf IfZero 
+  return allrefs(e.cond) ++ allrefs(e.then) ++ allrefs(e.else)
+}
+
+* I am missing convenient support dealing with lists of things. For example, I have a list of record entries {l1=e1,…,ln=en} and want to type check them all. Using `next` only is inconvenient and incrementally slow. Internally, operations on list should be implemented as trees, so that we get updates in log time. This may depend on what operation over the list is required.
+
+Better support for aliases could also help eliminate the need for redundant list functions:
+def recordEntries(e : Record) : RecordEntry = { 
+  return e.entries 
+}                                                                                     
+def recordStart(entry : RecordEntry) : boolean = { 
+  assert undef recordPredecessor(entry) 
+  return true 
+}                                              
+def recordEnd(entry : RecordEntry) : boolean = { 
+  assert undef recordSuccessor(entry) 
+  return true 
+}                                                  
+def recordPredecessor(succ : RecordEntry) : RecordEntry = { 
+  assert prev instanceOf RecordEntry 
+  assert recordSuccessor(prev) == succ 
+  return prev 
+}
+def recordSuccessor(pred : RecordEntry) : RecordEntry = { 
+  next := pred.next 
+  assert next instanceOf RecordEntry 
+  return next 
+}                     
+
+* how to query singleton relations? I had to make it binary (adding column of type boolean) in order to use the assert statement syntax.
+
+* pattern functions don’t get properly recomputed when things change that the lattice operations read from a node object. For example, LType.fromType reads off the type annotation, but won’t trigger recomputation appropriately.
+
+* type checker seems to require too much. The first alternative is rejected here because Declaration and Exp do not a “mostSpecificType” (if they are both independent interfaces).
+def nextDecl(e : Exp) : Declaration = { 
+  assert e instanceOf Declaration 
+  return e 
+} alt { 
+  assert e not instanceOf Declaration 
+  return nextDecl(e.parent) 
+}
+
+* This seems to never be satisfied. It works if I introduce an auxiliary function that accepts mod
+def := e.parent 
+mod := e.parent 
+assert mod instanceOf Module
