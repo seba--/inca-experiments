@@ -978,6 +978,9 @@
         <node concept="1XdyHb" id="5dsqWpVjwAO" role="1dgzf0">
           <property role="1dubkF" value="TODO: check (e.args &lt;: c.superfields++c.fields)" />
         </node>
+        <node concept="1XdyHb" id="5dsqWpVne03" role="1dgzf0">
+          <property role="1dubkF" value="NEED: list.first, list.next, list.prev, list.last" />
+        </node>
         <node concept="1XdyHe" id="5dsqWpVju7S" role="1dgzf0" />
         <node concept="30Nfyg" id="5dsqWpVi39e" role="1dgzf0">
           <node concept="2kdhWc" id="5dsqWpViUdW" role="30Nf_D">
@@ -1073,7 +1076,40 @@
         <node concept="1XdyHb" id="5dsqWpVmF1a" role="1dgzf0">
           <property role="1dubkF" value="TODO: check (e.args &lt;: m.params)" />
         </node>
-        <node concept="1XdyHe" id="5dsqWpVmEl8" role="1dgzf0" />
+        <node concept="1XdyHb" id="5dsqWpVnp4R" role="1dgzf0">
+          <property role="1dubkF" value="NEED props: listStart, listNext, listPrev, listLast" />
+        </node>
+        <node concept="1XdyHe" id="5dsqWpVoPdD" role="1dgzf0" />
+        <node concept="1XdyHb" id="5dsqWpVnqxM" role="1dgzf0">
+          <property role="1dubkF" value="checkArgList(e.args.listStart, m.params.listStart)" />
+        </node>
+        <node concept="1XdyHe" id="5dsqWpVoPUe" role="1dgzf0" />
+        <node concept="1XdyHb" id="5dsqWpVnYf3" role="1dgzf0">
+          <property role="1dubkF" value="def checkArgList(e: Exp, p: Param): Void =" />
+        </node>
+        <node concept="1XdyHb" id="5dsqWpVo9vN" role="1dgzf0">
+          <property role="1dubkF" value="  assert checkArg(e, p)" />
+        </node>
+        <node concept="1XdyHb" id="5dsqWpVohX4" role="1dgzf0">
+          <property role="1dubkF" value="  assert checkArgList(e.listNext, p.listNext)" />
+        </node>
+        <node concept="1XdyHb" id="5dsqWpVou_7" role="1dgzf0">
+          <property role="1dubkF" value="alt" />
+        </node>
+        <node concept="1XdyHb" id="5dsqWpVowDA" role="1dgzf0">
+          <property role="1dubkF" value="  assert checkArg(e, p)" />
+        </node>
+        <node concept="1XdyHb" id="5dsqWpVoB7B" role="1dgzf0">
+          <property role="1dubkF" value="  assert undef e.listNext" />
+        </node>
+        <node concept="1XdyHb" id="5dsqWpVoIcY" role="1dgzf0">
+          <property role="1dubkF" value="  assert undef p.listNext" />
+        </node>
+        <node concept="1XdyHe" id="5dsqWpVnpMx" role="1dgzf0" />
+        <node concept="1XdyHb" id="5dsqWpVoRpt" role="1dgzf0">
+          <property role="1dubkF" value="Further improvements: Add built-in support for (partially) incremental foldl, foldr, and map" />
+        </node>
+        <node concept="1XdyHe" id="5dsqWpVoQDQ" role="1dgzf0" />
         <node concept="30Nfyg" id="5dsqWpVi8jW" role="1dgzf0">
           <node concept="2k1GkI" id="5dsqWpVi8SJ" role="30Nf_D">
             <node concept="2k1_uq" id="5dsqWpVi8SH" role="2nKVj6">
