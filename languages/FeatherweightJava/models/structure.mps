@@ -191,8 +191,8 @@
     <property role="EcuMT" value="3248327366719811750" />
     <property role="TrG5h" value="Param" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="2Oko8unwV2B" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    <node concept="PrWs8" id="5dsqWpVW6DF" role="PzmwI">
+      <ref role="PrY4T" node="2Oko8unBu1d" resolve="Named" />
     </node>
     <node concept="1TJgyj" id="2Oko8unwV2E" role="1TKVEi">
       <property role="IQ2ns" value="3248327366719811754" />
