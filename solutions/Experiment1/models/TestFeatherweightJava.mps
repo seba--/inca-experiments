@@ -418,7 +418,7 @@
             </node>
           </node>
           <node concept="2U_9L9" id="2Oko8unD4rN" role="2U_9Li">
-            <property role="TrG5h" value="equal" />
+            <property role="TrG5h" value="isEqual" />
             <node concept="2U_9L0" id="2Oko8unDsr4" role="2U_9L8">
               <property role="TrG5h" value="pred" />
               <node concept="2U_9L4" id="2Oko8unD4rI" role="2U_9Lf">
