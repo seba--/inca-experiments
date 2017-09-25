@@ -22,11 +22,6 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
-    <language id="00000000-0000-0000-0000-000000000000" name="">
-      <concept id="0" name="" flags="ng" index="00000">
-        <property id="0" name="" index="00000" />
-      </concept>
-    </language>
     <language id="8c9a2720-9d21-4370-a226-819eb3e76e1e" name="com.mbeddr.mpsutil.inca.fun">
       <concept id="5746856838774042406" name="com.mbeddr.mpsutil.inca.fun.structure.Def" flags="ng" index="2dT$3Y">
         <child id="5746856838774042549" name="expression" index="2dT$1H" />
@@ -170,7 +165,6 @@
     </node>
     <node concept="2U_X0E" id="2Oko8unyrVu" role="2U$$xx">
       <property role="TrG5h" value="Nat" />
-      <property role="00000" value="Nat" />
       <node concept="2U_X0k" id="2Oko8unyrVF" role="2U_X0W">
         <property role="TrG5h" value="succ" />
         <node concept="2U_X3M" id="2Oko8unyrVS" role="2U_X0t">
@@ -247,7 +241,6 @@
     </node>
     <node concept="2U_X0E" id="2Oko8unyrWh" role="2U$$xx">
       <property role="TrG5h" value="Zero" />
-      <property role="00000" value="Zero" />
       <node concept="2U_X0k" id="2Oko8unyrWI" role="2U_X0W">
         <property role="TrG5h" value="succ" />
         <node concept="2U_X3M" id="2Oko8unyrWV" role="2U_X0t">
@@ -324,7 +317,6 @@
     </node>
     <node concept="2U_X0E" id="2Oko8unzff4" role="2U$$xx">
       <property role="TrG5h" value="Succ" />
-      <property role="00000" value="Succ" />
       <node concept="2U_X0x" id="5dsqWpVjqb9" role="2U$kpl">
         <property role="TrG5h" value="pred" />
         <node concept="2U_X3M" id="5dsqWpVjqbj" role="2U_X0H">
@@ -451,7 +443,6 @@
     </node>
     <node concept="2U_X0E" id="2Oko8un$LOA" role="2U$$xx">
       <property role="TrG5h" value="Bool" />
-      <property role="00000" value="Bool" />
       <node concept="2U_X0k" id="2Oko8un$LON" role="2U_X0W">
         <property role="TrG5h" value="not" />
         <node concept="2U_X3M" id="2Oko8un$LP0" role="2U_X0t">
@@ -554,7 +545,6 @@
     </node>
     <node concept="2U_X0E" id="2Oko8un$XwX" role="2U$$xx">
       <property role="TrG5h" value="True" />
-      <property role="00000" value="True" />
       <node concept="2U_X0k" id="2Oko8un$XwY" role="2U_X0W">
         <property role="TrG5h" value="not" />
         <node concept="2U_X3M" id="2Oko8un$XwZ" role="2U_X0t">
@@ -626,7 +616,6 @@
     </node>
     <node concept="2U_X0E" id="2Oko8un$X$_" role="2U$$xx">
       <property role="TrG5h" value="False" />
-      <property role="00000" value="False" />
       <node concept="2U_X0k" id="2Oko8un$X$A" role="2U_X0W">
         <property role="TrG5h" value="not" />
         <node concept="2U_X3M" id="2Oko8un$X$B" role="2U_X0t">
@@ -685,7 +674,7 @@
         <node concept="2U_X3M" id="2Oko8un$X$S" role="2U_X0t">
           <property role="TrG5h" value="Object" />
         </node>
-        <node concept="2U_9L4" id="2Oko8un$X$T" role="2U_X0g">
+        <node concept="2U_9L4" id="5dsqWpW7Jtv" role="2U_X0g">
           <property role="TrG5h" value="els" />
         </node>
       </node>

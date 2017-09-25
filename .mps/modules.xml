@@ -5,6 +5,7 @@
       <modulePath path="$PROJECT_DIR$/languages/FeatherweightJava/FeatherweightJava.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/PCF/PCF.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/Experiment1/Experiment1.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/JavaTrees/JavaTrees.msd" folder="" />
     </projectModules>
   </component>
 </project>
