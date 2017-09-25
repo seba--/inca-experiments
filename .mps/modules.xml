@@ -2,10 +2,12 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
-      <modulePath path="$PROJECT_DIR$/languages/FeatherweightJava/FeatherweightJava.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/PCF/PCF.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/Experiment1/Experiment1.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/JavaTrees/JavaTrees.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/FeatherweightJava/FeatherweightJava.mpl" folder="core" />
+      <modulePath path="$PROJECT_DIR$/languages/PCF/PCF.mpl" folder="core" />
+      <modulePath path="$PROJECT_DIR$/solutions/Experiment1/Experiment1.msd" folder="analysis" />
+      <modulePath path="$PROJECT_DIR$/solutions/FeatherweightJavaImporter/FeatherweightJavaImporter.msd" folder="core" />
+      <modulePath path="$PROJECT_DIR$/solutions/FeatherweightJavaTrees/FeatherweightJavaTrees.msd" folder="benchmark" />
+      <modulePath path="$PROJECT_DIR$/solutions/JavaTrees/JavaTrees.msd" folder="benchmark" />
     </projectModules>
   </component>
 </project>
