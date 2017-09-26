@@ -217,7 +217,7 @@
       <property role="IQ2ns" value="3248327366719811761" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="extends" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" node="2Oko8unwV1O" resolve="Type" />
     </node>
     <node concept="1TJgyj" id="2Oko8unxiri" role="1TKVEi">

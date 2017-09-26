@@ -2039,18 +2039,6 @@
                             </node>
                           </node>
                         </node>
-                        <node concept="2pIpSj" id="360F32caGOl" role="2pJxcM">
-                          <ref role="2pIpSl" to="aq49:2Oko8unwV2L" resolve="extends" />
-                          <node concept="2pJPED" id="360F32caHef" role="2pJxcZ">
-                            <ref role="2pJxaS" to="aq49:2Oko8unwV1P" resolve="CName" />
-                            <node concept="2pJxcG" id="360F32caHeg" role="2pJxcM">
-                              <ref role="2pJxcJ" to="tpck:h0TrG11" resolve="name" />
-                              <node concept="Xl_RD" id="360F32caHeh" role="2pJxcZ">
-                                <property role="Xl_RC" value="Object" />
-                              </node>
-                            </node>
-                          </node>
-                        </node>
                       </node>
                     </node>
                   </node>
