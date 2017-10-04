@@ -5861,7 +5861,6 @@
       </node>
     </node>
     <node concept="1XdyHe" id="5YhdhgZAt7N" role="1dubk0" />
-    <node concept="1XdyHe" id="5YhdhgZAt7O" role="1dubk0" />
     <node concept="3zyOaA" id="5YhdhgZAt7P" role="1dubk0">
       <property role="TrG5h" value="classOk" />
       <node concept="3zV_Rz" id="5YhdhgZAWeq" role="3zVECS">
