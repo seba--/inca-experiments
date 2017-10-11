@@ -145,6 +145,7 @@
         <child id="3248327366719907538" name="fields" index="2U$kpl" />
         <child id="3248327366719811761" name="extends" index="2U_X0Q" />
         <child id="3248327366719811771" name="methods" index="2U_X0W" />
+        <child id="5122963220867171194" name="static_fields" index="1Adqyi" />
       </concept>
       <concept id="3248327366719811701" name="FeatherweightJava.structure.CName" flags="ng" index="2U_X3M" />
     </language>
@@ -321,6 +322,12 @@
     </node>
     <node concept="2U_X0E" id="2Oko8unzff4" role="2U$$xx">
       <property role="TrG5h" value="Succ" />
+      <node concept="2U_X0x" id="4soqYwxjbXu" role="1Adqyi">
+        <property role="TrG5h" value="test" />
+        <node concept="2U_X3M" id="4soqYwxjbXC" role="2U_X0H">
+          <property role="TrG5h" value="Nat" />
+        </node>
+      </node>
       <node concept="2U_X0x" id="5dsqWpVjqb9" role="2U$kpl">
         <property role="TrG5h" value="pred" />
         <node concept="2U_X3M" id="5dsqWpVjqbj" role="2U_X0H">

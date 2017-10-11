@@ -82,7 +82,7 @@
                 <node concept="liA8E" id="2Oko8unC0iC" role="2OqNvi">
                   <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String):boolean" resolve="matches" />
                   <node concept="Xl_RD" id="2Oko8unC0iD" role="37wK5m">
-                    <property role="Xl_RC" value="[a-zA-Z0-9]+" />
+                    <property role="Xl_RC" value="[a-zA-Z0-9_]+" />
                   </node>
                 </node>
               </node>
