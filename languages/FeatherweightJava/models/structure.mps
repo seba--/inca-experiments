@@ -246,7 +246,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="static_methods" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="2Oko8unwV2j" resolve="MethodDec" />
+      <ref role="20lvS9" node="4sJZnwhLaB" resolve="StaticMethodDec" />
     </node>
   </node>
   <node concept="1TIwiD" id="2Oko8unxyz_">
@@ -344,6 +344,35 @@
     </node>
     <node concept="PrWs8" id="4eD9pJsBqg3" role="PzmwI">
       <ref role="PrY4T" node="2Oko8unBu1d" resolve="Named" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4sJZnwhLaB">
+    <property role="EcuMT" value="80149956136473255" />
+    <property role="TrG5h" value="StaticMethodDec" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="4sJZnwhLaC" role="1TKVEi">
+      <property role="IQ2ns" value="80149956136473256" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="returnType" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="2Oko8unwV1O" resolve="Type" />
+    </node>
+    <node concept="1TJgyj" id="4sJZnwhLaD" role="1TKVEi">
+      <property role="IQ2ns" value="80149956136473257" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="params" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="2Oko8unwV2A" resolve="Param" />
+    </node>
+    <node concept="PrWs8" id="4sJZnwhLaE" role="PzmwI">
+      <ref role="PrY4T" node="2Oko8unBu1d" resolve="Named" />
+    </node>
+    <node concept="1TJgyj" id="4sJZnwhLaF" role="1TKVEi">
+      <property role="IQ2ns" value="80149956136473259" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="body" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="2Oko8unwfN2" resolve="Exp" />
     </node>
   </node>
 </model>

@@ -20,17 +20,13 @@
   </imports>
   <registry>
     <language id="2d284cd2-4f9b-4f47-beec-a8bf99adcb74" name="FeatherweightJava">
-      <concept id="4875469422956749823" name="FeatherweightJava.structure.StaticMethodCall" flags="ng" index="2vd8p$">
-        <child id="4875469422956749824" name="container" index="2vd86r" />
-      </concept>
       <concept id="3248327366720870908" name="FeatherweightJava.structure.MName" flags="ng" index="2UxV_V" />
       <concept id="3248327366719973605" name="FeatherweightJava.structure.Module" flags="ng" index="2U$$xy">
         <child id="3248327366720870928" name="name" index="2UxVEn" />
         <child id="3248327366719973606" name="classes" index="2U$$xx" />
       </concept>
-      <concept id="3248327366719811731" name="FeatherweightJava.structure.MethodDec" flags="ng" index="2U_X0k">
-        <child id="3248327366719811735" name="body" index="2U_X0g" />
-        <child id="3248327366719811738" name="returnType" index="2U_X0t" />
+      <concept id="3248327366719634650" name="FeatherweightJava.structure.ConstructorCall" flags="ng" index="2U_9Lt">
+        <child id="6006794503221512837" name="type" index="C5u53" />
       </concept>
       <concept id="3248327366719811750" name="FeatherweightJava.structure.Param" flags="ng" index="2U_X0x">
         <child id="3248327366719811754" name="type" index="2U_X0H" />
@@ -38,10 +34,15 @@
       <concept id="3248327366719811757" name="FeatherweightJava.structure.ClassDec" flags="ng" index="2U_X0E">
         <child id="4875469422957064690" name="static_methods" index="2v2PhD" />
         <child id="6006794503220674455" name="type" index="Codhh" />
-        <child id="3248327366719811771" name="methods" index="2U_X0W" />
+        <child id="3248327366719907538" name="fields" index="2U$kpl" />
+        <child id="3248327366719811761" name="extends" index="2U_X0Q" />
         <child id="5122963220867171194" name="static_fields" index="1Adqyi" />
       </concept>
       <concept id="3248327366719811701" name="FeatherweightJava.structure.CName" flags="ng" index="2U_X3M" />
+      <concept id="80149956136473255" name="FeatherweightJava.structure.StaticMethodDec" flags="ng" index="3xmUPi">
+        <child id="80149956136473256" name="returnType" index="3xmUPt" />
+        <child id="80149956136473259" name="body" index="3xmUPu" />
+      </concept>
       <concept id="5122963220870249685" name="FeatherweightJava.structure.StaticFieldAcc" flags="ng" index="1AhdsX">
         <child id="5122963220870249686" name="container" index="1AhdsY" />
       </concept>
@@ -53,44 +54,76 @@
     </language>
   </registry>
   <node concept="2U$$xy" id="4soqYwxhu5O">
-    <node concept="2U_X0E" id="4soqYwxj2c4" role="2U$$xx">
-      <node concept="2U_X0k" id="4eD9pJsFoQR" role="2v2PhD">
-        <property role="TrG5h" value="getInstance" />
-        <node concept="2U_X3M" id="4eD9pJsFoR4" role="2U_X0t">
-          <property role="TrG5h" value="Node" />
-        </node>
-        <node concept="1AhdsX" id="4eD9pJsFoTd" role="2U_X0g">
-          <property role="TrG5h" value="instance" />
-          <node concept="2U_X3M" id="4eD9pJsFoTo" role="1AhdsY">
-            <property role="TrG5h" value="Node" />
-          </node>
-        </node>
+    <node concept="2U_X0E" id="4sJZnweGuv" role="2U$$xx">
+      <node concept="2U_X3M" id="4sJZnweGvf" role="Codhh">
+        <property role="TrG5h" value="A" />
       </node>
-      <node concept="2U_X0x" id="4soqYwxnbNy" role="1Adqyi">
-        <property role="TrG5h" value="instance" />
-        <node concept="2U_X3M" id="4soqYwxnbNG" role="2U_X0H">
-          <property role="TrG5h" value="Node" />
-        </node>
+    </node>
+    <node concept="2U_X0E" id="4sJZnweGvi" role="2U$$xx">
+      <node concept="2U_X3M" id="4sJZnweGwb" role="Codhh">
+        <property role="TrG5h" value="B" />
       </node>
-      <node concept="2U_X3M" id="4soqYwxj2cu" role="Codhh">
-        <property role="TrG5h" value="Node" />
+      <node concept="2U_X3M" id="4sJZnweGwN" role="2U_X0Q">
+        <property role="TrG5h" value="A" />
+      </node>
+    </node>
+    <node concept="2U_X0E" id="4sJZnweGyZ" role="2U$$xx">
+      <node concept="2U_X3M" id="4sJZnweGzD" role="Codhh">
+        <property role="TrG5h" value="C" />
+      </node>
+      <node concept="2U_X3M" id="4sJZnweGA0" role="2U_X0Q">
+        <property role="TrG5h" value="B" />
       </node>
     </node>
     <node concept="2U_X0E" id="4r5lflH27G9" role="2U$$xx">
-      <node concept="2U_X0k" id="4r5lflH27Gr" role="2U_X0W">
-        <property role="TrG5h" value="getNode" />
-        <node concept="2U_X3M" id="4r5lflH27G_" role="2U_X0t">
-          <property role="TrG5h" value="Node" />
+      <node concept="2U_X0x" id="4sJZnwRu8t" role="2U$kpl">
+        <property role="TrG5h" value="memberA" />
+        <node concept="2U_X3M" id="4sJZnwRu8B" role="2U_X0H">
+          <property role="TrG5h" value="A" />
         </node>
-        <node concept="2vd8p$" id="4r5lflH27If" role="2U_X0g">
-          <property role="TrG5h" value="getInstance" />
-          <node concept="2U_X3M" id="4r5lflH27Ie" role="2vd86r">
-            <property role="TrG5h" value="Node" />
-          </node>
+      </node>
+      <node concept="2U_X0x" id="4sJZnwo3LM" role="1Adqyi">
+        <property role="TrG5h" value="staticB" />
+        <node concept="2U_X3M" id="4sJZnwo3LW" role="2U_X0H">
+          <property role="TrG5h" value="B" />
+        </node>
+      </node>
+      <node concept="2U_X0x" id="4sJZnyrh47" role="1Adqyi">
+        <property role="TrG5h" value="staticA" />
+        <node concept="2U_X3M" id="4sJZnyrh4l" role="2U_X0H">
+          <property role="TrG5h" value="A" />
         </node>
       </node>
       <node concept="2U_X3M" id="4r5lflH27Gp" role="Codhh">
         <property role="TrG5h" value="Foo" />
+      </node>
+    </node>
+    <node concept="2U_X0E" id="4sJZnweGDh" role="2U$$xx">
+      <node concept="3xmUPi" id="4sJZnx7g71" role="2v2PhD">
+        <property role="TrG5h" value="get" />
+        <node concept="2U_X3M" id="4sJZnx7g7e" role="3xmUPt">
+          <property role="TrG5h" value="B" />
+        </node>
+        <node concept="1AhdsX" id="4sJZny0K91" role="3xmUPu">
+          <property role="TrG5h" value="staticB" />
+          <node concept="2U_X3M" id="4sJZny0K90" role="1AhdsY">
+            <property role="TrG5h" value="Foo" />
+          </node>
+        </node>
+      </node>
+      <node concept="3xmUPi" id="4sJZnyrh4o" role="2v2PhD">
+        <property role="TrG5h" value="get" />
+        <node concept="2U_X3M" id="4sJZnyrh4H" role="3xmUPt">
+          <property role="TrG5h" value="B" />
+        </node>
+        <node concept="2U_9Lt" id="4sJZnyrh5z" role="3xmUPu">
+          <node concept="2U_X3M" id="4sJZnyrh5I" role="C5u53">
+            <property role="TrG5h" value="B" />
+          </node>
+        </node>
+      </node>
+      <node concept="2U_X3M" id="4sJZnweGEd" role="Codhh">
+        <property role="TrG5h" value="Bar" />
       </node>
     </node>
     <node concept="2UxV_V" id="4soqYwxhu5P" role="2UxVEn">
