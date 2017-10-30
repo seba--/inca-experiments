@@ -25,9 +25,7 @@
         <child id="3248327366720870928" name="name" index="2UxVEn" />
         <child id="3248327366719973606" name="classes" index="2U$$xx" />
       </concept>
-      <concept id="3248327366719634650" name="FeatherweightJava.structure.ConstructorCall" flags="ng" index="2U_9Lt">
-        <child id="6006794503221512837" name="type" index="C5u53" />
-      </concept>
+      <concept id="3248327366719634627" name="FeatherweightJava.structure.Var" flags="ng" index="2U_9L4" />
       <concept id="3248327366719811750" name="FeatherweightJava.structure.Param" flags="ng" index="2U_X0x">
         <child id="3248327366719811754" name="type" index="2U_X0H" />
       </concept>
@@ -40,11 +38,9 @@
       </concept>
       <concept id="3248327366719811701" name="FeatherweightJava.structure.CName" flags="ng" index="2U_X3M" />
       <concept id="80149956136473255" name="FeatherweightJava.structure.StaticMethodDec" flags="ng" index="3xmUPi">
+        <child id="80149956136473257" name="params" index="3xmUPs" />
         <child id="80149956136473256" name="returnType" index="3xmUPt" />
         <child id="80149956136473259" name="body" index="3xmUPu" />
-      </concept>
-      <concept id="5122963220870249685" name="FeatherweightJava.structure.StaticFieldAcc" flags="ng" index="1AhdsX">
-        <child id="5122963220870249686" name="container" index="1AhdsY" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -99,25 +95,17 @@
       </node>
     </node>
     <node concept="2U_X0E" id="4sJZnweGDh" role="2U$$xx">
-      <node concept="3xmUPi" id="4sJZnx7g71" role="2v2PhD">
-        <property role="TrG5h" value="get" />
-        <node concept="2U_X3M" id="4sJZnx7g7e" role="3xmUPt">
+      <node concept="3xmUPi" id="4sJZnyrizd" role="2v2PhD">
+        <property role="TrG5h" value="getString" />
+        <node concept="2U_X3M" id="4sJZnyrizE" role="3xmUPt">
           <property role="TrG5h" value="B" />
         </node>
-        <node concept="1AhdsX" id="4sJZny0K91" role="3xmUPu">
-          <property role="TrG5h" value="staticB" />
-          <node concept="2U_X3M" id="4sJZny0K90" role="1AhdsY">
-            <property role="TrG5h" value="Foo" />
-          </node>
+        <node concept="2U_9L4" id="4sJZnyri$L" role="3xmUPu">
+          <property role="TrG5h" value="b" />
         </node>
-      </node>
-      <node concept="3xmUPi" id="4sJZnyrh4o" role="2v2PhD">
-        <property role="TrG5h" value="get" />
-        <node concept="2U_X3M" id="4sJZnyrh4H" role="3xmUPt">
-          <property role="TrG5h" value="B" />
-        </node>
-        <node concept="2U_9Lt" id="4sJZnyrh5z" role="3xmUPu">
-          <node concept="2U_X3M" id="4sJZnyrh5I" role="C5u53">
+        <node concept="2U_X0x" id="4sJZnyri$S" role="3xmUPs">
+          <property role="TrG5h" value="b" />
+          <node concept="2U_X3M" id="4sJZnyri_2" role="2U_X0H">
             <property role="TrG5h" value="B" />
           </node>
         </node>
