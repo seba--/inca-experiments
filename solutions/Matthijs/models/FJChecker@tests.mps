@@ -85,6 +85,12 @@
             <property role="TrG5h" value="this" />
           </node>
         </node>
+        <node concept="2U_X0x" id="4sJZnyR0Ck" role="2U_X0o">
+          <property role="TrG5h" value="bar" />
+          <node concept="2U_X3M" id="4sJZnyR0Cu" role="2U_X0H">
+            <property role="TrG5h" value="B" />
+          </node>
+        </node>
       </node>
       <node concept="2U_X0k" id="4sJZnyvwZQ" role="2U_X0W">
         <property role="TrG5h" value="baf" />
@@ -109,10 +115,16 @@
             <property role="TrG5h" value="this" />
           </node>
         </node>
-        <node concept="2U_X0x" id="4sJZnyGPLA" role="2U_X0o">
-          <property role="TrG5h" value="asd" />
-          <node concept="2U_X3M" id="4sJZnyGPLK" role="2U_X0H">
+        <node concept="2U_X0x" id="4sJZnyP_9T" role="2U_X0o">
+          <property role="TrG5h" value="bar" />
+          <node concept="2U_X3M" id="4sJZnyP_a3" role="2U_X0H">
             <property role="TrG5h" value="B" />
+          </node>
+        </node>
+        <node concept="2U_X0x" id="4sJZnyR0CS" role="2U_X0o">
+          <property role="TrG5h" value="car" />
+          <node concept="2U_X3M" id="4sJZnyR0D8" role="2U_X0H">
+            <property role="TrG5h" value="C" />
           </node>
         </node>
       </node>
