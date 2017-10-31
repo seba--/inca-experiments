@@ -31,6 +31,7 @@
       <concept id="3248327366719634627" name="FeatherweightJava.structure.Var" flags="ng" index="2U_9L4" />
       <concept id="3248327366719811731" name="FeatherweightJava.structure.MethodDec" flags="ng" index="2U_X0k">
         <child id="3248327366719811735" name="body" index="2U_X0g" />
+        <child id="3248327366719811743" name="params" index="2U_X0o" />
         <child id="3248327366719811738" name="returnType" index="2U_X0t" />
       </concept>
       <concept id="3248327366719811750" name="FeatherweightJava.structure.Param" flags="ng" index="2U_X0x">
@@ -106,6 +107,12 @@
           <property role="TrG5h" value="memberB" />
           <node concept="2U_9L4" id="4sJZnyAD4J" role="2U_9Lf">
             <property role="TrG5h" value="this" />
+          </node>
+        </node>
+        <node concept="2U_X0x" id="4sJZnyGPLA" role="2U_X0o">
+          <property role="TrG5h" value="asd" />
+          <node concept="2U_X3M" id="4sJZnyGPLK" role="2U_X0H">
+            <property role="TrG5h" value="B" />
           </node>
         </node>
       </node>
