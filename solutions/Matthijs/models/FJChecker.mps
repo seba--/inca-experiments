@@ -2344,33 +2344,7 @@
             </node>
           </node>
         </node>
-        <node concept="34odk1" id="325klYwaonV" role="1dgzf0">
-          <node concept="2k1GkI" id="325klYwaqvn" role="34ocZk">
-            <node concept="2k1_uq" id="325klYwaqvl" role="2nKVj6">
-              <ref role="2nKBpL" node="7LKnhvU_iSo" resolve="methodParametersDistance" />
-              <node concept="2kdhWc" id="325klYwayVc" role="2nKBpO">
-                <node concept="727y6" id="325klYwa_2q" role="3zVzRQ">
-                  <ref role="3zVwH8" to="aq49:2Oko8unwV2v" resolve="params" />
-                </node>
-                <node concept="30NkWi" id="325klYwayUX" role="2kdhYM">
-                  <ref role="XkjO9" node="325klYw7AkS" resolve="first" />
-                </node>
-              </node>
-              <node concept="2kdhWc" id="325klYwasAk" role="2nKBpO">
-                <node concept="727y6" id="325klYwauHa" role="3zVzRQ">
-                  <ref role="3zVwH8" to="aq49:2Oko8unwfNl" resolve="args" />
-                </node>
-                <node concept="30NkWi" id="325klYwasAc" role="2kdhYM">
-                  <ref role="XkjO9" node="325klYw7Ak2" resolve="call" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="30KbLJ" id="325klYwakaw" role="34ocZn">
-            <property role="TrG5h" value="dist" />
-          </node>
-        </node>
-        <node concept="1XdyHe" id="325klYwb4Q$" role="1dgzf0" />
+        <node concept="1XdyHe" id="_fIq3N9bGm" role="1dgzf0" />
         <node concept="34odk1" id="325klYwbm5D" role="1dgzf0">
           <node concept="2k1GkI" id="325klYwboeM" role="34ocZk">
             <node concept="2k1_uq" id="325klYwboeK" role="2nKVj6">
@@ -2394,9 +2368,6 @@
               <ref role="2nKBpL" node="7Lys_UnLxKF" resolve="minimalSelect" />
               <node concept="30NkWi" id="325klYw7MTw" role="2nKBpO">
                 <ref role="XkjO9" node="325klYw7AkS" resolve="first" />
-              </node>
-              <node concept="30NkWi" id="325klYwbbsh" role="2nKBpO">
-                <ref role="XkjO9" node="325klYwakaw" resolve="dist" />
               </node>
               <node concept="30NkWi" id="325klYwafWZ" role="2nKBpO">
                 <ref role="XkjO9" node="325klYw7Ak2" resolve="call" />
@@ -2434,6 +2405,23 @@
         <node concept="1XdyHb" id="7Lys_UnM1qk" role="1dgzf0">
           <property role="1dubkF" value="Calculate distance of next to call" />
         </node>
+        <node concept="34odk1" id="_fIq3N8Lgq" role="1dgzf0">
+          <node concept="2k1GkI" id="_fIq3N8Nu_" role="34ocZk">
+            <node concept="2k1_uq" id="_fIq3N8Nuz" role="2nKVj6">
+              <ref role="2nKBpL" node="7LKnhvUk0mC" resolve="methodParameterDistance" />
+              <node concept="30NkWi" id="_fIq3N8PQZ" role="2nKBpO">
+                <ref role="XkjO9" node="7Lys_UnM1o9" resolve="call" />
+              </node>
+              <node concept="30NkWi" id="_fIq3N8S2C" role="2nKBpO">
+                <ref role="XkjO9" node="7Lys_UnLzCh" resolve="current" />
+              </node>
+            </node>
+          </node>
+          <node concept="30KbLJ" id="_fIq3N8C6w" role="34ocZn">
+            <property role="TrG5h" value="currentDistance" />
+          </node>
+        </node>
+        <node concept="1XdyHe" id="_fIq3N8_SV" role="1dgzf0" />
         <node concept="34odk1" id="7LKnhvUk3Io" role="1dgzf0">
           <node concept="2k1GkI" id="7LKnhvUk3YI" role="34ocZk">
             <node concept="2k1_uq" id="7LKnhvUk3YG" role="2nKVj6">
@@ -2450,24 +2438,30 @@
             <property role="TrG5h" value="otherDistance" />
           </node>
         </node>
-        <node concept="1XdyHe" id="325klYw5vLd" role="1dgzf0" />
+        <node concept="1XdyHe" id="_fIq3N8zCD" role="1dgzf0" />
         <node concept="1waTxd" id="7Lys_UnM20e" role="1dgzf0">
           <node concept="3zV_Rz" id="7Lys_UnM20g" role="3zVECR">
-            <node concept="34ocy7" id="7LKnhvUknRS" role="1dgzf0">
-              <node concept="2dT$3Y" id="7LKnhvUko7Q" role="34ocs8">
-                <node concept="2k1GkI" id="7LKnhvUkonh" role="2dT$1H">
-                  <node concept="2k1_uq" id="7LKnhvUkonf" role="2nKVj6">
-                    <ref role="2nKBpL" node="7LKnhvUki1c" resolve="smallerThan" />
-                    <node concept="30NkWi" id="7LKnhvUkoBh" role="2nKBpO">
-                      <ref role="XkjO9" node="7Lys_UnM2I4" resolve="currentDistance" />
+            <node concept="34ocy7" id="325klYw4Hx4" role="1dgzf0">
+              <node concept="11bN8U" id="325klYw4I6b" role="34ocs8">
+                <node concept="2k1_p_" id="325klYw4I6c" role="11bN8K">
+                  <node concept="1p__ei" id="325klYw4$tW" role="2k1_pE">
+                    <node concept="1i8UFo" id="325klYw4_2p" role="1p_StM">
+                      <ref role="2RnLXx" node="325klYw39MN" resolve="leq" />
+                      <node concept="1sjAk5" id="_fIq3MO7fD" role="2ZRyFy">
+                        <ref role="1sjAk2" node="_fIq3N8C6w" resolve="currentDistance" />
+                      </node>
+                      <node concept="1sjAk5" id="_fIq3MO9r0" role="2ZRyFy">
+                        <ref role="1sjAk2" node="7LKnhvUk2Cj" resolve="otherDistance" />
+                      </node>
                     </node>
-                    <node concept="30NkWi" id="7LKnhvUkoWI" role="2nKBpO">
-                      <ref role="XkjO9" node="7LKnhvUk2Cj" resolve="otherDistance" />
+                    <node concept="3_JagS" id="325klYw4$tU" role="1p__f_">
+                      <ref role="3_Jajq" node="325klYw2$K9" resolve="NumberLattice" />
                     </node>
                   </node>
                 </node>
               </node>
             </node>
+            <node concept="1XdyHe" id="_fIq3MO2Rf" role="1dgzf0" />
             <node concept="1waTxd" id="7Lys_UnM9LN" role="1dgzf0">
               <node concept="3zV_Rz" id="7Lys_UnM9LP" role="3zVECR">
                 <node concept="34odk1" id="7Lys_UnM7Fj" role="1dgzf0">
@@ -2492,9 +2486,6 @@
                       <ref role="2nKBpL" node="7Lys_UnLxKF" resolve="minimalSelect" />
                       <node concept="30NkWi" id="7Lys_UnM4Ua" role="2nKBpO">
                         <ref role="XkjO9" node="7Lys_UnLzCh" resolve="current" />
-                      </node>
-                      <node concept="30NkWi" id="7Lys_UnM54a" role="2nKBpO">
-                        <ref role="XkjO9" node="7Lys_UnM2I4" resolve="currentDistance" />
                       </node>
                       <node concept="30NkWi" id="7Lys_UnM5zG" role="2nKBpO">
                         <ref role="XkjO9" node="7Lys_UnM1o9" resolve="call" />
@@ -2531,21 +2522,27 @@
             </node>
           </node>
           <node concept="3zV_Rz" id="7Lys_UnM8MA" role="3zVECR">
-            <node concept="34ocy7" id="7LKnhvUklX7" role="1dgzf0">
-              <node concept="2dT$3Y" id="7LKnhvUklY8" role="34ocs8">
-                <node concept="2k1GkI" id="7LKnhvUkmcN" role="2dT$1H">
-                  <node concept="2k1_uq" id="7LKnhvUkmcL" role="2nKVj6">
-                    <ref role="2nKBpL" node="7LKnhvUki1c" resolve="smallerThan" />
-                    <node concept="30NkWi" id="7LKnhvUkmrT" role="2nKBpO">
-                      <ref role="XkjO9" node="7LKnhvUk2Cj" resolve="otherDistance" />
+            <node concept="34ocy7" id="_fIq3MOlrz" role="1dgzf0">
+              <node concept="11bN8U" id="_fIq3MOlr$" role="34ocs8">
+                <node concept="2k1_p_" id="_fIq3MOlr_" role="11bN8K">
+                  <node concept="1p__ei" id="_fIq3MOlrA" role="2k1_pE">
+                    <node concept="1i8UFo" id="_fIq3MOlrB" role="1p_StM">
+                      <ref role="2RnLXx" node="325klYw39MN" resolve="leq" />
+                      <node concept="1sjAk5" id="_fIq3MOrXp" role="2ZRyFy">
+                        <ref role="1sjAk2" node="7LKnhvUk2Cj" resolve="otherDistance" />
+                      </node>
+                      <node concept="1sjAk5" id="_fIq3MOwih" role="2ZRyFy">
+                        <ref role="1sjAk2" node="_fIq3N8C6w" resolve="currentDistance" />
+                      </node>
                     </node>
-                    <node concept="30NkWi" id="7LKnhvUkn4n" role="2nKBpO">
-                      <ref role="XkjO9" node="7Lys_UnM2I4" resolve="currentDistance" />
+                    <node concept="3_JagS" id="_fIq3MOlrE" role="1p__f_">
+                      <ref role="3_Jajq" node="325klYw2$K9" resolve="NumberLattice" />
                     </node>
                   </node>
                 </node>
               </node>
             </node>
+            <node concept="1XdyHe" id="_fIq3MO$A_" role="1dgzf0" />
             <node concept="1waTxd" id="7Lys_UnMdS0" role="1dgzf0">
               <node concept="3zV_Rz" id="7Lys_UnMdS1" role="3zVECR">
                 <node concept="34odk1" id="7Lys_UnMdS2" role="1dgzf0">
@@ -2570,9 +2567,6 @@
                       <ref role="2nKBpL" node="7Lys_UnLxKF" resolve="minimalSelect" />
                       <node concept="30NkWi" id="7Lys_UnMeGk" role="2nKBpO">
                         <ref role="XkjO9" node="7Lys_UnM5nu" resolve="candidate" />
-                      </node>
-                      <node concept="30NkWi" id="7LKnhvUknp5" role="2nKBpO">
-                        <ref role="XkjO9" node="7LKnhvUk2Cj" resolve="otherDistance" />
                       </node>
                       <node concept="30NkWi" id="7Lys_UnMdSd" role="2nKBpO">
                         <ref role="XkjO9" node="7Lys_UnM1o9" resolve="call" />
@@ -2617,14 +2611,6 @@
         <property role="TrG5h" value="current" />
         <node concept="2kdjtB" id="7Lys_UnM1nE" role="1dukDx">
           <ref role="2UGuZ7" to="aq49:2Oko8unwV2j" resolve="MethodDec" />
-        </node>
-      </node>
-      <node concept="1VLyuc" id="7Lys_UnM2I4" role="1dv5OJ">
-        <property role="TrG5h" value="currentDistance" />
-        <node concept="2eLkkM" id="325klYw4sFG" role="1dukDx">
-          <node concept="2ZQB9c" id="325klYw4sFE" role="2eP6Tc">
-            <ref role="2ZQB93" node="325klYw2$K9" resolve="NumberLattice" />
-          </node>
         </node>
       </node>
       <node concept="1VLyuc" id="7Lys_UnM1o9" role="1dv5OJ">
@@ -3057,48 +3043,6 @@
       </node>
     </node>
     <node concept="1XdyHe" id="7Lys_UnLZzi" role="1dubk0" />
-    <node concept="3zyOaA" id="7LKnhvUki1c" role="1dubk0">
-      <property role="TrG5h" value="smallerThan" />
-      <node concept="3zV_Rz" id="7LKnhvUki1d" role="3zVECS">
-        <node concept="34ocy7" id="325klYw4Hx4" role="1dgzf0">
-          <node concept="11bN8U" id="325klYw4I6b" role="34ocs8">
-            <node concept="2k1_p_" id="325klYw4I6c" role="11bN8K">
-              <node concept="1p__ei" id="325klYw4$tW" role="2k1_pE">
-                <node concept="1i8UFo" id="325klYw4_2p" role="1p_StM">
-                  <ref role="2RnLXx" node="325klYw39MN" resolve="leq" />
-                  <node concept="1sjAk5" id="325klYw4AbT" role="2ZRyFy">
-                    <ref role="1sjAk2" node="7LKnhvUkkkk" resolve="a" />
-                  </node>
-                  <node concept="1sjAk5" id="325klYw4BTT" role="2ZRyFy">
-                    <ref role="1sjAk2" node="7LKnhvUkkkK" resolve="b" />
-                  </node>
-                </node>
-                <node concept="3_JagS" id="325klYw4$tU" role="1p__f_">
-                  <ref role="3_Jajq" node="325klYw2$K9" resolve="NumberLattice" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="1VLyuc" id="7LKnhvUkkkk" role="1dv5OJ">
-        <property role="TrG5h" value="a" />
-        <node concept="2eLkkM" id="325klYw4vbq" role="1dukDx">
-          <node concept="2ZQB9c" id="325klYw4vbo" role="2eP6Tc">
-            <ref role="2ZQB93" node="325klYw2$K9" resolve="NumberLattice" />
-          </node>
-        </node>
-      </node>
-      <node concept="1VLyuc" id="7LKnhvUkkkK" role="1dv5OJ">
-        <property role="TrG5h" value="b" />
-        <node concept="2eLkkM" id="325klYw4x2T" role="1dukDx">
-          <node concept="2ZQB9c" id="325klYw4x2R" role="2eP6Tc">
-            <ref role="2ZQB93" node="325klYw2$K9" resolve="NumberLattice" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1XdyHe" id="7LKnhvUkfxI" role="1dubk0" />
     <node concept="3zyOaA" id="7LKnhvU_iSo" role="1dubk0">
       <property role="TrG5h" value="methodParametersDistance" />
       <node concept="1VLyuc" id="7LKnhvU_lso" role="1dv5OJ">
@@ -3139,19 +3083,6 @@
           </node>
         </node>
         <node concept="1XdyHe" id="3fby5xszkk9" role="1dgzf0" />
-        <node concept="34odk1" id="3fby5xszfUw" role="1dgzf0">
-          <node concept="1p__ei" id="3fby5xszfUx" role="34ocZk">
-            <node concept="1i8UFo" id="3fby5xszfUy" role="1p_StM">
-              <ref role="2RnLXx" node="325klYw398C" resolve="bot" />
-            </node>
-            <node concept="3_JagS" id="3fby5xszfUz" role="1p__f_">
-              <ref role="3_Jajq" node="325klYw2$K9" resolve="NumberLattice" />
-            </node>
-          </node>
-          <node concept="30KbLJ" id="3fby5xszfU$" role="34ocZn">
-            <property role="TrG5h" value="zero" />
-          </node>
-        </node>
         <node concept="30Nfyg" id="7LKnhvU_lMy" role="1dgzf0">
           <node concept="2k1GkI" id="7LKnhvU_lNM" role="30Nf_D">
             <node concept="2k1_uq" id="7LKnhvU_lNK" role="2nKVj6">
@@ -3161,9 +3092,6 @@
               </node>
               <node concept="30NkWi" id="7LKnhvU_mvH" role="2nKBpO">
                 <ref role="XkjO9" node="7LKnhvU_lsq" resolve="target" />
-              </node>
-              <node concept="30NkWi" id="3fby5xszmxl" role="2nKBpO">
-                <ref role="XkjO9" node="3fby5xszfU$" resolve="zero" />
               </node>
             </node>
           </node>
@@ -3206,19 +3134,6 @@
           </node>
         </node>
         <node concept="1XdyHe" id="3fby5xszARp" role="1dgzf0" />
-        <node concept="34odk1" id="3fby5xszD5v" role="1dgzf0">
-          <node concept="1p__ei" id="3fby5xszD5w" role="34ocZk">
-            <node concept="1i8UFo" id="3fby5xszD5x" role="1p_StM">
-              <ref role="2RnLXx" node="325klYw398C" resolve="bot" />
-            </node>
-            <node concept="3_JagS" id="3fby5xszD5y" role="1p__f_">
-              <ref role="3_Jajq" node="325klYw2$K9" resolve="NumberLattice" />
-            </node>
-          </node>
-          <node concept="30KbLJ" id="3fby5xszD5z" role="34ocZn">
-            <property role="TrG5h" value="zero" />
-          </node>
-        </node>
         <node concept="34odk1" id="7LKnhvUkvYo" role="1dgzf0">
           <node concept="2k1GkI" id="7LKnhvUkwfh" role="34ocZk">
             <node concept="2k1_uq" id="7LKnhvUkwff" role="2nKVj6">
@@ -3238,9 +3153,6 @@
                 <node concept="30NkWi" id="7LKnhvUkxvG" role="2kdhYM">
                   <ref role="XkjO9" node="7LKnhvUk2BN" resolve="target" />
                 </node>
-              </node>
-              <node concept="30NkWi" id="3fby5xszHvC" role="2nKBpO">
-                <ref role="XkjO9" node="3fby5xszD5z" resolve="zero" />
               </node>
             </node>
           </node>
@@ -3281,19 +3193,6 @@
           </node>
         </node>
         <node concept="1XdyHe" id="7LKnhvU$XzN" role="1dgzf0" />
-        <node concept="34odk1" id="3fby5xsyXTy" role="1dgzf0">
-          <node concept="1p__ei" id="3fby5xsz07L" role="34ocZk">
-            <node concept="1i8UFo" id="3fby5xsz2_u" role="1p_StM">
-              <ref role="2RnLXx" node="325klYw398C" resolve="bot" />
-            </node>
-            <node concept="3_JagS" id="3fby5xsz07J" role="1p__f_">
-              <ref role="3_Jajq" node="325klYw2$K9" resolve="NumberLattice" />
-            </node>
-          </node>
-          <node concept="30KbLJ" id="3fby5xsyR3f" role="34ocZn">
-            <property role="TrG5h" value="zero" />
-          </node>
-        </node>
         <node concept="34odk1" id="7LKnhvUkCLZ" role="1dgzf0">
           <node concept="2k1GkI" id="7LKnhvUkCM0" role="34ocZk">
             <node concept="2k1_uq" id="7LKnhvUkCM1" role="2nKVj6">
@@ -3313,9 +3212,6 @@
                 <node concept="30NkWi" id="7LKnhvUkCM7" role="2kdhYM">
                   <ref role="XkjO9" node="7LKnhvUk2BN" resolve="target" />
                 </node>
-              </node>
-              <node concept="30NkWi" id="3fby5xszbzh" role="2nKBpO">
-                <ref role="XkjO9" node="3fby5xsyR3f" resolve="zero" />
               </node>
             </node>
           </node>
@@ -3371,15 +3267,32 @@
           </node>
         </node>
         <node concept="1XdyHe" id="7LKnhvU$WTI" role="1dgzf0" />
+        <node concept="34odk1" id="_fIq3N6DVR" role="1dgzf0">
+          <node concept="2k1GkI" id="_fIq3N6QP7" role="34ocZk">
+            <node concept="2k1_uq" id="_fIq3N6QP5" role="2nKVj6">
+              <ref role="2nKBpL" node="7LKnhvUk0mC" resolve="methodParameterDistance" />
+              <node concept="30NkWi" id="_fIq3N6SV8" role="2nKBpO">
+                <ref role="XkjO9" node="7LKnhvUkFp2" resolve="nextCallParam" />
+              </node>
+              <node concept="30NkWi" id="_fIq3N6X7s" role="2nKBpO">
+                <ref role="XkjO9" node="7LKnhvUkK3d" resolve="nextTargetParam" />
+              </node>
+            </node>
+          </node>
+          <node concept="30KbLJ" id="_fIq3N6xtn" role="34ocZn">
+            <property role="TrG5h" value="nextDist" />
+          </node>
+        </node>
+        <node concept="1XdyHe" id="_fIq3N7mfZ" role="1dgzf0" />
         <node concept="34odk1" id="325klYw4XVV" role="1dgzf0">
           <node concept="1p__ei" id="325klYw4Yyc" role="34ocZk">
             <node concept="1i8UFo" id="325klYw4Z6H" role="1p_StM">
               <ref role="2RnLXx" node="325klYw4QjW" resolve="sum" />
-              <node concept="1sjAk5" id="325klYw4ZFp" role="2ZRyFy">
-                <ref role="1sjAk2" node="7LKnhvUktNE" resolve="sum" />
-              </node>
-              <node concept="1sjAk5" id="325klYw50gz" role="2ZRyFy">
+              <node concept="1sjAk5" id="_fIq3N7S0p" role="2ZRyFy">
                 <ref role="1sjAk2" node="7LKnhvUkCM8" resolve="distance" />
+              </node>
+              <node concept="1sjAk5" id="_fIq3N7W9r" role="2ZRyFy">
+                <ref role="1sjAk2" node="_fIq3N6xtn" resolve="nextDist" />
               </node>
             </node>
             <node concept="3_JagS" id="325klYw4Yya" role="1p__f_">
@@ -3387,24 +3300,12 @@
             </node>
           </node>
           <node concept="30KbLJ" id="7LKnhvUxnOB" role="34ocZn">
-            <property role="TrG5h" value="newSum" />
+            <property role="TrG5h" value="combinedDist" />
           </node>
         </node>
-        <node concept="1XdyHe" id="325klYw3JO6" role="1dgzf0" />
-        <node concept="30Nfyg" id="7LKnhvUle6y" role="1dgzf0">
-          <node concept="2k1GkI" id="7LKnhvUleHe" role="30Nf_D">
-            <node concept="2k1_uq" id="7LKnhvUleHc" role="2nKVj6">
-              <ref role="2nKBpL" node="7LKnhvUk0mC" resolve="methodParameterDistance" />
-              <node concept="30NkWi" id="7LKnhvUlfi1" role="2nKBpO">
-                <ref role="XkjO9" node="7LKnhvUkFp2" resolve="nextCallParam" />
-              </node>
-              <node concept="30NkWi" id="7LKnhvUlgsB" role="2nKBpO">
-                <ref role="XkjO9" node="7LKnhvUkK3d" resolve="nextTargetParam" />
-              </node>
-              <node concept="30NkWi" id="7LKnhvUxpJy" role="2nKBpO">
-                <ref role="XkjO9" node="7LKnhvUxnOB" resolve="newSum" />
-              </node>
-            </node>
+        <node concept="30Nfyg" id="_fIq3N7Ydo" role="1dgzf0">
+          <node concept="30NkWi" id="_fIq3N80kS" role="30Nf_D">
+            <ref role="XkjO9" node="7LKnhvUxnOB" resolve="combinedDist" />
           </node>
         </node>
       </node>
@@ -3418,14 +3319,6 @@
         <property role="TrG5h" value="target" />
         <node concept="2kdjtB" id="7LKnhvUktNy" role="1dukDx">
           <ref role="2UGuZ7" to="aq49:2Oko8unwV2A" resolve="Param" />
-        </node>
-      </node>
-      <node concept="1VLyuc" id="7LKnhvUktNE" role="1dv5OJ">
-        <property role="TrG5h" value="sum" />
-        <node concept="2eLkkM" id="325klYw3v5D" role="1dukDx">
-          <node concept="2ZQB9c" id="325klYw3v5B" role="2eP6Tc">
-            <ref role="2ZQB93" node="325klYw2$K9" resolve="NumberLattice" />
-          </node>
         </node>
       </node>
       <node concept="3TL$xT" id="7LKnhvUk5_0" role="3TLBbI">
@@ -3487,6 +3380,40 @@
                 <property role="TrG5h" value="nextChild" />
               </node>
             </node>
+            <node concept="1XdyHe" id="_fIq3MAYiY" role="1dgzf0" />
+            <node concept="1XdyHe" id="7LKnhvUmiWB" role="1dgzf0" />
+            <node concept="34odk1" id="_fIq3N5yIV" role="1dgzf0">
+              <node concept="2k1GkI" id="_fIq3N5$Ux" role="34ocZk">
+                <node concept="2k1_uq" id="_fIq3N5$Uv" role="2nKVj6">
+                  <ref role="2nKBpL" node="7LKnhvUj_DE" resolve="classInheritanceDistance" />
+                  <node concept="30NkWi" id="_fIq3N5Bs3" role="2nKBpO">
+                    <ref role="XkjO9" node="7LKnhvUjCGV" resolve="nextChild" />
+                  </node>
+                  <node concept="30NkWi" id="_fIq3N5FL9" role="2nKBpO">
+                    <ref role="XkjO9" node="7LKnhvUjBFj" resolve="parent" />
+                  </node>
+                </node>
+              </node>
+              <node concept="30KbLJ" id="_fIq3N5rLD" role="34ocZn">
+                <property role="TrG5h" value="parentDistance" />
+              </node>
+            </node>
+            <node concept="34odk1" id="_fIq3MB7oN" role="1dgzf0">
+              <node concept="30KbLJ" id="_fIq3MB32g" role="34ocZn">
+                <property role="TrG5h" value="one" />
+              </node>
+              <node concept="1p__ei" id="_fIq3MZuW_" role="34ocZk">
+                <node concept="2ZRyFJ" id="_fIq3MZwS1" role="1p_StM">
+                  <ref role="2ZRyFH" node="325klYw397T" resolve="Value" />
+                  <node concept="3cmrfG" id="_fIq3MZ_cB" role="2ZRyFy">
+                    <property role="3cmrfH" value="1" />
+                  </node>
+                </node>
+                <node concept="3_JagS" id="_fIq3MZuW$" role="1p__f_">
+                  <ref role="3_Jajq" node="325klYw2$K9" resolve="NumberLattice" />
+                </node>
+              </node>
+            </node>
             <node concept="34odk1" id="325klYw5nDN" role="1dgzf0">
               <node concept="30KbLJ" id="325klYw5meg" role="34ocZn">
                 <property role="TrG5h" value="newSum" />
@@ -3494,14 +3421,11 @@
               <node concept="1p__ei" id="325klYw5oob" role="34ocZk">
                 <node concept="1i8UFo" id="325klYw5ooc" role="1p_StM">
                   <ref role="2RnLXx" node="325klYw4QjW" resolve="sum" />
-                  <node concept="1sjAk5" id="325klYw5ood" role="2ZRyFy">
-                    <ref role="1sjAk2" node="7LKnhvUlR_Q" resolve="sum" />
+                  <node concept="1sjAk5" id="_fIq3N5M39" role="2ZRyFy">
+                    <ref role="1sjAk2" node="_fIq3N5rLD" resolve="parentDistance" />
                   </node>
-                  <node concept="2ZRyFJ" id="325klYw5ooe" role="2ZRyFy">
-                    <ref role="2ZRyFH" node="325klYw397T" resolve="Value" />
-                    <node concept="3cmrfG" id="325klYw5oof" role="2ZRyFy">
-                      <property role="3cmrfH" value="1" />
-                    </node>
+                  <node concept="1sjAk5" id="_fIq3MBo9q" role="2ZRyFy">
+                    <ref role="1sjAk2" node="_fIq3MB32g" resolve="one" />
                   </node>
                 </node>
                 <node concept="3_JagS" id="325klYw5oog" role="1p__f_">
@@ -3509,21 +3433,10 @@
                 </node>
               </node>
             </node>
-            <node concept="1XdyHe" id="7LKnhvUmiWB" role="1dgzf0" />
-            <node concept="30Nfyg" id="7LKnhvUmjz1" role="1dgzf0">
-              <node concept="2k1GkI" id="7LKnhvUmk92" role="30Nf_D">
-                <node concept="2k1_uq" id="7LKnhvUmk90" role="2nKVj6">
-                  <ref role="2nKBpL" node="7LKnhvUj_DE" resolve="classInheritanceDistance" />
-                  <node concept="30NkWi" id="7LKnhvUmkI6" role="2nKBpO">
-                    <ref role="XkjO9" node="7LKnhvUjCGV" resolve="nextChild" />
-                  </node>
-                  <node concept="30NkWi" id="7LKnhvUmlYE" role="2nKBpO">
-                    <ref role="XkjO9" node="7LKnhvUjBFj" resolve="parent" />
-                  </node>
-                  <node concept="30NkWi" id="325klYw5tAh" role="2nKBpO">
-                    <ref role="XkjO9" node="325klYw5meg" resolve="newSum" />
-                  </node>
-                </node>
+            <node concept="1XdyHe" id="_fIq3N5X8B" role="1dgzf0" />
+            <node concept="30Nfyg" id="_fIq3N5STO" role="1dgzf0">
+              <node concept="30NkWi" id="_fIq3N5V1M" role="30Nf_D">
+                <ref role="XkjO9" node="325klYw5meg" resolve="newSum" />
               </node>
             </node>
           </node>
@@ -3549,8 +3462,13 @@
               </node>
             </node>
             <node concept="30Nfyg" id="7LKnhvUmuiB" role="1dgzf0">
-              <node concept="30NkWi" id="7LKnhvUmvz9" role="30Nf_D">
-                <ref role="XkjO9" node="7LKnhvUlR_Q" resolve="sum" />
+              <node concept="1p__ei" id="_fIq3N59On" role="30Nf_D">
+                <node concept="1i8UFo" id="_fIq3N5nrl" role="1p_StM">
+                  <ref role="2RnLXx" node="325klYw398C" resolve="bot" />
+                </node>
+                <node concept="3_JagS" id="_fIq3N59Ol" role="1p__f_">
+                  <ref role="3_Jajq" node="325klYw2$K9" resolve="NumberLattice" />
+                </node>
               </node>
             </node>
           </node>
@@ -3566,14 +3484,6 @@
         <property role="TrG5h" value="parent" />
         <node concept="2kdjtB" id="7LKnhvUjCCt" role="1dukDx">
           <ref role="2UGuZ7" to="aq49:2Oko8unwV2H" resolve="ClassDec" />
-        </node>
-      </node>
-      <node concept="1VLyuc" id="7LKnhvUlR_Q" role="1dv5OJ">
-        <property role="TrG5h" value="sum" />
-        <node concept="2eLkkM" id="325klYw3V1I" role="1dukDx">
-          <node concept="2ZQB9c" id="325klYw3V1G" role="2eP6Tc">
-            <ref role="2ZQB93" node="325klYw2$K9" resolve="NumberLattice" />
-          </node>
         </node>
       </node>
       <node concept="3TL$xT" id="7LKnhvUjBFK" role="3TLBbI">
