@@ -11,6 +11,7 @@
   </languages>
   <imports>
     <import index="aq49" ref="r:6b19b2d8-619e-48bd-ba27-343f855d53e3(FeatherweightJava.structure)" />
+    <import index="hqsm" ref="r:aa4c3470-43ab-4dad-b73e-20da0ee43be1(com.mbeddr.mpsutil.inca.core.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
@@ -249,6 +250,7 @@
     </language>
     <language id="cd2909da-ecb4-49dc-b176-33e5c619e516" name="com.mbeddr.mpsutil.inca.gp">
       <concept id="3909214783366769316" name="com.mbeddr.mpsutil.inca.gp.structure.PathElement" flags="ng" index="727y6" />
+      <concept id="8755198369437852631" name="com.mbeddr.mpsutil.inca.gp.structure.NextPathElement" flags="ng" index="3lV9lg" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1179168000618" name="jetbrains.mps.lang.smodel.structure.Node_GetIndexInParentOperation" flags="nn" index="2bSWHS" />
@@ -261,6 +263,9 @@
   </registry>
   <node concept="3TKv5i" id="5TOtrqP71Ug">
     <property role="TrG5h" value="Minimal" />
+    <node concept="1XdyHb" id="_fIq3NgHd$" role="1dubk0">
+      <property role="1dubkF" value="Compare distance of method with the minimaldistance" />
+    </node>
     <node concept="3zyOaA" id="2Ki005Y_lon" role="1dubk0">
       <property role="TrG5h" value="getMinDistance" />
       <node concept="1VLyuc" id="2Ki005Y_mrx" role="1dv5OJ">
@@ -355,6 +360,9 @@
         </node>
       </node>
       <node concept="3zV_Rz" id="2Ki005Y$RfQ" role="3zVECS">
+        <node concept="1XdyHb" id="_fIq3NgNyp" role="1dgzf0">
+          <property role="1dubkF" value="How does this work?" />
+        </node>
         <node concept="34ocy7" id="2Ki005Y_9eu" role="1dgzf0">
           <node concept="34oehE" id="2Ki005Y_9z3" role="34ocs8">
             <node concept="2kdjtB" id="2Ki005Y_9Rt" role="2RGvlO">
@@ -399,6 +407,7 @@
         </node>
       </node>
     </node>
+    <node concept="1XdyHe" id="_fIq3NgLy8" role="1dubk0" />
     <node concept="1XdyHe" id="2Ki005Y$Qhh" role="1dubk0" />
     <node concept="3zyOaA" id="5TOtrqP71Uh" role="1dubk0">
       <property role="TrG5h" value="getClassDistance" />
@@ -664,6 +673,14 @@
         <node concept="1XdyHb" id="5TOtrqPkw7c" role="1dgzf0">
           <property role="1dubkF" value="we may need to introduce a true 'index' virtual link and incrementally maintain it" />
         </node>
+        <node concept="2kdhWc" id="_fIq3Nhb2W" role="1dgzf0">
+          <node concept="3lV9lg" id="_fIq3Nhc1x" role="3zVzRQ">
+            <ref role="3zVwH8" to="hqsm:7A0HCuGt5s2" resolve="next" />
+          </node>
+          <node concept="30NkWi" id="_fIq3Nhb0x" role="2kdhYM">
+            <ref role="XkjO9" node="5TOtrqPjO0B" resolve="parameter" />
+          </node>
+        </node>
         <node concept="34ocy7" id="5TOtrqPjTHO" role="1dgzf0">
           <node concept="11bN8U" id="5TOtrqPjUiM" role="34ocs8">
             <node concept="2k1_p_" id="5TOtrqPjUiN" role="11bN8K">
@@ -684,6 +701,7 @@
             </node>
           </node>
         </node>
+        <node concept="1XdyHe" id="_fIq3Nh941" role="1dgzf0" />
         <node concept="34odk1" id="5TOtrqPmGMA" role="1dgzf0">
           <node concept="2k1GkI" id="5TOtrqPmGMB" role="34ocZk">
             <node concept="2k1_uq" id="5TOtrqPmGMC" role="2nKVj6">
