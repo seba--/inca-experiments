@@ -1,0 +1,58 @@
+// Filter Operation
+def findCandidates(call : MethodCall, classes : [ClassDec]) : [MethodDec] = {
+  c := classes.elem
+  m := c.methods
+
+  // check m matches call signature
+  a := call.args
+  p := m.params
+
+  mod := containgModule(call) 
+  assert true == checkMethodArgs(p, a, mod)
+  return m
+}
+
+// How to check if each element returns a valid result?
+// Use some kind of fold
+def validMethodArgs(params : [Param], args : [Exp], m : Module) : BooleanLattice/min = { 
+  (p, a) := params.zip(args).elem // ?
+  assert p.parent instanceOf MethodDec 
+  assert a.parent instanceOf MethodCall 
+
+  t := typeOfExp(a)
+  ct := resolveClass(t, m)
+  cp := resolveClass(p.type, m)
+  return subtype(ct, cp, m) // Assuming subtype also returns a boolean
+}
+
+// TODO
+def methodParametersDistance(call : Param, target : Param) : NumberLattice = { 
+  assert undef call.prev 
+  assert undef target.prev 
+   
+  return methodParameterDistance(call, target) 
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+def methodParameterDistance(call : Param, target : Param) : NumberLattice = { 
+  assert undef call.next 
+  assert undef target.next 
+   
+  distance := classInheritanceDistance(call.type, target.type) 
+   
+  return distance 
+} alt { 
+  assert def call.next 
+  assert def target.next 
+   
+  distance := classInheritanceDistance(call.type, target.type) 
+   
+  nextCallParam := call.next 
+  assert nextCallParam instanceOf Param 
+  nextTargetParam := target.next 
+  assert nextTargetParam instanceOf Param 
+   
+  nextDist := methodParameterDistance(nextCallParam, nextTargetParam) 
+   
+  combinedDist := NumberLattice.sum(distance, nextDist) 
+  return combinedDist 
+}

@@ -1,0 +1,4 @@
+TODO
+
+Check result of changing methods in Tamas solution and see if incrementalization works
+

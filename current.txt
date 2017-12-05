@@ -1,0 +1,46 @@
+def findFirstCandidate(c : ClassDec, call : MethodCall) : MethodDec = { 
+  m := c.methods 
+  assert undef m.prev 
+   
+  // check m matches call signature 
+  switch { 
+    a := call.args 
+    assert undef a.prev 
+    p := m.params 
+    assert undef p.prev 
+     
+    mod := containgModule(call) 
+    assert def checkMethodArgs(p, a, mod) 
+    return m 
+  } alt { 
+    return findNextCandidate(m, call) 
+  } 
+} alt { 
+  assert undef c.methods 
+  return findFirstCandidate(c.extends, call) 
+}                                                    
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+def findNextCandidate(prev : MethodDec, call : MethodCall) : MethodDec = { 
+  assert def prev.next 
+  n := prev.next 
+  assert n instanceOf MethodDec 
+   
+  switch { 
+    a := call.args 
+    assert undef a.prev 
+    p := n.params 
+    assert undef p.prev 
+     
+    m := containgModule(call) 
+    assert def checkMethodArgs(p, a, m) 
+    return n 
+  } alt { 
+    return findNextCandidate(n, call) 
+  } 
+} alt { 
+  assert undef prev.next 
+  c := prev.parent 
+  assert c instanceOf ClassDec 
+   
+  return findFirstCandidate(c.extends, call) 
+}
