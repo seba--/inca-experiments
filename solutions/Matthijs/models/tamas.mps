@@ -250,7 +250,6 @@
     </language>
     <language id="cd2909da-ecb4-49dc-b176-33e5c619e516" name="com.mbeddr.mpsutil.inca.gp">
       <concept id="3909214783366769316" name="com.mbeddr.mpsutil.inca.gp.structure.PathElement" flags="ng" index="727y6" />
-      <concept id="8755198369437852631" name="com.mbeddr.mpsutil.inca.gp.structure.NextPathElement" flags="ng" index="3lV9lg" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1179168000618" name="jetbrains.mps.lang.smodel.structure.Node_GetIndexInParentOperation" flags="nn" index="2bSWHS" />
@@ -672,14 +671,6 @@
         </node>
         <node concept="1XdyHb" id="5TOtrqPkw7c" role="1dgzf0">
           <property role="1dubkF" value="we may need to introduce a true 'index' virtual link and incrementally maintain it" />
-        </node>
-        <node concept="2kdhWc" id="_fIq3Nhb2W" role="1dgzf0">
-          <node concept="3lV9lg" id="_fIq3Nhc1x" role="3zVzRQ">
-            <ref role="3zVwH8" to="hqsm:7A0HCuGt5s2" resolve="next" />
-          </node>
-          <node concept="30NkWi" id="_fIq3Nhb0x" role="2kdhYM">
-            <ref role="XkjO9" node="5TOtrqPjO0B" resolve="parameter" />
-          </node>
         </node>
         <node concept="34ocy7" id="5TOtrqPjTHO" role="1dgzf0">
           <node concept="11bN8U" id="5TOtrqPjUiM" role="34ocs8">
