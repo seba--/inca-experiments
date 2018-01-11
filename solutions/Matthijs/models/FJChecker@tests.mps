@@ -94,16 +94,16 @@
             <property role="TrG5h" value="A" />
           </node>
         </node>
-        <node concept="2U_X0x" id="7kXcQjCMUCD" role="2U_X0o">
-          <property role="TrG5h" value="a" />
-          <node concept="2U_X3M" id="7kXcQjCMUCL" role="2U_X0H">
-            <property role="TrG5h" value="SubA" />
-          </node>
-        </node>
         <node concept="2U_X0x" id="7kXcQjCMUCN" role="2U_X0o">
           <property role="TrG5h" value="ba" />
           <node concept="2U_X3M" id="7kXcQjCMUCX" role="2U_X0H">
-            <property role="TrG5h" value="B" />
+            <property role="TrG5h" value="SubB" />
+          </node>
+        </node>
+        <node concept="2U_X0x" id="2MCu7$Fl0XL" role="2U_X0o">
+          <property role="TrG5h" value="aa" />
+          <node concept="2U_X3M" id="2MCu7$Fl0XZ" role="2U_X0H">
+            <property role="TrG5h" value="A" />
           </node>
         </node>
       </node>
@@ -117,16 +117,16 @@
             <property role="TrG5h" value="A" />
           </node>
         </node>
-        <node concept="2U_X0x" id="325klYw6NnJ" role="2U_X0o">
-          <property role="TrG5h" value="a" />
-          <node concept="2U_X3M" id="325klYw6NnK" role="2U_X0H">
-            <property role="TrG5h" value="SubA" />
+        <node concept="2U_X0x" id="325klYw6NnL" role="2U_X0o">
+          <property role="TrG5h" value="ab" />
+          <node concept="2U_X3M" id="325klYw6NnM" role="2U_X0H">
+            <property role="TrG5h" value="B" />
           </node>
         </node>
-        <node concept="2U_X0x" id="325klYw6NnL" role="2U_X0o">
-          <property role="TrG5h" value="b" />
-          <node concept="2U_X3M" id="325klYw6NnM" role="2U_X0H">
-            <property role="TrG5h" value="SubB" />
+        <node concept="2U_X0x" id="2MCu7$Fl0Y2" role="2U_X0o">
+          <property role="TrG5h" value="aba" />
+          <node concept="2U_X3M" id="2MCu7$Fl0Yg" role="2U_X0H">
+            <property role="TrG5h" value="SubA" />
           </node>
         </node>
       </node>
@@ -147,14 +147,14 @@
               <property role="TrG5h" value="Foo" />
             </node>
           </node>
-          <node concept="2U_9Lt" id="325klYw6QS$" role="2U_9Li">
-            <node concept="2U_X3M" id="325klYw6QSO" role="C5u53">
-              <property role="TrG5h" value="SubA" />
+          <node concept="2U_9Lt" id="2MCu7$Fl10d" role="2U_9Li">
+            <node concept="2U_X3M" id="2MCu7$Fl10s" role="C5u53">
+              <property role="TrG5h" value="SubB" />
             </node>
           </node>
           <node concept="2U_9Lt" id="325klYw6QTS" role="2U_9Li">
             <node concept="2U_X3M" id="325klYw6QU7" role="C5u53">
-              <property role="TrG5h" value="SubB" />
+              <property role="TrG5h" value="SubA" />
             </node>
           </node>
         </node>
