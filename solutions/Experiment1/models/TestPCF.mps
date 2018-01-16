@@ -397,9 +397,6 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
-        <property id="1156235010670" name="alias" index="OYydz" />
-      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -2350,11 +2347,11 @@
       </node>
       <node concept="3TL$xT" id="2Oko8ulZ_BM" role="3TLBbI">
         <node concept="2eLkkM" id="2Oko8ulZA4j" role="1dukDx">
-          <node concept="2ZQB9c" id="2Oko8um7jhW" role="2eP6Tc">
-            <ref role="2ZQB93" node="2Oko8um3WHq" resolve="LType" />
-          </node>
           <node concept="2kHsid" id="3F9SssJPVn6" role="iwB5b">
             <ref role="2kHsi0" node="2Oko8um3ZPi" resolve="glb" />
+          </node>
+          <node concept="2ZQB9c" id="2Oko8um7jhW" role="2eP6Tc">
+            <ref role="2ZQB93" node="2Oko8um3WHq" resolve="LType" />
           </node>
         </node>
       </node>
@@ -6020,9 +6017,7 @@
           <node concept="13Yrah" id="2Oko8um8VPG" role="2V2jdw">
             <property role="TrG5h" value="n" />
           </node>
-          <node concept="2Vgb7H" id="2Oko8umlOhp" role="2Vgb7X">
-            <property role="OYydz" value="+" />
-          </node>
+          <node concept="2Vgb7H" id="2Oko8umlOhp" role="2Vgb7X" />
         </node>
         <node concept="2SXtaR" id="2Oko8unfbYQ" role="2Ub$4l" />
       </node>
@@ -6043,9 +6038,7 @@
           <node concept="13Yrah" id="2Oko8umaFIh" role="2V2jdw">
             <property role="TrG5h" value="m" />
           </node>
-          <node concept="2Vgb7H" id="2Oko8ummpMf" role="2Vgb7X">
-            <property role="OYydz" value="+" />
-          </node>
+          <node concept="2Vgb7H" id="2Oko8ummpMf" role="2Vgb7X" />
         </node>
         <node concept="2SXtaR" id="2Oko8unfbYT" role="2Ub$4l" />
       </node>
@@ -6056,9 +6049,7 @@
         <node concept="13Yrah" id="2Oko8ummpLv" role="2V2jdz">
           <property role="TrG5h" value="double" />
         </node>
-        <node concept="2Vgb7P" id="2Oko8ummpMb" role="2Vgb7X">
-          <property role="OYydz" value="*" />
-        </node>
+        <node concept="2Vgb7P" id="2Oko8ummpMb" role="2Vgb7X" />
         <node concept="13Yrah" id="2Oko8ummpM8" role="2V2jdw">
           <property role="TrG5h" value="double" />
         </node>
@@ -6070,9 +6061,7 @@
         <node concept="13Yrah" id="2Oko8ummMIB" role="2V2jdz">
           <property role="TrG5h" value="9" />
         </node>
-        <node concept="2Vgb7P" id="2Oko8ummMIO" role="2Vgb7X">
-          <property role="OYydz" value="*" />
-        </node>
+        <node concept="2Vgb7P" id="2Oko8ummMIO" role="2Vgb7X" />
         <node concept="2SYX1K" id="2Oko8ummMJ2" role="2V2jdw">
           <property role="2SYX1Z" value="9" />
         </node>
@@ -6097,9 +6086,7 @@
                 <node concept="13Yrah" id="2Oko8umpZjG" role="2V2jdz">
                   <property role="TrG5h" value="n" />
                 </node>
-                <node concept="2Vgb7D" id="2Oko8umpZjJ" role="2Vgb7X">
-                  <property role="OYydz" value="-" />
-                </node>
+                <node concept="2Vgb7D" id="2Oko8umpZjJ" role="2Vgb7X" />
                 <node concept="2SYX1K" id="2Oko8umpZk1" role="2V2jdw">
                   <property role="2SYX1Z" value="1" />
                 </node>
