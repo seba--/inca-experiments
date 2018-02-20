@@ -2,3 +2,10 @@ TODO
 
 Check result of changing methods in Tamas solution and see if incrementalization works
 
+Try to use analysis to create error message
+
+Figure out how to report errors using MPS
+
+Benchmark both solutions
+
+Fix typeof call within minimalSelect
