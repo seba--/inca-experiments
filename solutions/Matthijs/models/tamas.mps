@@ -372,25 +372,17 @@
             </node>
           </node>
         </node>
-        <node concept="34odk1" id="2Ki005Y_atf" role="1dgzf0">
-          <node concept="2k1GkI" id="2Ki005Y_aIB" role="34ocZk">
-            <node concept="2k1_uq" id="2Ki005Y_aI_" role="2nKVj6">
+        <node concept="30Nfyg" id="2Ki005Y_cOv" role="1dgzf0">
+          <node concept="2k1GkI" id="5pxiPwgQRcs" role="30Nf_D">
+            <node concept="2k1_uq" id="5pxiPwgQRcq" role="2nKVj6">
               <ref role="2nKBpL" node="5TOtrqPjzrN" resolve="getDistance" />
-              <node concept="30NkWi" id="2Ki005Y_b02" role="2nKBpO">
+              <node concept="30NkWi" id="5pxiPwgQS92" role="2nKBpO">
                 <ref role="XkjO9" node="2Ki005Y_6_5" resolve="call" />
               </node>
-              <node concept="30NkWi" id="2Ki005Y_bUo" role="2nKBpO">
+              <node concept="30NkWi" id="5pxiPwgQU2$" role="2nKBpO">
                 <ref role="XkjO9" node="2Ki005Y_9eF" resolve="method" />
               </node>
             </node>
-          </node>
-          <node concept="30KbLJ" id="2Ki005Y_ac2" role="34ocZn">
-            <property role="TrG5h" value="distance" />
-          </node>
-        </node>
-        <node concept="30Nfyg" id="2Ki005Y_cOv" role="1dgzf0">
-          <node concept="30NkWi" id="2Ki005Y_dJ5" role="30Nf_D">
-            <ref role="XkjO9" node="2Ki005Y_ac2" resolve="distance" />
           </node>
         </node>
       </node>
