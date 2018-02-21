@@ -184,6 +184,9 @@
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
+      <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
+        <reference id="1107535924139" name="classifier" index="3uigEE" />
+      </concept>
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
@@ -5557,7 +5560,9 @@
     <property role="TrG5h" value="NumberLattice" />
     <node concept="hMdjl" id="5pxiPwgYVvU" role="_iOnB">
       <property role="TrG5h" value="val" />
-      <node concept="10Oyi0" id="5pxiPwhczhy" role="3clF45" />
+      <node concept="3uibUv" id="5pxiPwhfc4b" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
+      </node>
       <node concept="3Tm1VV" id="5pxiPwgYVvX" role="1B3o_S" />
       <node concept="3clFbS" id="5pxiPwgYVvY" role="3clF47">
         <node concept="3cpWs6" id="5pxiPwgYW9u" role="3cqZAp">
