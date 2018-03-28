@@ -9,6 +9,7 @@
   <dependencies>
     <dependency reexport="false">2d284cd2-4f9b-4f47-beec-a8bf99adcb74(FeatherweightJava)</dependency>
     <dependency reexport="false">b802a056-92a2-4fbc-902e-f8e5004c331f(org.inca.core)</dependency>
+    <dependency reexport="false">7766a138-716a-422a-9c88-131459fb8d6a(org.inca.core.runtime)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:2d284cd2-4f9b-4f47-beec-a8bf99adcb74:FeatherweightJava" version="0" />
@@ -52,6 +53,7 @@
     <module reference="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" version="0" />
     <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
     <module reference="b802a056-92a2-4fbc-902e-f8e5004c331f(org.inca.core)" version="0" />
+    <module reference="7766a138-716a-422a-9c88-131459fb8d6a(org.inca.core.runtime)" version="0" />
     <module reference="bc791f96-4749-4311-a6e4-241e47ca97f9(org.inca.core.util)" version="0" />
   </dependencyVersions>
 </solution>
