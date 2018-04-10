@@ -25,12 +25,17 @@
         <child id="3248327366720870928" name="name" index="2UxVEn" />
         <child id="3248327366719973606" name="classes" index="2U$$xx" />
       </concept>
+      <concept id="3248327366719634631" name="FeatherweightJava.structure.FieldAcc" flags="ng" index="2U_9L0">
+        <child id="3248327366719634632" name="receiver" index="2U_9Lf" />
+      </concept>
+      <concept id="3248327366719634627" name="FeatherweightJava.structure.Var" flags="ng" index="2U_9L4" />
       <concept id="3248327366719634638" name="FeatherweightJava.structure.MethodCall" flags="ng" index="2U_9L9">
         <child id="3248327366719634639" name="receiver" index="2U_9L8" />
         <child id="3248327366719634645" name="args" index="2U_9Li" />
       </concept>
       <concept id="3248327366719634650" name="FeatherweightJava.structure.ConstructorCall" flags="ng" index="2U_9Lt">
         <child id="6006794503221512837" name="type" index="C5u53" />
+        <child id="3248327366719634654" name="args" index="2U_9Lp" />
       </concept>
       <concept id="3248327366719811731" name="FeatherweightJava.structure.MethodDec" flags="ng" index="2U_X0k">
         <child id="3248327366719811735" name="body" index="2U_X0g" />
@@ -42,6 +47,7 @@
       </concept>
       <concept id="3248327366719811757" name="FeatherweightJava.structure.ClassDec" flags="ng" index="2U_X0E">
         <child id="6006794503220674455" name="type" index="Codhh" />
+        <child id="3248327366719907538" name="fields" index="2U$kpl" />
         <child id="3248327366719811761" name="extends" index="2U_X0Q" />
         <child id="3248327366719811771" name="methods" index="2U_X0W" />
       </concept>
@@ -53,280 +59,142 @@
       </concept>
     </language>
   </registry>
-  <node concept="2U$$xy" id="4soqYwxhu5O">
-    <node concept="2UxV_V" id="4soqYwxhu5P" role="2UxVEn">
-      <property role="TrG5h" value="Global" />
-    </node>
-    <node concept="2U_X0E" id="7Nux5FlU5Wm" role="2U$$xx">
-      <node concept="2U_X3M" id="7Nux5FlU5Wn" role="Codhh">
-        <property role="TrG5h" value="ClassSup" />
-      </node>
-    </node>
-    <node concept="2U_X0E" id="7Nux5FlU5Wo" role="2U$$xx">
-      <node concept="2U_X3M" id="7Nux5FlU5Wp" role="2U_X0Q">
-        <property role="TrG5h" value="ClassSup" />
-      </node>
-      <node concept="2U_X3M" id="7Nux5FlU5Wq" role="Codhh">
-        <property role="TrG5h" value="Class_1_1" />
-      </node>
-    </node>
-    <node concept="2U_X0E" id="7Nux5FlU5Wr" role="2U$$xx">
-      <node concept="2U_X3M" id="7Nux5FlU5Ws" role="2U_X0Q">
-        <property role="TrG5h" value="Class_1_1" />
-      </node>
-      <node concept="2U_X3M" id="7Nux5FlU5Wt" role="Codhh">
-        <property role="TrG5h" value="Class_1_2" />
-      </node>
-    </node>
-    <node concept="2U_X0E" id="7Nux5FnDNig" role="2U$$xx">
-      <node concept="2U_X3M" id="7Nux5FnDNii" role="Codhh">
-        <property role="TrG5h" value="Class_1_3" />
-      </node>
-      <node concept="2U_X3M" id="7Nux5FlU5Ww" role="2U_X0Q">
-        <property role="TrG5h" value="Class_1_2" />
-      </node>
-    </node>
-    <node concept="2U_X0E" id="1FXfJt48pQf" role="2U$$xx">
-      <node concept="2U_X3M" id="1FXfJt48pQi" role="2U_X0Q">
-        <property role="TrG5h" value="Class_1_3" />
-      </node>
-      <node concept="2U_X3M" id="1FXfJt48pQj" role="Codhh">
-        <property role="TrG5h" value="Class_1_4" />
-      </node>
-    </node>
-    <node concept="2U_X0E" id="1FXfJt48q3j" role="2U$$xx">
-      <node concept="2U_X3M" id="1FXfJt48q3m" role="2U_X0Q">
-        <property role="TrG5h" value="Class_1_4" />
-      </node>
-      <node concept="2U_X3M" id="1FXfJt48q3n" role="Codhh">
-        <property role="TrG5h" value="Class_1_5" />
-      </node>
-    </node>
-    <node concept="2U_X0E" id="1FXfJt48qcd" role="2U$$xx">
-      <node concept="2U_X3M" id="1FXfJt48qcg" role="2U_X0Q">
-        <property role="TrG5h" value="Class_1_5" />
-      </node>
-      <node concept="2U_X3M" id="1FXfJt48qch" role="Codhh">
-        <property role="TrG5h" value="Class_1_6" />
-      </node>
-    </node>
-    <node concept="2U_X0E" id="7Nux5FlU5Wx" role="2U$$xx">
-      <node concept="2U_X3M" id="7Nux5FlU5Wy" role="2U_X0Q">
-        <property role="TrG5h" value="ClassSup" />
-      </node>
-      <node concept="2U_X3M" id="7Nux5FlU5Wz" role="Codhh">
-        <property role="TrG5h" value="Class_2_1" />
-      </node>
-    </node>
-    <node concept="2U_X0E" id="7Nux5FlU5W$" role="2U$$xx">
-      <node concept="2U_X3M" id="7Nux5FlU5W_" role="2U_X0Q">
-        <property role="TrG5h" value="Class_2_1" />
-      </node>
-      <node concept="2U_X3M" id="7Nux5FlU5WA" role="Codhh">
-        <property role="TrG5h" value="Class_2_2" />
-      </node>
-    </node>
-    <node concept="2U_X0E" id="7Nux5FnDNuS" role="2U$$xx">
-      <node concept="2U_X3M" id="7Nux5FnDNuT" role="Codhh">
-        <property role="TrG5h" value="Class_2_3" />
-      </node>
-      <node concept="2U_X3M" id="7Nux5FnDNlF" role="2U_X0Q">
-        <property role="TrG5h" value="Class_2_2" />
-      </node>
-    </node>
-    <node concept="2U_X0E" id="7Nux5FlU5WE" role="2U$$xx">
-      <node concept="2U_X3M" id="7Nux5FlU5WP" role="Codhh">
-        <property role="TrG5h" value="Proxy" />
-      </node>
-      <node concept="2U_X0k" id="7Nux5Fmmu03" role="2U_X0W">
-        <property role="TrG5h" value="Overload" />
-        <node concept="2U_X0x" id="7Nux5Fmmu04" role="2U_X0o">
-          <property role="TrG5h" value="a" />
-          <node concept="2U_X3M" id="7Nux5Fmmu05" role="2U_X0H">
-            <property role="TrG5h" value="Class_2_8" />
-          </node>
-        </node>
-        <node concept="2U_X0x" id="7Nux5Fmmu06" role="2U_X0o">
-          <property role="TrG5h" value="b" />
-          <node concept="2U_X3M" id="7Nux5Fmmu07" role="2U_X0H">
-            <property role="TrG5h" value="Class_2_32" />
-          </node>
-        </node>
-        <node concept="2U_X0x" id="7Nux5Fmmu08" role="2U_X0o">
-          <property role="TrG5h" value="c" />
-          <node concept="2U_X3M" id="7Nux5Fmmu09" role="2U_X0H">
-            <property role="TrG5h" value="Class_2_14" />
-          </node>
-        </node>
-        <node concept="2U_X3M" id="7Nux5Fmmu0a" role="2U_X0t">
-          <property role="TrG5h" value="ClassSup" />
-        </node>
-        <node concept="2U_9Lt" id="7Nux5Fmmu0b" role="2U_X0g">
-          <node concept="2U_X3M" id="7Nux5Fmmu0c" role="C5u53">
-            <property role="TrG5h" value="ClassSup" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2U_X0E" id="7Nux5FlU5WQ" role="2U$$xx">
-      <node concept="2U_X0k" id="1FXfJt3UJJR" role="2U_X0W">
-        <property role="TrG5h" value="call" />
-        <node concept="2U_X3M" id="1FXfJt3UJNk" role="2U_X0t">
-          <property role="TrG5h" value="ClassSup" />
-        </node>
-        <node concept="2U_9L9" id="1FXfJt3UJNn" role="2U_X0g">
-          <property role="TrG5h" value="Overload" />
-          <node concept="2U_9Lt" id="1FXfJt3UJNo" role="2U_9Li">
-            <node concept="2U_X3M" id="1FXfJt3UJNp" role="C5u53">
-              <property role="TrG5h" value="Class_2_14" />
-            </node>
-          </node>
-          <node concept="2U_9Lt" id="1FXfJt3UJNq" role="2U_9Li">
-            <node concept="2U_X3M" id="1FXfJt3UJNr" role="C5u53">
-              <property role="TrG5h" value="Class_2_21" />
-            </node>
-          </node>
-          <node concept="2U_9Lt" id="1FXfJt3UJNs" role="2U_9Li">
-            <node concept="2U_X3M" id="1FXfJt3UJNt" role="C5u53">
-              <property role="TrG5h" value="Class_1_8" />
-            </node>
-          </node>
-          <node concept="2U_9Lt" id="1FXfJt3UJNu" role="2U_9L8">
-            <node concept="2U_X3M" id="1FXfJt3UJNv" role="C5u53">
-              <property role="TrG5h" value="Proxy" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="2U_X3M" id="7Nux5FlU5X2" role="Codhh">
-        <property role="TrG5h" value="Bar" />
-      </node>
+  <node concept="2U$$xy" id="1FXfJt4dwsi">
+    <node concept="2UxV_V" id="1FXfJt4dwsl" role="2UxVEn">
+      <property role="TrG5h" value="OverloadBenchmark" />
     </node>
   </node>
-  <node concept="2U$$xy" id="7Nux5FlPDLT">
-    <node concept="2U_X0E" id="7Nux5FlPDLU" role="2U$$xx">
-      <node concept="2U_X3M" id="7Nux5FlPDLV" role="Codhh">
-        <property role="TrG5h" value="XSup" />
+  <node concept="2U$$xy" id="1FXfJt4nfi3">
+    <node concept="2U_X0E" id="360F32crYRw" role="2U$$xx">
+      <node concept="2U_X3M" id="360F32crYRx" role="Codhh">
+        <property role="TrG5h" value="Object" />
       </node>
     </node>
-    <node concept="2UxV_V" id="7Nux5FlPDLW" role="2UxVEn">
-      <property role="TrG5h" value="Global2" />
-    </node>
-    <node concept="2U_X0E" id="7Nux5FlPDLX" role="2U$$xx">
-      <node concept="2U_X3M" id="7Nux5FlPDLY" role="2U_X0Q">
-        <property role="TrG5h" value="XSup" />
+    <node concept="2U_X0E" id="360F32crYXq" role="2U$$xx">
+      <node concept="2U_X3M" id="360F32crYXo" role="Codhh">
+        <property role="TrG5h" value="Succ" />
       </node>
-      <node concept="2U_X3M" id="7Nux5FlPDLZ" role="Codhh">
-        <property role="TrG5h" value="XA1" />
+      <node concept="2U_X3M" id="360F32crYXp" role="2U_X0Q">
+        <property role="TrG5h" value="Nat" />
       </node>
-    </node>
-    <node concept="2U_X0E" id="7Nux5FlPDM0" role="2U$$xx">
-      <node concept="2U_X3M" id="7Nux5FlPDM1" role="2U_X0Q">
-        <property role="TrG5h" value="XA1" />
-      </node>
-      <node concept="2U_X3M" id="7Nux5FlPDM2" role="Codhh">
-        <property role="TrG5h" value="XA2" />
-      </node>
-    </node>
-    <node concept="2U_X0E" id="7Nux5FlPDM3" role="2U$$xx">
-      <node concept="2U_X3M" id="7Nux5FlPDM4" role="2U_X0Q">
-        <property role="TrG5h" value="XA2" />
-      </node>
-      <node concept="2U_X3M" id="7Nux5FlPDM5" role="Codhh">
-        <property role="TrG5h" value="XA3" />
-      </node>
-    </node>
-    <node concept="2U_X0E" id="7Nux5FlPDM6" role="2U$$xx">
-      <node concept="2U_X3M" id="7Nux5FlPDM7" role="2U_X0Q">
-        <property role="TrG5h" value="XSup" />
-      </node>
-      <node concept="2U_X3M" id="7Nux5FlPDM8" role="Codhh">
-        <property role="TrG5h" value="XB1" />
-      </node>
-    </node>
-    <node concept="2U_X0E" id="7Nux5FlPDM9" role="2U$$xx">
-      <node concept="2U_X3M" id="7Nux5FlPDMa" role="2U_X0Q">
-        <property role="TrG5h" value="XB1" />
-      </node>
-      <node concept="2U_X3M" id="7Nux5FlPDMb" role="Codhh">
-        <property role="TrG5h" value="XB2" />
-      </node>
-    </node>
-    <node concept="2U_X0E" id="7Nux5FlPDMc" role="2U$$xx">
-      <node concept="2U_X3M" id="7Nux5FlPDMd" role="2U_X0Q">
-        <property role="TrG5h" value="XB2" />
-      </node>
-      <node concept="2U_X3M" id="7Nux5FlPDMe" role="Codhh">
-        <property role="TrG5h" value="XB3" />
-      </node>
-    </node>
-    <node concept="2U_X0E" id="7Nux5FlPDMf" role="2U$$xx">
-      <node concept="2U_X0k" id="7Nux5FlPDMg" role="2U_X0W">
-        <property role="TrG5h" value="Overload" />
-        <node concept="2U_X0x" id="7Nux5FlPDMh" role="2U_X0o">
-          <property role="TrG5h" value="a" />
-          <node concept="2U_X3M" id="7Nux5FlPDMi" role="2U_X0H">
-            <property role="TrG5h" value="SupA" />
-          </node>
+      <node concept="2U_X0x" id="360F32crYXs" role="2U$kpl">
+        <property role="TrG5h" value="pred" />
+        <node concept="2U_X3M" id="360F32crYXr" role="2U_X0H">
+          <property role="TrG5h" value="Nat" />
         </node>
-        <node concept="2U_X0x" id="7Nux5FlPDMj" role="2U_X0o">
-          <property role="TrG5h" value="b" />
-          <node concept="2U_X3M" id="7Nux5FlPDMk" role="2U_X0H">
-            <property role="TrG5h" value="SupA" />
-          </node>
+      </node>
+      <node concept="2U_X0k" id="360F32crYX$" role="2U_X0W">
+        <property role="TrG5h" value="pred" />
+        <node concept="2U_X3M" id="360F32crYXx" role="2U_X0t">
+          <property role="TrG5h" value="Nat" />
         </node>
-        <node concept="2U_X0x" id="7Nux5FlPDMl" role="2U_X0o">
-          <property role="TrG5h" value="c" />
-          <node concept="2U_X3M" id="7Nux5FlPDMm" role="2U_X0H">
-            <property role="TrG5h" value="SupB" />
-          </node>
-        </node>
-        <node concept="2U_X3M" id="7Nux5FlPDMn" role="2U_X0t">
-          <property role="TrG5h" value="A" />
-        </node>
-        <node concept="2U_9Lt" id="7Nux5FlPDMo" role="2U_X0g">
-          <node concept="2U_X3M" id="7Nux5FlPDMp" role="C5u53">
-            <property role="TrG5h" value="A" />
+        <node concept="2U_9L0" id="360F32crYXz" role="2U_X0g">
+          <property role="TrG5h" value="pred" />
+          <node concept="2U_9L4" id="360F32crYXy" role="2U_9Lf">
+            <property role="TrG5h" value="this" />
           </node>
         </node>
       </node>
-      <node concept="2U_X3M" id="7Nux5FlPDMq" role="Codhh">
-        <property role="TrG5h" value="Proxy" />
-      </node>
-    </node>
-    <node concept="2U_X0E" id="7Nux5FlPDMr" role="2U$$xx">
-      <node concept="2U_X0k" id="7Nux5FlPDMs" role="2U_X0W">
-        <property role="TrG5h" value="call" />
-        <node concept="2U_X3M" id="7Nux5FlPDMt" role="2U_X0t">
-          <property role="TrG5h" value="A" />
+      <node concept="2U_X0k" id="360F32crYY6" role="2U_X0W">
+        <property role="TrG5h" value="plus" />
+        <node concept="2U_X3M" id="360F32crYXX" role="2U_X0t">
+          <property role="TrG5h" value="Nat" />
         </node>
-        <node concept="2U_9L9" id="7Nux5FlPDMu" role="2U_X0g">
-          <property role="TrG5h" value="Overload" />
-          <node concept="2U_9Lt" id="7Nux5FlPDMv" role="2U_9Li">
-            <node concept="2U_X3M" id="7Nux5FlPDMw" role="C5u53">
-              <property role="TrG5h" value="XA3" />
+        <node concept="2U_X0x" id="360F32crYXZ" role="2U_X0o">
+          <property role="TrG5h" value="that" />
+          <node concept="2U_X3M" id="360F32crYXY" role="2U_X0H">
+            <property role="TrG5h" value="Nat" />
+          </node>
+        </node>
+        <node concept="2U_9Lt" id="360F32crYY1" role="2U_X0g">
+          <node concept="2U_X3M" id="360F32crYY0" role="C5u53">
+            <property role="TrG5h" value="Succ" />
+          </node>
+          <node concept="2U_9L9" id="360F32crYY4" role="2U_9Lp">
+            <property role="TrG5h" value="plus" />
+            <node concept="2U_9L0" id="360F32crYY3" role="2U_9L8">
+              <property role="TrG5h" value="pred" />
+              <node concept="2U_9L4" id="360F32crYY2" role="2U_9Lf">
+                <property role="TrG5h" value="this" />
+              </node>
             </node>
-          </node>
-          <node concept="2U_9Lt" id="7Nux5FlPDMx" role="2U_9Li">
-            <node concept="2U_X3M" id="7Nux5FlPDMy" role="C5u53">
-              <property role="TrG5h" value="XA3" />
-            </node>
-          </node>
-          <node concept="2U_9Lt" id="7Nux5FlPDMz" role="2U_9Li">
-            <node concept="2U_X3M" id="7Nux5FlPDM$" role="C5u53">
-              <property role="TrG5h" value="XB3" />
-            </node>
-          </node>
-          <node concept="2U_9Lt" id="7Nux5FlPDM_" role="2U_9L8">
-            <node concept="2U_X3M" id="7Nux5FlPDMA" role="C5u53">
-              <property role="TrG5h" value="Proxy" />
+            <node concept="2U_9L4" id="360F32crYY5" role="2U_9Li">
+              <property role="TrG5h" value="that" />
             </node>
           </node>
         </node>
       </node>
-      <node concept="2U_X3M" id="7Nux5FlPDMB" role="Codhh">
-        <property role="TrG5h" value="Bar" />
+    </node>
+    <node concept="2U_X0E" id="360F32crYYa" role="2U$$xx">
+      <node concept="2U_X3M" id="360F32crYY7" role="Codhh">
+        <property role="TrG5h" value="Nat" />
       </node>
+      <node concept="2U_X3M" id="360F32crYY9" role="2U_X0Q">
+        <property role="TrG5h" value="Object" />
+      </node>
+      <node concept="2U_X0k" id="360F32crYYn" role="2U_X0W">
+        <property role="TrG5h" value="pred" />
+        <node concept="2U_X3M" id="360F32crYYk" role="2U_X0t">
+          <property role="TrG5h" value="Nat" />
+        </node>
+        <node concept="2U_9Lt" id="360F32crYYm" role="2U_X0g">
+          <node concept="2U_X3M" id="360F32crYYl" role="C5u53">
+            <property role="TrG5h" value="Zero" />
+          </node>
+        </node>
+      </node>
+      <node concept="2U_X0k" id="360F32crYYK" role="2U_X0W">
+        <property role="TrG5h" value="plus" />
+        <node concept="2U_X3M" id="360F32crYYF" role="2U_X0t">
+          <property role="TrG5h" value="Nat" />
+        </node>
+        <node concept="2U_X0x" id="360F32crYYH" role="2U_X0o">
+          <property role="TrG5h" value="that" />
+          <node concept="2U_X3M" id="360F32crYYG" role="2U_X0H">
+            <property role="TrG5h" value="Nat" />
+          </node>
+        </node>
+        <node concept="2U_9Lt" id="360F32crYYJ" role="2U_X0g">
+          <node concept="2U_X3M" id="360F32crYYI" role="C5u53">
+            <property role="TrG5h" value="Zero" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2U_X0E" id="360F32crYYN" role="2U$$xx">
+      <node concept="2U_X3M" id="360F32crYYL" role="Codhh">
+        <property role="TrG5h" value="Zero" />
+      </node>
+      <node concept="2U_X3M" id="360F32crYYM" role="2U_X0Q">
+        <property role="TrG5h" value="Nat" />
+      </node>
+      <node concept="2U_X0k" id="360F32crYYU" role="2U_X0W">
+        <property role="TrG5h" value="pred" />
+        <node concept="2U_X3M" id="360F32crYYS" role="2U_X0t">
+          <property role="TrG5h" value="Nat" />
+        </node>
+        <node concept="2U_9L4" id="360F32crYYT" role="2U_X0g">
+          <property role="TrG5h" value="this" />
+        </node>
+      </node>
+      <node concept="2U_X0k" id="360F32crYZb" role="2U_X0W">
+        <property role="TrG5h" value="plus" />
+        <node concept="2U_X3M" id="360F32crYZ7" role="2U_X0t">
+          <property role="TrG5h" value="Nat" />
+        </node>
+        <node concept="2U_X0x" id="360F32crYZ9" role="2U_X0o">
+          <property role="TrG5h" value="that" />
+          <node concept="2U_X3M" id="360F32crYZ8" role="2U_X0H">
+            <property role="TrG5h" value="Nat" />
+          </node>
+        </node>
+        <node concept="2U_9L4" id="360F32crYZa" role="2U_X0g">
+          <property role="TrG5h" value="that" />
+        </node>
+      </node>
+    </node>
+    <node concept="2UxV_V" id="1FXfJt4nfi4" role="2UxVEn">
+      <property role="TrG5h" value="CoContextBenchmark" />
     </node>
   </node>
 </model>
