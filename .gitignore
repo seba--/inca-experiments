@@ -33,3 +33,5 @@ source_gen
 source_gen.caches
 result_gen
 jimple_gen
+test_gen
+test_gen.caches
