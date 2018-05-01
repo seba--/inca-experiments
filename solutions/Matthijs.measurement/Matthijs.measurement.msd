@@ -11,13 +11,9 @@
     <dependency reexport="false">742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)</dependency>
     <dependency reexport="false">5b1f863d-65a0-41a6-a801-33896be24202(jetbrains.mps.ide.editor)</dependency>
     <dependency reexport="false">7766a138-716a-422a-9c88-131459fb8d6a(org.inca.core.runtime)</dependency>
-    <dependency reexport="false">08d789a9-12ae-4855-a1a6-5fd341f13884(org.inca.sa.test)</dependency>
-    <dependency reexport="false">6fdfc82b-893a-4ebf-b8f9-32ffd272351e(Matthijs)</dependency>
     <dependency reexport="false">8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)</dependency>
-    <dependency reexport="false">86441d7a-e194-42da-81a5-2161ec62a379(MPS.Workbench)</dependency>
-    <dependency reexport="false">f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</dependency>
-    <dependency reexport="false">ec2a6b23-6cfd-4bc6-bd35-8ecc3bbc4f8f(FeatherweightJava#3248327366719633052)</dependency>
     <dependency reexport="false">2d284cd2-4f9b-4f47-beec-a8bf99adcb74(FeatherweightJava)</dependency>
+    <dependency reexport="false">66d69055-511e-4d77-9e4c-04b58b0b177d(FJAnalysis)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:2d284cd2-4f9b-4f47-beec-a8bf99adcb74:FeatherweightJava" version="0" />

@@ -6,27 +6,22 @@
     <use id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers" version="0" />
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="0" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="5" />
-    <use id="cd2909da-ecb4-49dc-b176-33e5c619e516" name="org.inca.gp" version="0" />
-    <use id="8c9a2720-9d21-4370-a226-819eb3e76e1e" name="org.inca.fun" version="0" />
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
-    <use id="2d284cd2-4f9b-4f47-beec-a8bf99adcb74" name="FeatherweightJava" version="0" />
-    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
+    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="0" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="11" />
   </languages>
   <imports>
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="qq03" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.actions(MPS.Platform/)" />
     <import index="ekwn" ref="r:9832fb5f-2578-4b58-8014-a5de79da988e(jetbrains.mps.ide.editor.actions)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
-    <import index="h57a" ref="7766a138-716a-422a-9c88-131459fb8d6a/java:org.eclipse.viatra.query.runtime.api(org.inca.core.runtime/)" />
-    <import index="xej5" ref="r:b870436a-bd35-44b7-828c-916a0790dd66(FJChecker)" />
-    <import index="5okz" ref="r:31e0e4b9-2493-421d-9709-3871fff42f66(FJChecker@tests)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="z1c3" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.project(MPS.Platform/)" />
     <import index="pzen" ref="r:25bfb30f-3676-4451-9448-27a17343be80(org.inca.core.runtime.plugin)" />
-    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="aq49" ref="r:6b19b2d8-619e-48bd-ba27-343f855d53e3(FeatherweightJava.structure)" />
+    <import index="hcim" ref="r:eedde62d-5d5b-4dfb-8e71-e3d51377619d(FJAnalysis.plugin)" />
     <import index="z1c4" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
@@ -746,342 +741,230 @@
             <ref role="37wK5l" node="6KlGp6tJAt9" resolve="measureCoContextOne" />
           </node>
         </node>
-        <node concept="1X3_iC" id="2v5kr1GKqMC" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3clFbF" id="6P0709bbRIp" role="8Wnug">
-            <node concept="37vLTI" id="6P0709bbRIq" role="3clFbG">
-              <node concept="Rm8GO" id="6P0709bbT3a" role="37vLTx">
-                <ref role="1Px2BO" node="3AoLED$1doi" resolve="CoContextBenchmark.Config.BodyType" />
-                <ref role="Rm8GQ" node="3AoLED$1ij9" resolve="ACCUM_SUPER" />
-              </node>
-              <node concept="10M0yZ" id="6P0709bbRIs" role="37vLTJ">
-                <ref role="1PxDUh" node="1FXfJt4mRZa" resolve="CoContextBenchmark.Config" />
-                <ref role="3cqZAo" node="3AoLED$1jz8" resolve="bodyType" />
-              </node>
+        <node concept="3clFbF" id="6P0709bbRIp" role="3cqZAp">
+          <node concept="37vLTI" id="6P0709bbRIq" role="3clFbG">
+            <node concept="Rm8GO" id="6P0709bbT3a" role="37vLTx">
+              <ref role="1Px2BO" node="3AoLED$1doi" resolve="CoContextBenchmark.Config.BodyType" />
+              <ref role="Rm8GQ" node="3AoLED$1ij9" resolve="ACCUM_SUPER" />
+            </node>
+            <node concept="10M0yZ" id="6P0709bbRIs" role="37vLTJ">
+              <ref role="1PxDUh" node="1FXfJt4mRZa" resolve="CoContextBenchmark.Config" />
+              <ref role="3cqZAo" node="3AoLED$1jz8" resolve="bodyType" />
             </node>
           </node>
         </node>
-        <node concept="1X3_iC" id="2v5kr1GKqMD" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3clFbF" id="5b9dWUR4BXD" role="8Wnug">
-            <node concept="1rXfSq" id="5b9dWUR4BXE" role="3clFbG">
-              <ref role="37wK5l" node="6KlGp6tJAt9" resolve="measureCoContextOne" />
+        <node concept="3clFbF" id="5b9dWUR4BXD" role="3cqZAp">
+          <node concept="1rXfSq" id="5b9dWUR4BXE" role="3clFbG">
+            <ref role="37wK5l" node="6KlGp6tJAt9" resolve="measureCoContextOne" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="6P0709bbRFv" role="3cqZAp">
+          <node concept="37vLTI" id="6P0709bbRFw" role="3clFbG">
+            <node concept="Rm8GO" id="6P0709bbSWr" role="37vLTx">
+              <ref role="1Px2BO" node="3AoLED$1doi" resolve="CoContextBenchmark.Config.BodyType" />
+              <ref role="Rm8GQ" node="3AoLED$1io9" resolve="ACCUM_PREV_SUPER" />
+            </node>
+            <node concept="10M0yZ" id="6P0709bbRFy" role="37vLTJ">
+              <ref role="1PxDUh" node="1FXfJt4mRZa" resolve="CoContextBenchmark.Config" />
+              <ref role="3cqZAo" node="3AoLED$1jz8" resolve="bodyType" />
             </node>
           </node>
         </node>
-        <node concept="1X3_iC" id="2v5kr1GKqME" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3clFbF" id="6P0709bbRFv" role="8Wnug">
-            <node concept="37vLTI" id="6P0709bbRFw" role="3clFbG">
-              <node concept="Rm8GO" id="6P0709bbSWr" role="37vLTx">
-                <ref role="1Px2BO" node="3AoLED$1doi" resolve="CoContextBenchmark.Config.BodyType" />
-                <ref role="Rm8GQ" node="3AoLED$1io9" resolve="ACCUM_PREV_SUPER" />
-              </node>
-              <node concept="10M0yZ" id="6P0709bbRFy" role="37vLTJ">
-                <ref role="1PxDUh" node="1FXfJt4mRZa" resolve="CoContextBenchmark.Config" />
-                <ref role="3cqZAo" node="3AoLED$1jz8" resolve="bodyType" />
-              </node>
+        <node concept="3clFbF" id="5b9dWUR4C7z" role="3cqZAp">
+          <node concept="1rXfSq" id="5b9dWUR4C7$" role="3clFbG">
+            <ref role="37wK5l" node="6KlGp6tJAt9" resolve="measureCoContextOne" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="6P0709bbZsn" role="3cqZAp" />
+        <node concept="3clFbF" id="6P0709bbZCp" role="3cqZAp">
+          <node concept="37vLTI" id="6P0709bbZCq" role="3clFbG">
+            <node concept="10M0yZ" id="6P0709bbZCr" role="37vLTJ">
+              <ref role="1PxDUh" node="1FXfJt4mRZa" resolve="CoContextBenchmark.Config" />
+              <ref role="3cqZAo" node="3AoLED$1jI$" resolve="nameType" />
+            </node>
+            <node concept="Rm8GO" id="6P0709bc0sd" role="37vLTx">
+              <ref role="1Px2BO" node="3AoLED$1j2s" resolve="CoContextBenchmark.Config.NameType" />
+              <ref role="Rm8GQ" node="3AoLED$1jej" resolve="OVERRIDE" />
             </node>
           </node>
         </node>
-        <node concept="1X3_iC" id="2v5kr1GKqMF" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3clFbF" id="5b9dWUR4C7z" role="8Wnug">
-            <node concept="1rXfSq" id="5b9dWUR4C7$" role="3clFbG">
-              <ref role="37wK5l" node="6KlGp6tJAt9" resolve="measureCoContextOne" />
+        <node concept="3clFbF" id="6P0709bbZCt" role="3cqZAp">
+          <node concept="37vLTI" id="6P0709bbZCu" role="3clFbG">
+            <node concept="Rm8GO" id="6P0709bbZCv" role="37vLTx">
+              <ref role="1Px2BO" node="3AoLED$1doi" resolve="CoContextBenchmark.Config.BodyType" />
+              <ref role="Rm8GQ" node="3AoLED$1ilh" resolve="ACCUM_PREV" />
+            </node>
+            <node concept="10M0yZ" id="6P0709bbZCw" role="37vLTJ">
+              <ref role="1PxDUh" node="1FXfJt4mRZa" resolve="CoContextBenchmark.Config" />
+              <ref role="3cqZAo" node="3AoLED$1jz8" resolve="bodyType" />
             </node>
           </node>
         </node>
-        <node concept="1X3_iC" id="2v5kr1GKqMG" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3clFbH" id="6P0709bbZsn" role="8Wnug" />
+        <node concept="3clFbF" id="5b9dWUR4CgZ" role="3cqZAp">
+          <node concept="1rXfSq" id="5b9dWUR4Ch0" role="3clFbG">
+            <ref role="37wK5l" node="6KlGp6tJAt9" resolve="measureCoContextOne" />
+          </node>
         </node>
-        <node concept="1X3_iC" id="2v5kr1GKqMH" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3clFbF" id="6P0709bbZCp" role="8Wnug">
-            <node concept="37vLTI" id="6P0709bbZCq" role="3clFbG">
-              <node concept="10M0yZ" id="6P0709bbZCr" role="37vLTJ">
-                <ref role="1PxDUh" node="1FXfJt4mRZa" resolve="CoContextBenchmark.Config" />
-                <ref role="3cqZAo" node="3AoLED$1jI$" resolve="nameType" />
-              </node>
-              <node concept="Rm8GO" id="6P0709bc0sd" role="37vLTx">
-                <ref role="1Px2BO" node="3AoLED$1j2s" resolve="CoContextBenchmark.Config.NameType" />
-                <ref role="Rm8GQ" node="3AoLED$1jej" resolve="OVERRIDE" />
-              </node>
+        <node concept="3clFbF" id="6P0709bbZCP" role="3cqZAp">
+          <node concept="37vLTI" id="6P0709bbZCQ" role="3clFbG">
+            <node concept="Rm8GO" id="6P0709bbZCR" role="37vLTx">
+              <ref role="1Px2BO" node="3AoLED$1doi" resolve="CoContextBenchmark.Config.BodyType" />
+              <ref role="Rm8GQ" node="3AoLED$1ij9" resolve="ACCUM_SUPER" />
+            </node>
+            <node concept="10M0yZ" id="6P0709bbZCS" role="37vLTJ">
+              <ref role="1PxDUh" node="1FXfJt4mRZa" resolve="CoContextBenchmark.Config" />
+              <ref role="3cqZAo" node="3AoLED$1jz8" resolve="bodyType" />
             </node>
           </node>
         </node>
-        <node concept="1X3_iC" id="2v5kr1GKqMI" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3clFbF" id="6P0709bbZCt" role="8Wnug">
-            <node concept="37vLTI" id="6P0709bbZCu" role="3clFbG">
-              <node concept="Rm8GO" id="6P0709bbZCv" role="37vLTx">
-                <ref role="1Px2BO" node="3AoLED$1doi" resolve="CoContextBenchmark.Config.BodyType" />
-                <ref role="Rm8GQ" node="3AoLED$1ilh" resolve="ACCUM_PREV" />
-              </node>
-              <node concept="10M0yZ" id="6P0709bbZCw" role="37vLTJ">
-                <ref role="1PxDUh" node="1FXfJt4mRZa" resolve="CoContextBenchmark.Config" />
-                <ref role="3cqZAo" node="3AoLED$1jz8" resolve="bodyType" />
-              </node>
+        <node concept="3clFbF" id="5b9dWUR4CpX" role="3cqZAp">
+          <node concept="1rXfSq" id="5b9dWUR4CpY" role="3clFbG">
+            <ref role="37wK5l" node="6KlGp6tJAt9" resolve="measureCoContextOne" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="6P0709bbZCD" role="3cqZAp">
+          <node concept="37vLTI" id="6P0709bbZCE" role="3clFbG">
+            <node concept="Rm8GO" id="6P0709bbZCF" role="37vLTx">
+              <ref role="1Px2BO" node="3AoLED$1doi" resolve="CoContextBenchmark.Config.BodyType" />
+              <ref role="Rm8GQ" node="3AoLED$1io9" resolve="ACCUM_PREV_SUPER" />
+            </node>
+            <node concept="10M0yZ" id="6P0709bbZCG" role="37vLTJ">
+              <ref role="1PxDUh" node="1FXfJt4mRZa" resolve="CoContextBenchmark.Config" />
+              <ref role="3cqZAo" node="3AoLED$1jz8" resolve="bodyType" />
             </node>
           </node>
         </node>
-        <node concept="1X3_iC" id="2v5kr1GKqMJ" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3clFbF" id="5b9dWUR4CgZ" role="8Wnug">
-            <node concept="1rXfSq" id="5b9dWUR4Ch0" role="3clFbG">
-              <ref role="37wK5l" node="6KlGp6tJAt9" resolve="measureCoContextOne" />
+        <node concept="3clFbF" id="5b9dWUR4Cyt" role="3cqZAp">
+          <node concept="1rXfSq" id="5b9dWUR4Cyu" role="3clFbG">
+            <ref role="37wK5l" node="6KlGp6tJAt9" resolve="measureCoContextOne" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="6P0709bbSdp" role="3cqZAp" />
+        <node concept="3clFbF" id="6P0709bbZrJ" role="3cqZAp">
+          <node concept="37vLTI" id="6P0709bbZrK" role="3clFbG">
+            <node concept="10M0yZ" id="6P0709bbZrL" role="37vLTJ">
+              <ref role="1PxDUh" node="1FXfJt4mRZa" resolve="CoContextBenchmark.Config" />
+              <ref role="3cqZAo" node="3AoLED$1jI$" resolve="nameType" />
+            </node>
+            <node concept="Rm8GO" id="6P0709bc0eR" role="37vLTx">
+              <ref role="1Px2BO" node="3AoLED$1j2s" resolve="CoContextBenchmark.Config.NameType" />
+              <ref role="Rm8GQ" node="3AoLED$1jhc" resolve="MIR_OVER" />
             </node>
           </node>
         </node>
-        <node concept="1X3_iC" id="2v5kr1GKqMK" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3clFbF" id="6P0709bbZCP" role="8Wnug">
-            <node concept="37vLTI" id="6P0709bbZCQ" role="3clFbG">
-              <node concept="Rm8GO" id="6P0709bbZCR" role="37vLTx">
-                <ref role="1Px2BO" node="3AoLED$1doi" resolve="CoContextBenchmark.Config.BodyType" />
-                <ref role="Rm8GQ" node="3AoLED$1ij9" resolve="ACCUM_SUPER" />
-              </node>
-              <node concept="10M0yZ" id="6P0709bbZCS" role="37vLTJ">
-                <ref role="1PxDUh" node="1FXfJt4mRZa" resolve="CoContextBenchmark.Config" />
-                <ref role="3cqZAo" node="3AoLED$1jz8" resolve="bodyType" />
-              </node>
+        <node concept="3clFbF" id="6P0709bbZrN" role="3cqZAp">
+          <node concept="37vLTI" id="6P0709bbZrO" role="3clFbG">
+            <node concept="Rm8GO" id="6P0709bbZrP" role="37vLTx">
+              <ref role="1Px2BO" node="3AoLED$1doi" resolve="CoContextBenchmark.Config.BodyType" />
+              <ref role="Rm8GQ" node="3AoLED$1ilh" resolve="ACCUM_PREV" />
+            </node>
+            <node concept="10M0yZ" id="6P0709bbZrQ" role="37vLTJ">
+              <ref role="1PxDUh" node="1FXfJt4mRZa" resolve="CoContextBenchmark.Config" />
+              <ref role="3cqZAo" node="3AoLED$1jz8" resolve="bodyType" />
             </node>
           </node>
         </node>
-        <node concept="1X3_iC" id="2v5kr1GKqML" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3clFbF" id="5b9dWUR4CpX" role="8Wnug">
-            <node concept="1rXfSq" id="5b9dWUR4CpY" role="3clFbG">
-              <ref role="37wK5l" node="6KlGp6tJAt9" resolve="measureCoContextOne" />
+        <node concept="3clFbF" id="5b9dWUR4CEv" role="3cqZAp">
+          <node concept="1rXfSq" id="5b9dWUR4CEw" role="3clFbG">
+            <ref role="37wK5l" node="6KlGp6tJAt9" resolve="measureCoContextOne" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="6P0709bbZsb" role="3cqZAp">
+          <node concept="37vLTI" id="6P0709bbZsc" role="3clFbG">
+            <node concept="Rm8GO" id="6P0709bbZsd" role="37vLTx">
+              <ref role="1Px2BO" node="3AoLED$1doi" resolve="CoContextBenchmark.Config.BodyType" />
+              <ref role="Rm8GQ" node="3AoLED$1ij9" resolve="ACCUM_SUPER" />
+            </node>
+            <node concept="10M0yZ" id="6P0709bbZse" role="37vLTJ">
+              <ref role="1PxDUh" node="1FXfJt4mRZa" resolve="CoContextBenchmark.Config" />
+              <ref role="3cqZAo" node="3AoLED$1jz8" resolve="bodyType" />
             </node>
           </node>
         </node>
-        <node concept="1X3_iC" id="2v5kr1GKqMM" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3clFbF" id="6P0709bbZCD" role="8Wnug">
-            <node concept="37vLTI" id="6P0709bbZCE" role="3clFbG">
-              <node concept="Rm8GO" id="6P0709bbZCF" role="37vLTx">
-                <ref role="1Px2BO" node="3AoLED$1doi" resolve="CoContextBenchmark.Config.BodyType" />
-                <ref role="Rm8GQ" node="3AoLED$1io9" resolve="ACCUM_PREV_SUPER" />
-              </node>
-              <node concept="10M0yZ" id="6P0709bbZCG" role="37vLTJ">
-                <ref role="1PxDUh" node="1FXfJt4mRZa" resolve="CoContextBenchmark.Config" />
-                <ref role="3cqZAo" node="3AoLED$1jz8" resolve="bodyType" />
-              </node>
+        <node concept="3clFbF" id="5b9dWUR4CM3" role="3cqZAp">
+          <node concept="1rXfSq" id="5b9dWUR4CM4" role="3clFbG">
+            <ref role="37wK5l" node="6KlGp6tJAt9" resolve="measureCoContextOne" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="6P0709bbZrZ" role="3cqZAp">
+          <node concept="37vLTI" id="6P0709bbZs0" role="3clFbG">
+            <node concept="Rm8GO" id="6P0709bbZs1" role="37vLTx">
+              <ref role="1Px2BO" node="3AoLED$1doi" resolve="CoContextBenchmark.Config.BodyType" />
+              <ref role="Rm8GQ" node="3AoLED$1io9" resolve="ACCUM_PREV_SUPER" />
+            </node>
+            <node concept="10M0yZ" id="6P0709bbZs2" role="37vLTJ">
+              <ref role="1PxDUh" node="1FXfJt4mRZa" resolve="CoContextBenchmark.Config" />
+              <ref role="3cqZAo" node="3AoLED$1jz8" resolve="bodyType" />
             </node>
           </node>
         </node>
-        <node concept="1X3_iC" id="2v5kr1GKqMN" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3clFbF" id="5b9dWUR4Cyt" role="8Wnug">
-            <node concept="1rXfSq" id="5b9dWUR4Cyu" role="3clFbG">
-              <ref role="37wK5l" node="6KlGp6tJAt9" resolve="measureCoContextOne" />
+        <node concept="3clFbF" id="5b9dWUR4CTb" role="3cqZAp">
+          <node concept="1rXfSq" id="5b9dWUR4CTc" role="3clFbG">
+            <ref role="37wK5l" node="6KlGp6tJAt9" resolve="measureCoContextOne" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="6P0709bbZD1" role="3cqZAp" />
+        <node concept="3clFbF" id="6P0709bbZRG" role="3cqZAp">
+          <node concept="37vLTI" id="6P0709bbZRH" role="3clFbG">
+            <node concept="10M0yZ" id="6P0709bbZRI" role="37vLTJ">
+              <ref role="1PxDUh" node="1FXfJt4mRZa" resolve="CoContextBenchmark.Config" />
+              <ref role="3cqZAo" node="3AoLED$1jI$" resolve="nameType" />
+            </node>
+            <node concept="Rm8GO" id="6P0709bc0DA" role="37vLTx">
+              <ref role="1Px2BO" node="3AoLED$1j2s" resolve="CoContextBenchmark.Config.NameType" />
+              <ref role="Rm8GQ" node="3AoLED$1j9c" resolve="UNIQUE" />
             </node>
           </node>
         </node>
-        <node concept="1X3_iC" id="2v5kr1GKqMO" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3clFbH" id="6P0709bbSdp" role="8Wnug" />
-        </node>
-        <node concept="1X3_iC" id="2v5kr1GKqMP" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3clFbF" id="6P0709bbZrJ" role="8Wnug">
-            <node concept="37vLTI" id="6P0709bbZrK" role="3clFbG">
-              <node concept="10M0yZ" id="6P0709bbZrL" role="37vLTJ">
-                <ref role="1PxDUh" node="1FXfJt4mRZa" resolve="CoContextBenchmark.Config" />
-                <ref role="3cqZAo" node="3AoLED$1jI$" resolve="nameType" />
-              </node>
-              <node concept="Rm8GO" id="6P0709bc0eR" role="37vLTx">
-                <ref role="1Px2BO" node="3AoLED$1j2s" resolve="CoContextBenchmark.Config.NameType" />
-                <ref role="Rm8GQ" node="3AoLED$1jhc" resolve="MIR_OVER" />
-              </node>
+        <node concept="3clFbF" id="6P0709bbZRK" role="3cqZAp">
+          <node concept="37vLTI" id="6P0709bbZRL" role="3clFbG">
+            <node concept="Rm8GO" id="6P0709bbZRM" role="37vLTx">
+              <ref role="1Px2BO" node="3AoLED$1doi" resolve="CoContextBenchmark.Config.BodyType" />
+              <ref role="Rm8GQ" node="3AoLED$1ilh" resolve="ACCUM_PREV" />
+            </node>
+            <node concept="10M0yZ" id="6P0709bbZRN" role="37vLTJ">
+              <ref role="1PxDUh" node="1FXfJt4mRZa" resolve="CoContextBenchmark.Config" />
+              <ref role="3cqZAo" node="3AoLED$1jz8" resolve="bodyType" />
             </node>
           </node>
         </node>
-        <node concept="1X3_iC" id="2v5kr1GKqMQ" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3clFbF" id="6P0709bbZrN" role="8Wnug">
-            <node concept="37vLTI" id="6P0709bbZrO" role="3clFbG">
-              <node concept="Rm8GO" id="6P0709bbZrP" role="37vLTx">
-                <ref role="1Px2BO" node="3AoLED$1doi" resolve="CoContextBenchmark.Config.BodyType" />
-                <ref role="Rm8GQ" node="3AoLED$1ilh" resolve="ACCUM_PREV" />
-              </node>
-              <node concept="10M0yZ" id="6P0709bbZrQ" role="37vLTJ">
-                <ref role="1PxDUh" node="1FXfJt4mRZa" resolve="CoContextBenchmark.Config" />
-                <ref role="3cqZAo" node="3AoLED$1jz8" resolve="bodyType" />
-              </node>
+        <node concept="3clFbF" id="5b9dWUR4CZN" role="3cqZAp">
+          <node concept="1rXfSq" id="5b9dWUR4CZO" role="3clFbG">
+            <ref role="37wK5l" node="6KlGp6tJAt9" resolve="measureCoContextOne" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="6P0709bbZS8" role="3cqZAp">
+          <node concept="37vLTI" id="6P0709bbZS9" role="3clFbG">
+            <node concept="Rm8GO" id="6P0709bbZSa" role="37vLTx">
+              <ref role="1Px2BO" node="3AoLED$1doi" resolve="CoContextBenchmark.Config.BodyType" />
+              <ref role="Rm8GQ" node="3AoLED$1ij9" resolve="ACCUM_SUPER" />
+            </node>
+            <node concept="10M0yZ" id="6P0709bbZSb" role="37vLTJ">
+              <ref role="1PxDUh" node="1FXfJt4mRZa" resolve="CoContextBenchmark.Config" />
+              <ref role="3cqZAo" node="3AoLED$1jz8" resolve="bodyType" />
             </node>
           </node>
         </node>
-        <node concept="1X3_iC" id="2v5kr1GKqMR" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3clFbF" id="5b9dWUR4CEv" role="8Wnug">
-            <node concept="1rXfSq" id="5b9dWUR4CEw" role="3clFbG">
-              <ref role="37wK5l" node="6KlGp6tJAt9" resolve="measureCoContextOne" />
+        <node concept="3clFbF" id="5b9dWUR4D5X" role="3cqZAp">
+          <node concept="1rXfSq" id="5b9dWUR4D5Y" role="3clFbG">
+            <ref role="37wK5l" node="6KlGp6tJAt9" resolve="measureCoContextOne" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="6P0709bbZRW" role="3cqZAp">
+          <node concept="37vLTI" id="6P0709bbZRX" role="3clFbG">
+            <node concept="Rm8GO" id="6P0709bbZRY" role="37vLTx">
+              <ref role="1Px2BO" node="3AoLED$1doi" resolve="CoContextBenchmark.Config.BodyType" />
+              <ref role="Rm8GQ" node="3AoLED$1io9" resolve="ACCUM_PREV_SUPER" />
+            </node>
+            <node concept="10M0yZ" id="6P0709bbZRZ" role="37vLTJ">
+              <ref role="1PxDUh" node="1FXfJt4mRZa" resolve="CoContextBenchmark.Config" />
+              <ref role="3cqZAo" node="3AoLED$1jz8" resolve="bodyType" />
             </node>
           </node>
         </node>
-        <node concept="1X3_iC" id="2v5kr1GKqMS" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3clFbF" id="6P0709bbZsb" role="8Wnug">
-            <node concept="37vLTI" id="6P0709bbZsc" role="3clFbG">
-              <node concept="Rm8GO" id="6P0709bbZsd" role="37vLTx">
-                <ref role="1Px2BO" node="3AoLED$1doi" resolve="CoContextBenchmark.Config.BodyType" />
-                <ref role="Rm8GQ" node="3AoLED$1ij9" resolve="ACCUM_SUPER" />
-              </node>
-              <node concept="10M0yZ" id="6P0709bbZse" role="37vLTJ">
-                <ref role="1PxDUh" node="1FXfJt4mRZa" resolve="CoContextBenchmark.Config" />
-                <ref role="3cqZAo" node="3AoLED$1jz8" resolve="bodyType" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1X3_iC" id="2v5kr1GKqMT" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3clFbF" id="5b9dWUR4CM3" role="8Wnug">
-            <node concept="1rXfSq" id="5b9dWUR4CM4" role="3clFbG">
-              <ref role="37wK5l" node="6KlGp6tJAt9" resolve="measureCoContextOne" />
-            </node>
-          </node>
-        </node>
-        <node concept="1X3_iC" id="2v5kr1GKqMU" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3clFbF" id="6P0709bbZrZ" role="8Wnug">
-            <node concept="37vLTI" id="6P0709bbZs0" role="3clFbG">
-              <node concept="Rm8GO" id="6P0709bbZs1" role="37vLTx">
-                <ref role="1Px2BO" node="3AoLED$1doi" resolve="CoContextBenchmark.Config.BodyType" />
-                <ref role="Rm8GQ" node="3AoLED$1io9" resolve="ACCUM_PREV_SUPER" />
-              </node>
-              <node concept="10M0yZ" id="6P0709bbZs2" role="37vLTJ">
-                <ref role="1PxDUh" node="1FXfJt4mRZa" resolve="CoContextBenchmark.Config" />
-                <ref role="3cqZAo" node="3AoLED$1jz8" resolve="bodyType" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1X3_iC" id="2v5kr1GKqMV" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3clFbF" id="5b9dWUR4CTb" role="8Wnug">
-            <node concept="1rXfSq" id="5b9dWUR4CTc" role="3clFbG">
-              <ref role="37wK5l" node="6KlGp6tJAt9" resolve="measureCoContextOne" />
-            </node>
-          </node>
-        </node>
-        <node concept="1X3_iC" id="2v5kr1GKqMW" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3clFbH" id="6P0709bbZD1" role="8Wnug" />
-        </node>
-        <node concept="1X3_iC" id="2v5kr1GKqMX" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3clFbF" id="6P0709bbZRG" role="8Wnug">
-            <node concept="37vLTI" id="6P0709bbZRH" role="3clFbG">
-              <node concept="10M0yZ" id="6P0709bbZRI" role="37vLTJ">
-                <ref role="1PxDUh" node="1FXfJt4mRZa" resolve="CoContextBenchmark.Config" />
-                <ref role="3cqZAo" node="3AoLED$1jI$" resolve="nameType" />
-              </node>
-              <node concept="Rm8GO" id="6P0709bc0DA" role="37vLTx">
-                <ref role="1Px2BO" node="3AoLED$1j2s" resolve="CoContextBenchmark.Config.NameType" />
-                <ref role="Rm8GQ" node="3AoLED$1j9c" resolve="UNIQUE" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1X3_iC" id="2v5kr1GKqMY" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3clFbF" id="6P0709bbZRK" role="8Wnug">
-            <node concept="37vLTI" id="6P0709bbZRL" role="3clFbG">
-              <node concept="Rm8GO" id="6P0709bbZRM" role="37vLTx">
-                <ref role="1Px2BO" node="3AoLED$1doi" resolve="CoContextBenchmark.Config.BodyType" />
-                <ref role="Rm8GQ" node="3AoLED$1ilh" resolve="ACCUM_PREV" />
-              </node>
-              <node concept="10M0yZ" id="6P0709bbZRN" role="37vLTJ">
-                <ref role="1PxDUh" node="1FXfJt4mRZa" resolve="CoContextBenchmark.Config" />
-                <ref role="3cqZAo" node="3AoLED$1jz8" resolve="bodyType" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1X3_iC" id="2v5kr1GKqMZ" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3clFbF" id="5b9dWUR4CZN" role="8Wnug">
-            <node concept="1rXfSq" id="5b9dWUR4CZO" role="3clFbG">
-              <ref role="37wK5l" node="6KlGp6tJAt9" resolve="measureCoContextOne" />
-            </node>
-          </node>
-        </node>
-        <node concept="1X3_iC" id="2v5kr1GKqN0" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3clFbF" id="6P0709bbZS8" role="8Wnug">
-            <node concept="37vLTI" id="6P0709bbZS9" role="3clFbG">
-              <node concept="Rm8GO" id="6P0709bbZSa" role="37vLTx">
-                <ref role="1Px2BO" node="3AoLED$1doi" resolve="CoContextBenchmark.Config.BodyType" />
-                <ref role="Rm8GQ" node="3AoLED$1ij9" resolve="ACCUM_SUPER" />
-              </node>
-              <node concept="10M0yZ" id="6P0709bbZSb" role="37vLTJ">
-                <ref role="1PxDUh" node="1FXfJt4mRZa" resolve="CoContextBenchmark.Config" />
-                <ref role="3cqZAo" node="3AoLED$1jz8" resolve="bodyType" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1X3_iC" id="2v5kr1GKqN1" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3clFbF" id="5b9dWUR4D5X" role="8Wnug">
-            <node concept="1rXfSq" id="5b9dWUR4D5Y" role="3clFbG">
-              <ref role="37wK5l" node="6KlGp6tJAt9" resolve="measureCoContextOne" />
-            </node>
-          </node>
-        </node>
-        <node concept="1X3_iC" id="2v5kr1GKqN2" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3clFbF" id="6P0709bbZRW" role="8Wnug">
-            <node concept="37vLTI" id="6P0709bbZRX" role="3clFbG">
-              <node concept="Rm8GO" id="6P0709bbZRY" role="37vLTx">
-                <ref role="1Px2BO" node="3AoLED$1doi" resolve="CoContextBenchmark.Config.BodyType" />
-                <ref role="Rm8GQ" node="3AoLED$1io9" resolve="ACCUM_PREV_SUPER" />
-              </node>
-              <node concept="10M0yZ" id="6P0709bbZRZ" role="37vLTJ">
-                <ref role="1PxDUh" node="1FXfJt4mRZa" resolve="CoContextBenchmark.Config" />
-                <ref role="3cqZAo" node="3AoLED$1jz8" resolve="bodyType" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1X3_iC" id="2v5kr1GKqN3" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3clFbF" id="5b9dWUR4DbF" role="8Wnug">
-            <node concept="1rXfSq" id="5b9dWUR4DbG" role="3clFbG">
-              <ref role="37wK5l" node="6KlGp6tJAt9" resolve="measureCoContextOne" />
-            </node>
+        <node concept="3clFbF" id="5b9dWUR4DbF" role="3cqZAp">
+          <node concept="1rXfSq" id="5b9dWUR4DbG" role="3clFbG">
+            <ref role="37wK5l" node="6KlGp6tJAt9" resolve="measureCoContextOne" />
           </node>
         </node>
       </node>
@@ -1128,23 +1011,13 @@
             <ref role="37wK5l" to="pzen:5w4aNPZwAvq" resolve="disposeAllEngines" />
           </node>
         </node>
+        <node concept="3clFbH" id="1aEThOCdZn3" role="3cqZAp" />
         <node concept="3clFbF" id="3kGQlmeDjl" role="3cqZAp">
           <node concept="1rXfSq" id="3kGQlmeDjj" role="3clFbG">
             <ref role="37wK5l" node="6Z7sUKKqWoi" resolve="clearMemory" />
           </node>
         </node>
         <node concept="3clFbH" id="6P0709b8jJB" role="3cqZAp" />
-        <node concept="3cpWs8" id="6Z7sUKKpOAr" role="3cqZAp">
-          <node concept="3cpWsn" id="6Z7sUKKpOAu" role="3cpWs9">
-            <property role="TrG5h" value="t" />
-            <node concept="3cpWsb" id="6Z7sUKKpOAp" role="1tU5fm" />
-            <node concept="2YIFZM" id="6Z7sUKKpOEY" role="33vP2m">
-              <ref role="37wK5l" to="wyt6:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
-              <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="6P0709b8jPm" role="3cqZAp" />
         <node concept="3cpWs8" id="7FoyYsH7Jew" role="3cqZAp">
           <node concept="3cpWsn" id="7FoyYsH7Jex" role="3cpWs9">
             <property role="TrG5h" value="b" />
@@ -1212,61 +1085,65 @@
           </node>
         </node>
         <node concept="3clFbH" id="6P0709b91EY" role="3cqZAp" />
+        <node concept="3cpWs8" id="6Z7sUKKpOAr" role="3cqZAp">
+          <node concept="3cpWsn" id="6Z7sUKKpOAu" role="3cpWs9">
+            <property role="TrG5h" value="start" />
+            <property role="3TUv4t" value="true" />
+            <node concept="3cpWsb" id="6Z7sUKKpOAp" role="1tU5fm" />
+            <node concept="2YIFZM" id="6Z7sUKKpOEY" role="33vP2m">
+              <ref role="37wK5l" to="wyt6:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
+              <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="6P0709b6jAT" role="3cqZAp">
           <node concept="3cpWsn" id="6P0709b6jAW" role="3cpWs9">
-            <property role="TrG5h" value="memory" />
+            <property role="TrG5h" value="beforeMemory" />
+            <property role="3TUv4t" value="true" />
             <node concept="3cpWsb" id="6P0709b6jAR" role="1tU5fm" />
             <node concept="1rXfSq" id="6P0709b6kbc" role="33vP2m">
               <ref role="37wK5l" node="1z2_LfBRNWC" resolve="getUsedMemory" />
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="6P0709b90i7" role="3cqZAp" />
-        <node concept="3cpWs8" id="7Nux5FlG7Vm" role="3cqZAp">
-          <node concept="3cpWsn" id="7Nux5FlG7Vn" role="3cpWs9">
-            <property role="TrG5h" value="matcher" />
-            <node concept="3uibUv" id="7Nux5FlG7Vo" role="1tU5fm">
-              <ref role="3uigEE" to="h57a:~ViatraQueryMatcher" resolve="ViatraQueryMatcher" />
-              <node concept="3uibUv" id="7Nux5FlG7Vp" role="11_B2D">
-                <ref role="3uigEE" to="h57a:~IPatternMatch" resolve="IPatternMatch" />
-              </node>
-            </node>
-            <node concept="10Nm6u" id="1FXfJt49hU4" role="33vP2m" />
-          </node>
-        </node>
-        <node concept="1QHqEK" id="7Nux5FlG7Vj" role="3cqZAp">
-          <node concept="1QHqEC" id="7Nux5FlG7Vk" role="1QHqEI">
-            <node concept="3clFbS" id="7Nux5FlG7Vl" role="1bW5cS">
-              <node concept="3clFbF" id="1FXfJt4980n" role="3cqZAp">
-                <node concept="37vLTI" id="1FXfJt498Wo" role="3clFbG">
-                  <node concept="37vLTw" id="1FXfJt4980l" role="37vLTJ">
-                    <ref role="3cqZAo" node="7Nux5FlG7Vn" resolve="matcher" />
+        <node concept="1QHqEO" id="1aEThOCezww" role="3cqZAp">
+          <node concept="1QHqEC" id="1aEThOCezwy" role="1QHqEI">
+            <node concept="3clFbS" id="1aEThOCezw$" role="1bW5cS">
+              <node concept="3clFbF" id="1aEThOCdNF7" role="3cqZAp">
+                <node concept="2YIFZM" id="1aEThOCdOem" role="3clFbG">
+                  <ref role="37wK5l" to="hcim:1aEThOCc2tp" resolve="checkModule" />
+                  <ref role="1Pybhc" to="hcim:1IhOgo0XO9y" resolve="AnalysisResultAccess" />
+                  <node concept="2OqwBi" id="1aEThOCdOFm" role="37wK5m">
+                    <node concept="Xjq3P" id="1aEThOCdO__" role="2Oq$k0" />
+                    <node concept="2OwXpG" id="1aEThOCdOMs" role="2OqNvi">
+                      <ref role="2Oxat5" node="7Nux5FlStGM" resolve="root" />
+                    </node>
                   </node>
-                  <node concept="2YIFZM" id="7Nux5FlG7Vq" role="37vLTx">
-                    <ref role="1Pybhc" to="xej5:6Z7sUKKocJJ" resolve="MatcherLoader" />
-                    <ref role="37wK5l" to="xej5:6Z7sUKKoxRq" resolve="load" />
-                    <node concept="37vLTw" id="7Nux5FlG7Vr" role="37wK5m">
-                      <ref role="3cqZAo" node="7Nux5FlHcdq" resolve="code" />
+                  <node concept="2OqwBi" id="1aEThOCdVHj" role="37wK5m">
+                    <node concept="Xjq3P" id="1aEThOCdVAd" role="2Oq$k0" />
+                    <node concept="2OwXpG" id="1aEThOCdVPF" role="2OqNvi">
+                      <ref role="2Oxat5" node="7Nux5FlHcdq" resolve="code" />
                     </node>
                   </node>
                 </node>
               </node>
             </node>
           </node>
-          <node concept="2OqwBi" id="7Nux5FlG7Vw" role="ukAjM">
-            <node concept="Xjq3P" id="7Nux5FlG7Vx" role="2Oq$k0" />
-            <node concept="2OwXpG" id="7Nux5FlG7Vy" role="2OqNvi">
+          <node concept="2OqwBi" id="1aEThOCe$wa" role="ukAjM">
+            <node concept="Xjq3P" id="1aEThOCe$31" role="2Oq$k0" />
+            <node concept="2OwXpG" id="1aEThOCe_6D" role="2OqNvi">
               <ref role="2Oxat5" node="4q_wr$hbHcJ" resolve="repository" />
             </node>
           </node>
         </node>
         <node concept="3cpWs8" id="3kGQlm7ALv" role="3cqZAp">
           <node concept="3cpWsn" id="3kGQlm7ALy" role="3cpWs9">
-            <property role="TrG5h" value="fullAnalysisDuration" />
+            <property role="TrG5h" value="end" />
+            <property role="3TUv4t" value="true" />
             <node concept="3cpWsb" id="3kGQlm7ALt" role="1tU5fm" />
             <node concept="3cpWsd" id="7Nux5FlGEZy" role="33vP2m">
               <node concept="37vLTw" id="7Nux5FlGEZz" role="3uHU7w">
-                <ref role="3cqZAo" node="6Z7sUKKpOAu" resolve="t" />
+                <ref role="3cqZAo" node="6Z7sUKKpOAu" resolve="start" />
               </node>
               <node concept="2YIFZM" id="7Nux5FlGEZ$" role="3uHU7B">
                 <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
@@ -1276,10 +1153,14 @@
           </node>
         </node>
         <node concept="3clFbH" id="3kGQllZCFl" role="3cqZAp" />
-        <node concept="3clFbF" id="2v5kr1GKpw$" role="3cqZAp">
-          <node concept="2YIFZM" id="2v5kr1GKqdb" role="3clFbG">
-            <ref role="37wK5l" to="pzen:7N0GnG$EaoY" resolve="printDebugInfo" />
-            <ref role="1Pybhc" to="pzen:7N0GnG$EadP" resolve="ReteDebugger" />
+        <node concept="1X3_iC" id="1aEThOCqcCh" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3clFbF" id="2v5kr1GKpw$" role="8Wnug">
+            <node concept="2YIFZM" id="2v5kr1GKqdb" role="3clFbG">
+              <ref role="37wK5l" to="pzen:7N0GnG$EaoY" resolve="printDebugInfo" />
+              <ref role="1Pybhc" to="pzen:7N0GnG$EadP" resolve="ReteDebugger" />
+            </node>
           </node>
         </node>
         <node concept="3clFbH" id="2v5kr1GKoFM" role="3cqZAp" />
@@ -1293,7 +1174,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="6P0709b47Od" role="3cqZAp" />
         <node concept="3cpWs8" id="3kGQlm7hZV" role="3cqZAp">
           <node concept="3cpWsn" id="3kGQlm7hZY" role="3cpWs9">
             <property role="TrG5h" value="timeSum" />
@@ -1303,7 +1183,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="6P0709b6kdb" role="3cqZAp" />
         <node concept="1Dw8fO" id="3kGQllZJej" role="3cqZAp">
           <node concept="3clFbS" id="3kGQllZJel" role="2LFqv$">
             <node concept="3clFbF" id="6pMxEbXUmMm" role="3cqZAp">
@@ -1407,6 +1286,17 @@
           </node>
         </node>
         <node concept="3clFbH" id="6P0709b5L3o" role="3cqZAp" />
+        <node concept="3cpWs8" id="1aEThOCe4fz" role="3cqZAp">
+          <node concept="3cpWsn" id="1aEThOCe4f$" role="3cpWs9">
+            <property role="TrG5h" value="afterMemory" />
+            <property role="3TUv4t" value="true" />
+            <node concept="3cpWsb" id="1aEThOCe4fy" role="1tU5fm" />
+            <node concept="1rXfSq" id="1aEThOCe4f_" role="33vP2m">
+              <ref role="37wK5l" node="1z2_LfBRNWC" resolve="getUsedMemory" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1aEThOCe6wS" role="3cqZAp" />
         <node concept="3clFbF" id="6P0709b6lp0" role="3cqZAp">
           <node concept="2OqwBi" id="6P0709b6loX" role="3clFbG">
             <node concept="10M0yZ" id="6P0709b6loY" role="2Oq$k0">
@@ -1427,10 +1317,10 @@
                     <node concept="1eOMI4" id="6P0709b6njp" role="3uHU7B">
                       <node concept="3cpWsd" id="6P0709b6p3b" role="1eOMHV">
                         <node concept="37vLTw" id="6P0709b6pgX" role="3uHU7w">
-                          <ref role="3cqZAo" node="6P0709b6jAW" resolve="memory" />
+                          <ref role="3cqZAo" node="6P0709b6jAW" resolve="beforeMemory" />
                         </node>
-                        <node concept="1rXfSq" id="6P0709b6ny1" role="3uHU7B">
-                          <ref role="37wK5l" node="1z2_LfBRNWC" resolve="getUsedMemory" />
+                        <node concept="37vLTw" id="1aEThOCe4fA" role="3uHU7B">
+                          <ref role="3cqZAo" node="1aEThOCe4f$" resolve="afterMemory" />
                         </node>
                       </node>
                     </node>
@@ -1487,7 +1377,7 @@
                   <property role="Xl_RC" value="Full analysis time: " />
                 </node>
                 <node concept="37vLTw" id="3kGQlm7Cp0" role="3uHU7w">
-                  <ref role="3cqZAo" node="3kGQlm7ALy" resolve="fullAnalysisDuration" />
+                  <ref role="3cqZAo" node="3kGQlm7ALy" resolve="end" />
                 </node>
               </node>
             </node>
