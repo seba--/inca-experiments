@@ -205,6 +205,7 @@
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
     </language>
     <language id="b802a056-92a2-4fbc-902e-f8e5004c331f" name="org.inca.core">
+      <concept id="2654063410512847909" name="org.inca.core.structure.DisableCompilerChecks" flags="ng" index="ebWiT" />
       <concept id="996292992024566533" name="org.inca.core.structure.BoolValue" flags="ng" index="2k1_0R">
         <property id="996292992024566534" name="value" index="2k1_0O" />
       </concept>
@@ -273,6 +274,9 @@
       <concept id="1143226024141" name="jetbrains.mps.lang.smodel.structure.SModelType" flags="in" index="H_c77" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -3846,6 +3850,7 @@
     <node concept="C6Zt3" id="325klYw3t5i" role="xaH5_">
       <ref role="ws7DW" node="325klYw2$K9" resolve="NumberLattice" />
     </node>
+    <node concept="ebWiT" id="1aEThOCBkGk" role="lGtFl" />
   </node>
   <node concept="3TKv5i" id="4sJZnx0h8B">
     <property role="TrG5h" value="ClassChecker" />
