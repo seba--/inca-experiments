@@ -119,6 +119,9 @@
         <child id="3248327366720870928" name="name" index="2UxVEn" />
         <child id="3248327366719973606" name="classes" index="2U$$xx" />
       </concept>
+      <concept id="3248327366719634631" name="FeatherweightJava.structure.FieldAcc" flags="ng" index="2U_9L0">
+        <child id="3248327366719634632" name="receiver" index="2U_9Lf" />
+      </concept>
       <concept id="3248327366719634627" name="FeatherweightJava.structure.Var" flags="ng" index="2U_9L4" />
       <concept id="3248327366719634638" name="FeatherweightJava.structure.MethodCall" flags="ng" index="2U_9L9">
         <child id="3248327366719634639" name="receiver" index="2U_9L8" />
@@ -126,6 +129,7 @@
       </concept>
       <concept id="3248327366719634650" name="FeatherweightJava.structure.ConstructorCall" flags="ng" index="2U_9Lt">
         <child id="6006794503221512837" name="type" index="C5u53" />
+        <child id="3248327366719634654" name="args" index="2U_9Lp" />
       </concept>
       <concept id="3248327366719811731" name="FeatherweightJava.structure.MethodDec" flags="ng" index="2U_X0k">
         <child id="3248327366719811735" name="body" index="2U_X0g" />
@@ -191,6 +195,134 @@
     </node>
   </node>
   <node concept="2U$$xy" id="1MjgJbauDu8">
+    <node concept="2U_X0E" id="6P0709b99YE" role="2U$$xx">
+      <node concept="2U_X3M" id="6P0709b99YF" role="Codhh">
+        <property role="TrG5h" value="Object" />
+      </node>
+    </node>
+    <node concept="2U_X0E" id="6P0709b99YG" role="2U$$xx">
+      <node concept="2U_X3M" id="6P0709b99YH" role="Codhh">
+        <property role="TrG5h" value="Nat" />
+      </node>
+      <node concept="2U_X3M" id="6P0709b99YI" role="2U_X0Q">
+        <property role="TrG5h" value="Object" />
+      </node>
+      <node concept="2U_X0k" id="6P0709b99YJ" role="2U_X0W">
+        <property role="TrG5h" value="pred" />
+        <node concept="2U_X3M" id="6P0709b99YK" role="2U_X0t">
+          <property role="TrG5h" value="Nat" />
+        </node>
+        <node concept="2U_9Lt" id="6P0709b99YL" role="2U_X0g">
+          <node concept="2U_X3M" id="6P0709b99YM" role="C5u53">
+            <property role="TrG5h" value="Zero" />
+          </node>
+        </node>
+      </node>
+      <node concept="2U_X0k" id="6P0709b99YN" role="2U_X0W">
+        <property role="TrG5h" value="plus" />
+        <node concept="2U_X3M" id="6P0709b99YO" role="2U_X0t">
+          <property role="TrG5h" value="Nat" />
+        </node>
+        <node concept="2U_X0x" id="6P0709b99YP" role="2U_X0o">
+          <property role="TrG5h" value="that" />
+          <node concept="2U_X3M" id="6P0709b99YQ" role="2U_X0H">
+            <property role="TrG5h" value="Nat" />
+          </node>
+        </node>
+        <node concept="2U_9Lt" id="6P0709b99YR" role="2U_X0g">
+          <node concept="2U_X3M" id="6P0709b99YS" role="C5u53">
+            <property role="TrG5h" value="Zero" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2U_X0E" id="6P0709b99YT" role="2U$$xx">
+      <node concept="2U_X3M" id="6P0709b99YU" role="Codhh">
+        <property role="TrG5h" value="Zero" />
+      </node>
+      <node concept="2U_X3M" id="6P0709b99YV" role="2U_X0Q">
+        <property role="TrG5h" value="Nat" />
+      </node>
+      <node concept="2U_X0k" id="6P0709b99YW" role="2U_X0W">
+        <property role="TrG5h" value="pred" />
+        <node concept="2U_X3M" id="6P0709b99YX" role="2U_X0t">
+          <property role="TrG5h" value="Nat" />
+        </node>
+        <node concept="2U_9L4" id="6P0709b99YY" role="2U_X0g">
+          <property role="TrG5h" value="this" />
+        </node>
+      </node>
+      <node concept="2U_X0k" id="6P0709b99YZ" role="2U_X0W">
+        <property role="TrG5h" value="plus" />
+        <node concept="2U_X3M" id="6P0709b99Z0" role="2U_X0t">
+          <property role="TrG5h" value="Nat" />
+        </node>
+        <node concept="2U_X0x" id="6P0709b99Z1" role="2U_X0o">
+          <property role="TrG5h" value="that" />
+          <node concept="2U_X3M" id="6P0709b99Z2" role="2U_X0H">
+            <property role="TrG5h" value="Nat" />
+          </node>
+        </node>
+        <node concept="2U_9L4" id="6P0709b99Z3" role="2U_X0g">
+          <property role="TrG5h" value="that" />
+        </node>
+      </node>
+    </node>
+    <node concept="2U_X0E" id="6P0709b99Z4" role="2U$$xx">
+      <node concept="2U_X3M" id="6P0709b99Z5" role="Codhh">
+        <property role="TrG5h" value="Succ" />
+      </node>
+      <node concept="2U_X3M" id="6P0709b99Z6" role="2U_X0Q">
+        <property role="TrG5h" value="Nat" />
+      </node>
+      <node concept="2U_X0x" id="6P0709b99Z7" role="2U$kpl">
+        <property role="TrG5h" value="pred" />
+        <node concept="2U_X3M" id="6P0709b99Z8" role="2U_X0H">
+          <property role="TrG5h" value="Nat" />
+        </node>
+      </node>
+      <node concept="2U_X0k" id="6P0709b99Z9" role="2U_X0W">
+        <property role="TrG5h" value="pred" />
+        <node concept="2U_X3M" id="6P0709b99Za" role="2U_X0t">
+          <property role="TrG5h" value="Nat" />
+        </node>
+        <node concept="2U_9L0" id="6P0709b99Zb" role="2U_X0g">
+          <property role="TrG5h" value="pred" />
+          <node concept="2U_9L4" id="6P0709b99Zc" role="2U_9Lf">
+            <property role="TrG5h" value="this" />
+          </node>
+        </node>
+      </node>
+      <node concept="2U_X0k" id="6P0709b99Zd" role="2U_X0W">
+        <property role="TrG5h" value="plus" />
+        <node concept="2U_X3M" id="6P0709b99Ze" role="2U_X0t">
+          <property role="TrG5h" value="Nat" />
+        </node>
+        <node concept="2U_X0x" id="6P0709b99Zf" role="2U_X0o">
+          <property role="TrG5h" value="that" />
+          <node concept="2U_X3M" id="6P0709b99Zg" role="2U_X0H">
+            <property role="TrG5h" value="Nat" />
+          </node>
+        </node>
+        <node concept="2U_9Lt" id="6P0709b99Zh" role="2U_X0g">
+          <node concept="2U_X3M" id="6P0709b99Zi" role="C5u53">
+            <property role="TrG5h" value="Succ" />
+          </node>
+          <node concept="2U_9L9" id="6P0709b99Zj" role="2U_9Lp">
+            <property role="TrG5h" value="plus" />
+            <node concept="2U_9L0" id="6P0709b99Zk" role="2U_9L8">
+              <property role="TrG5h" value="pred" />
+              <node concept="2U_9L4" id="6P0709b99Zl" role="2U_9Lf">
+                <property role="TrG5h" value="this" />
+              </node>
+            </node>
+            <node concept="2U_9L4" id="6P0709b99Zm" role="2U_9Li">
+              <property role="TrG5h" value="that" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2UxV_V" id="1MjgJbauDuQ" role="2UxVEn">
       <property role="TrG5h" value="CoContextBenchmark" />
     </node>
