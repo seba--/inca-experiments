@@ -6240,6 +6240,12 @@
                 <ref role="3cqZAo" node="68R73wu0NXd" resolve="evaluator" />
               </node>
               <node concept="2ymhvr" id="68R73wu0OOO" role="2OqNvi">
+                <node concept="2ynNkJ" id="68R73wu9W1K" role="2ynQY$">
+                  <ref role="2yn2eV" node="4gAAIqsSuAy" resolve="c" />
+                  <node concept="37vLTw" id="68R73wu9W5X" role="2ynMYd">
+                    <ref role="3cqZAo" node="68R73wu9VTE" resolve="clazz" />
+                  </node>
+                </node>
                 <node concept="2ynNkJ" id="68R73wu0OPH" role="2ynQY$">
                   <ref role="2yn2eV" node="4gAAIqsSuA$" resolve="call" />
                   <node concept="37vLTw" id="68R73wu0OQr" role="2ynMYd">
@@ -6279,6 +6285,13 @@
         </node>
       </node>
       <node concept="3Tm1VV" id="68R73wu0NRI" role="1B3o_S" />
+      <node concept="37vLTG" id="68R73wu9VTE" role="3clF46">
+        <property role="3TUv4t" value="true" />
+        <property role="TrG5h" value="clazz" />
+        <node concept="3Tqbb2" id="68R73wu9VTF" role="1tU5fm">
+          <ref role="ehGHo" to="aq49:2Oko8unwV2H" resolve="ClassDec" />
+        </node>
+      </node>
       <node concept="37vLTG" id="68R73wu0NV3" role="3clF46">
         <property role="3TUv4t" value="true" />
         <property role="TrG5h" value="call" />
