@@ -5,6 +5,7 @@
       <modulePath path="$PROJECT_DIR$/languages/FeatherweightJava/FeatherweightJava.mpl" folder="core" />
       <modulePath path="$PROJECT_DIR$/languages/PCF/PCF.mpl" folder="core" />
       <modulePath path="$PROJECT_DIR$/solutions/Experiment1/Experiment1.msd" folder="analysis" />
+      <modulePath path="$PROJECT_DIR$/solutions/FJAnalysis.measurement/FJAnalysis.measurement.msd" folder="analysis" />
       <modulePath path="$PROJECT_DIR$/solutions/FJAnalysis/FJAnalysis.msd" folder="analysis" />
       <modulePath path="$PROJECT_DIR$/solutions/FeatherweightJavaImporter/FeatherweightJavaImporter.msd" folder="core" />
       <modulePath path="$PROJECT_DIR$/solutions/FeatherweightJavaTrees/FeatherweightJavaTrees.msd" folder="benchmark" />

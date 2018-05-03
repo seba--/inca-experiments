@@ -55,6 +55,7 @@
       <concept id="5813477617635831949" name="org.inca.fun.structure.Undef" flags="ng" index="34sUYq">
         <child id="5813477617635832092" name="expression" index="34sUSb" />
       </concept>
+      <concept id="690996766159467194" name="org.inca.fun.structure.SwitchStatementNoOptimizationAttribute" flags="ng" index="3qtxHv" />
       <concept id="6886343666311015769" name="org.inca.fun.structure.SwitchStatement" flags="ng" index="1waTxd">
         <child id="1925259677761359694" name="alternatives" index="3zVECR" />
       </concept>
@@ -3335,6 +3336,7 @@
               </node>
             </node>
           </node>
+          <node concept="3qtxHv" id="AmUunjUdM4" role="lGtFl" />
         </node>
       </node>
       <node concept="1VLyuc" id="5YhdhgZAtrf" role="1dv5OJ">
