@@ -27,9 +27,7 @@
   </imports>
   <registry>
     <language id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin">
-      <concept id="1207145163717" name="jetbrains.mps.lang.plugin.structure.ElementListContents" flags="ng" index="ftmFs">
-        <child id="1207145201301" name="reference" index="ftvYc" />
-      </concept>
+      <concept id="1207145163717" name="jetbrains.mps.lang.plugin.structure.ElementListContents" flags="ng" index="ftmFs" />
       <concept id="1203071646776" name="jetbrains.mps.lang.plugin.structure.ActionDeclaration" flags="ng" index="sE7Ow">
         <property id="1211298967294" name="outsideCommandExecution" index="72QZ$" />
         <property id="1205250923097" name="caption" index="2uzpH1" />
@@ -40,9 +38,6 @@
       <concept id="1203087890642" name="jetbrains.mps.lang.plugin.structure.ActionGroupDeclaration" flags="ng" index="tC5Ba">
         <child id="1204991552650" name="modifier" index="2f5YQi" />
         <child id="1207145245948" name="contents" index="ftER_" />
-      </concept>
-      <concept id="1203088046679" name="jetbrains.mps.lang.plugin.structure.ActionInstance" flags="ng" index="tCFHf">
-        <reference id="1203088061055" name="action" index="tCJdB" />
       </concept>
       <concept id="1203092361741" name="jetbrains.mps.lang.plugin.structure.ModificationStatement" flags="lg" index="tT9cl">
         <reference id="1204992316090" name="point" index="2f8Tey" />
@@ -385,11 +380,7 @@
       <ref role="2f8Tey" to="ekwn:1xsN4xJX8VX" resolve="preview" />
       <ref role="tU$_T" to="ekwn:1xsN4xJX8VI" resolve="EditorPopup" />
     </node>
-    <node concept="ftmFs" id="4eWR0HOKnDF" role="ftER_">
-      <node concept="tCFHf" id="1POFijRpcpz" role="ftvYc">
-        <ref role="tCJdB" node="7$Y1SICub5" resolve="MeasureAction" />
-      </node>
-    </node>
+    <node concept="ftmFs" id="4eWR0HOKnDF" role="ftER_" />
   </node>
   <node concept="2DaZZR" id="6ukHF6h8quY">
     <property role="3GE5qa" value="" />
