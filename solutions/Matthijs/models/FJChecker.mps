@@ -2,15 +2,15 @@
 <model ref="r:b870436a-bd35-44b7-828c-916a0790dd66(FJChecker)">
   <persistence version="9" />
   <languages>
-    <use id="b802a056-92a2-4fbc-902e-f8e5004c331f" name="org.inca.core" version="0" />
-    <use id="9c179615-5b01-47d6-8747-de24f81c45dc" name="org.inca.data.test.lang" version="0" />
-    <use id="cd2909da-ecb4-49dc-b176-33e5c619e516" name="org.inca.gp" version="0" />
-    <use id="e6d2ffd5-9c56-41f8-99ac-9d1ceb13daa2" name="org.inca.data" version="2" />
-    <use id="8c9a2720-9d21-4370-a226-819eb3e76e1e" name="org.inca.fun" version="0" />
-    <use id="80e42679-e00d-400f-8714-aee80946d2f9" name="org.inca.styles" version="0" />
-    <use id="2d284cd2-4f9b-4f47-beec-a8bf99adcb74" name="FeatherweightJava" version="0" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="5" />
-    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
+    <use id="b802a056-92a2-4fbc-902e-f8e5004c331f" name="org.inca.core" version="-1" />
+    <use id="9c179615-5b01-47d6-8747-de24f81c45dc" name="org.inca.data.test.lang" version="-1" />
+    <use id="cd2909da-ecb4-49dc-b176-33e5c619e516" name="org.inca.gp" version="-1" />
+    <use id="e6d2ffd5-9c56-41f8-99ac-9d1ceb13daa2" name="org.inca.data" version="-1" />
+    <use id="8c9a2720-9d21-4370-a226-819eb3e76e1e" name="org.inca.fun" version="-1" />
+    <use id="80e42679-e00d-400f-8714-aee80946d2f9" name="org.inca.styles" version="-1" />
+    <use id="2d284cd2-4f9b-4f47-beec-a8bf99adcb74" name="FeatherweightJava" version="-1" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="-1" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="-1" />
   </languages>
   <imports>
     <import index="aq49" ref="r:6b19b2d8-619e-48bd-ba27-343f855d53e3(FeatherweightJava.structure)" />
@@ -1340,6 +1340,7 @@
   </node>
   <node concept="3TKv5i" id="4sJZnwZd55">
     <property role="TrG5h" value="ExpChecker" />
+    <node concept="ebWiT" id="1aEThOCBkGk" role="lGtFl" />
     <node concept="1XdyHb" id="4sJZnx3OWc" role="1dubk0">
       <property role="1dubkF" value="Create typeOf for each type and call the appropriate one from methodchecks" />
     </node>
@@ -3850,7 +3851,6 @@
     <node concept="C6Zt3" id="325klYw3t5i" role="xaH5_">
       <ref role="ws7DW" node="325klYw2$K9" resolve="NumberLattice" />
     </node>
-    <node concept="ebWiT" id="1aEThOCBkGk" role="lGtFl" />
   </node>
   <node concept="3TKv5i" id="4sJZnx0h8B">
     <property role="TrG5h" value="ClassChecker" />
