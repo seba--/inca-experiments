@@ -9,6 +9,7 @@
       <modulePath path="$PROJECT_DIR$/solutions/FeatherweightJavaImporter/FeatherweightJavaImporter.msd" folder="core" />
       <modulePath path="$PROJECT_DIR$/solutions/FeatherweightJavaTrees/FeatherweightJavaTrees.msd" folder="benchmark" />
       <modulePath path="$PROJECT_DIR$/solutions/JavaTrees/JavaTrees.msd" folder="benchmark" />
+      <modulePath path="$PROJECT_DIR$/solutions/LanguageExtensions/LanguageExtensions.msd" folder="core" />
       <modulePath path="$PROJECT_DIR$/solutions/Matthijs.measurement/Matthijs.measurement.msd" folder="analysis" />
       <modulePath path="$PROJECT_DIR$/solutions/Matthijs/Matthijs.msd" folder="analysis" />
     </projectModules>
