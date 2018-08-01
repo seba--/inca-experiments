@@ -7,7 +7,7 @@
   </models>
   <accessoryModels />
   <generators>
-    <generator alias="main" namespace="FeatherweightJava#3248327366719633052" uuid="ec2a6b23-6cfd-4bc6-bd35-8ecc3bbc4f8f" reflective-queries="true">
+    <generator alias="main" namespace="FeatherweightJava#3248327366719633052" uuid="ec2a6b23-6cfd-4bc6-bd35-8ecc3bbc4f8f">
       <models>
         <modelRoot contentPath="${module}/generator/template" type="default">
           <sourceRoot location="." />
