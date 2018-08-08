@@ -231,7 +231,7 @@
         <child id="7264940820301581325" name="thenClause" index="CBsOy" />
         <child id="7264940820301581324" name="condition" index="CBsOz" />
       </concept>
-      <concept id="7278583877871916358" name="org.inca.extensions.structure.ForeachStatement" flags="ng" index="19sAKZ">
+      <concept id="7278583877871916358" name="org.inca.extensions.structure.ForeachInStatement" flags="ng" index="19sAKZ">
         <child id="7278583877871928443" name="body" index="19sVO2" />
         <child id="7278583877871928435" name="var" index="19sVOa" />
         <child id="7278583877871928438" name="collection" index="19sVOf" />
@@ -239,6 +239,9 @@
       <concept id="7278583877874698312" name="org.inca.extensions.structure.CastExpression" flags="ng" index="19Av4L">
         <child id="996292992025662592" name="src" index="2kdhYN" />
         <child id="7278583877874698351" name="type" index="19Av4m" />
+      </concept>
+      <concept id="7278583877878051944" name="org.inca.extensions.structure.IterableExpression" flags="ng" index="19NcOh">
+        <child id="7278583877878051945" name="exp" index="19NcOg" />
       </concept>
       <concept id="7197326959316877145" name="org.inca.extensions.structure.MatchStatement" flags="ng" index="3_zFnA">
         <child id="7197326959316877936" name="cases" index="3_zGzd" />
@@ -4002,14 +4005,6 @@
               <node concept="30KbLJ" id="6k2In$GEarS" role="19sVOa">
                 <property role="TrG5h" value="_import" />
               </node>
-              <node concept="2kdhWc" id="6k2In$GEDSv" role="19sVOf">
-                <node concept="727y6" id="6k2In$GEDWM" role="3zVzRQ">
-                  <ref role="3zVwH9" to="aq49:2Oko8un$XCl" resolve="imports" />
-                </node>
-                <node concept="30NkWi" id="6k2In$GEDSo" role="2kdhYM">
-                  <ref role="XkjO9" node="5YhdhgZAtvh" resolve="module" />
-                </node>
-              </node>
               <node concept="CU8gp" id="6k2In$GEarU" role="19sVO2">
                 <node concept="30Nfyg" id="6k2In$GEE1i" role="1dgzf0">
                   <node concept="2k1GkI" id="6k2In$GEE5N" role="30Nf_D">
@@ -4027,6 +4022,16 @@
                         </node>
                       </node>
                     </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="19NcOh" id="6k2In$GQINL" role="19sVOf">
+                <node concept="2kdhWc" id="6k2In$GEDSv" role="19NcOg">
+                  <node concept="727y6" id="6k2In$GEDWM" role="3zVzRQ">
+                    <ref role="3zVwH9" to="aq49:2Oko8un$XCl" resolve="imports" />
+                  </node>
+                  <node concept="30NkWi" id="6k2In$GEDSo" role="2kdhYM">
+                    <ref role="XkjO9" node="5YhdhgZAtvh" resolve="module" />
                   </node>
                 </node>
               </node>
@@ -4060,14 +4065,6 @@
         <node concept="19sAKZ" id="6k2In$GAJor" role="1dgzf0">
           <node concept="30KbLJ" id="6k2In$GAJot" role="19sVOa">
             <property role="TrG5h" value="clazz" />
-          </node>
-          <node concept="2kdhWc" id="6k2In$GAKAq" role="19sVOf">
-            <node concept="727y6" id="6k2In$GAKTG" role="3zVzRQ">
-              <ref role="3zVwH9" to="aq49:2Oko8unxyzA" resolve="classes" />
-            </node>
-            <node concept="30NkWi" id="6k2In$GAKjc" role="2kdhYM">
-              <ref role="XkjO9" node="5YhdhgZAtvQ" resolve="module" />
-            </node>
           </node>
           <node concept="CU8gp" id="6k2In$GAJow" role="19sVO2">
             <node concept="CBsOA" id="6k2In$GALd3" role="1dgzf0">
@@ -4110,6 +4107,16 @@
                     </node>
                   </node>
                 </node>
+              </node>
+            </node>
+          </node>
+          <node concept="19NcOh" id="6k2In$GQJL1" role="19sVOf">
+            <node concept="2kdhWc" id="6k2In$GAKAq" role="19NcOg">
+              <node concept="727y6" id="6k2In$GAKTG" role="3zVzRQ">
+                <ref role="3zVwH9" to="aq49:2Oko8unxyzA" resolve="classes" />
+              </node>
+              <node concept="30NkWi" id="6k2In$GAKjc" role="2kdhYM">
+                <ref role="XkjO9" node="5YhdhgZAtvQ" resolve="module" />
               </node>
             </node>
           </node>
@@ -4264,14 +4271,6 @@
           <node concept="30KbLJ" id="6k2In$GAjAh" role="19sVOa">
             <property role="TrG5h" value="field" />
           </node>
-          <node concept="2kdhWc" id="6k2In$GAkFw" role="19sVOf">
-            <node concept="727y6" id="6k2In$GAkWO" role="3zVzRQ">
-              <ref role="3zVwH9" to="aq49:2Oko8unxiri" resolve="fields" />
-            </node>
-            <node concept="30NkWi" id="6k2In$GAkqg" role="2kdhYM">
-              <ref role="XkjO9" node="5YhdhgZAtwK" resolve="clazz" />
-            </node>
-          </node>
           <node concept="CU8gp" id="6k2In$GAjAk" role="19sVO2">
             <node concept="CBsOA" id="6k2In$GAled" role="1dgzf0">
               <node concept="CU8gp" id="6k2In$GAlef" role="CBsOy">
@@ -4293,6 +4292,16 @@
                     <ref role="XkjO9" node="6k2In$GAjAh" resolve="field" />
                   </node>
                 </node>
+              </node>
+            </node>
+          </node>
+          <node concept="19NcOh" id="6k2In$GU6HX" role="19sVOf">
+            <node concept="2kdhWc" id="6k2In$GAkFw" role="19NcOg">
+              <node concept="727y6" id="6k2In$GAkWO" role="3zVzRQ">
+                <ref role="3zVwH9" to="aq49:2Oko8unxiri" resolve="fields" />
+              </node>
+              <node concept="30NkWi" id="6k2In$GAkqg" role="2kdhYM">
+                <ref role="XkjO9" node="5YhdhgZAtwK" resolve="clazz" />
               </node>
             </node>
           </node>
@@ -4443,12 +4452,14 @@
               </node>
             </node>
           </node>
-          <node concept="2kdhWc" id="6k2In$GA94g" role="19sVOf">
-            <node concept="727y6" id="6k2In$GA94h" role="3zVzRQ">
-              <ref role="3zVwH9" to="aq49:2Oko8unwV2V" resolve="methods" />
-            </node>
-            <node concept="30NkWi" id="6k2In$GA94i" role="2kdhYM">
-              <ref role="XkjO9" node="5YhdhgZAtxE" resolve="clazz" />
+          <node concept="19NcOh" id="6k2In$GU7wc" role="19sVOf">
+            <node concept="2kdhWc" id="6k2In$GA94g" role="19NcOg">
+              <node concept="727y6" id="6k2In$GA94h" role="3zVzRQ">
+                <ref role="3zVwH9" to="aq49:2Oko8unwV2V" resolve="methods" />
+              </node>
+              <node concept="30NkWi" id="6k2In$GA94i" role="2kdhYM">
+                <ref role="XkjO9" node="5YhdhgZAtxE" resolve="clazz" />
+              </node>
             </node>
           </node>
         </node>
