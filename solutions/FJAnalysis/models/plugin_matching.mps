@@ -18,6 +18,7 @@
     <import index="hqsm" ref="r:aa4c3470-43ab-4dad-b73e-20da0ee43be1(org.inca.core.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
+    <import index="oz0t" ref="f:diff_old#r:13e402d7-a6e1-476b-959a-d87eacd81349(FJAnalysis.plugin_matching@old)" implicit="true" />
   </imports>
   <registry>
     <language id="8c9a2720-9d21-4370-a226-819eb3e76e1e" name="org.inca.fun">
@@ -231,7 +232,7 @@
         <child id="7264940820301581325" name="thenClause" index="CBsOy" />
         <child id="7264940820301581324" name="condition" index="CBsOz" />
       </concept>
-      <concept id="7278583877871916358" name="org.inca.extensions.structure.ForeachInStatement" flags="ng" index="19sAKZ">
+      <concept id="7278583877871916358" name="org.inca.extensions.structure.ForeachStatement" flags="ng" index="19sAKZ">
         <child id="7278583877871928443" name="body" index="19sVO2" />
         <child id="7278583877871928435" name="var" index="19sVOa" />
         <child id="7278583877871928438" name="collection" index="19sVOf" />
@@ -1009,7 +1010,7 @@
                     <ref role="3zVwH9" to="hqsm:7A0HCuGt5s2" resolve="next" />
                   </node>
                   <node concept="30NkWi" id="UgtRGDehXX" role="2kdhYM">
-                    <ref role="XkjO9" node="UgtRGDehXD" resolve="clazz" />
+                    <ref role="XkjO9" to="oz0t:UgtRGDehXD" resolve="clazz" />
                   </node>
                 </node>
               </node>
@@ -1222,60 +1223,121 @@
             </node>
           </node>
           <node concept="3_zGKi" id="5jddR$DdyX5" role="3_zGzd">
-            <node concept="1XdyHb" id="5jddR$DeZhJ" role="1dgzf0">
-              <property role="1dubkF" value="reference to parameter of static method declaration" />
-            </node>
-            <node concept="34odk1" id="5jddR$DdJda" role="1dgzf0">
-              <node concept="2k1GkI" id="5jddR$DdJdb" role="34ocZk">
-                <node concept="2k1_uq" id="5jddR$DdJdc" role="2nKVj6">
-                  <ref role="2nKBpL" node="5yJmYnVMfuS" resolve="getContainingStaticMethodDec" />
-                  <node concept="30NkWi" id="5jddR$DdJdd" role="2nKBpO">
-                    <ref role="XkjO9" node="5yJmYnVMTm1" resolve="expression" />
+            <node concept="1waTxd" id="16Zc08rHSNC" role="1dgzf0">
+              <node concept="3zV_Rz" id="16Zc08rHSNE" role="3zVECR">
+                <node concept="1XdyHb" id="16Zc08rHU5q" role="1dgzf0">
+                  <property role="1dubkF" value="reference to parameter of static method declaration" />
+                </node>
+                <node concept="34odk1" id="16Zc08rHU5r" role="1dgzf0">
+                  <node concept="2k1GkI" id="16Zc08rHU5s" role="34ocZk">
+                    <node concept="2k1_uq" id="16Zc08rHU5t" role="2nKVj6">
+                      <ref role="2nKBpL" node="5yJmYnVMfuS" resolve="getContainingStaticMethodDec" />
+                      <node concept="30NkWi" id="16Zc08rHU5u" role="2nKBpO">
+                        <ref role="XkjO9" node="5yJmYnVMTm1" resolve="expression" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="30KbLJ" id="16Zc08rHU5v" role="34ocZn">
+                    <property role="TrG5h" value="method" />
+                  </node>
+                </node>
+                <node concept="34odk1" id="16Zc08rHU5w" role="1dgzf0">
+                  <node concept="2kdhWc" id="16Zc08rHU5x" role="34ocZk">
+                    <node concept="727y6" id="16Zc08rHU5y" role="3zVzRQ">
+                      <ref role="3zVwH9" to="aq49:4sJZnwhLaD" resolve="params" />
+                    </node>
+                    <node concept="30NkWi" id="16Zc08rHU5z" role="2kdhYM">
+                      <ref role="XkjO9" node="16Zc08rHU5v" resolve="method" />
+                    </node>
+                  </node>
+                  <node concept="30KbLJ" id="16Zc08rHU5$" role="34ocZn">
+                    <property role="TrG5h" value="parameter" />
+                  </node>
+                </node>
+                <node concept="34ocy7" id="16Zc08rHU5_" role="1dgzf0">
+                  <node concept="34ofUU" id="16Zc08rHU5A" role="34ocs8">
+                    <node concept="30NkWi" id="16Zc08rHU5B" role="34ocZk">
+                      <ref role="XkjO9" node="5jddR$DdE2B" resolve="x" />
+                    </node>
+                    <node concept="2kdhWc" id="16Zc08rHU5C" role="34ocZn">
+                      <node concept="727y6" id="16Zc08rHU5D" role="3zVzRQ">
+                        <ref role="3zVwH9" to="tpck:h0TrG11" resolve="name" />
+                      </node>
+                      <node concept="30NkWi" id="16Zc08rHU5E" role="2kdhYM">
+                        <ref role="XkjO9" node="16Zc08rHU5$" resolve="parameter" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="30Nfyg" id="16Zc08rHU5F" role="1dgzf0">
+                  <node concept="2kdhWc" id="16Zc08rHU5G" role="30Nf_D">
+                    <node concept="727y6" id="16Zc08rHU5H" role="3zVzRQ">
+                      <ref role="3zVwH9" to="aq49:2Oko8unwV2E" resolve="type" />
+                    </node>
+                    <node concept="30NkWi" id="16Zc08rHU5I" role="2kdhYM">
+                      <ref role="XkjO9" node="16Zc08rHU5$" resolve="parameter" />
+                    </node>
                   </node>
                 </node>
               </node>
-              <node concept="30KbLJ" id="5jddR$DdJde" role="34ocZn">
-                <property role="TrG5h" value="method" />
-              </node>
-            </node>
-            <node concept="34odk1" id="5jddR$DdJdf" role="1dgzf0">
-              <node concept="2kdhWc" id="5jddR$DdJdg" role="34ocZk">
-                <node concept="727y6" id="5jddR$DdJdh" role="3zVzRQ">
-                  <ref role="3zVwH9" to="aq49:4sJZnwhLaD" resolve="params" />
+              <node concept="3zV_Rz" id="16Zc08rHVtz" role="3zVECR">
+                <node concept="1XdyHb" id="16Zc08rHWK_" role="1dgzf0">
+                  <property role="1dubkF" value="reference to parameter of method declaration" />
                 </node>
-                <node concept="30NkWi" id="5jddR$DdJdi" role="2kdhYM">
-                  <ref role="XkjO9" node="5jddR$DdJde" resolve="method" />
-                </node>
-              </node>
-              <node concept="30KbLJ" id="5jddR$DdJdj" role="34ocZn">
-                <property role="TrG5h" value="parameter" />
-              </node>
-            </node>
-            <node concept="34ocy7" id="5jddR$DdJdk" role="1dgzf0">
-              <node concept="34ofUU" id="5jddR$DdJdl" role="34ocs8">
-                <node concept="30NkWi" id="5jddR$DdLhO" role="34ocZk">
-                  <ref role="XkjO9" node="5jddR$DdE2B" resolve="x" />
-                </node>
-                <node concept="2kdhWc" id="5jddR$DdJdp" role="34ocZn">
-                  <node concept="727y6" id="5jddR$DdJdq" role="3zVzRQ">
-                    <ref role="3zVwH9" to="tpck:h0TrG11" resolve="name" />
+                <node concept="34odk1" id="16Zc08rHWKA" role="1dgzf0">
+                  <node concept="2k1GkI" id="16Zc08rHWKB" role="34ocZk">
+                    <node concept="2k1_uq" id="16Zc08rHWKC" role="2nKVj6">
+                      <ref role="2nKBpL" node="5YhdhgZAttZ" resolve="getContainingMethodDec" />
+                      <node concept="30NkWi" id="16Zc08rHWKD" role="2nKBpO">
+                        <ref role="XkjO9" node="5yJmYnVMTm1" resolve="expression" />
+                      </node>
+                    </node>
                   </node>
-                  <node concept="30NkWi" id="5jddR$DdJdr" role="2kdhYM">
-                    <ref role="XkjO9" node="5jddR$DdJdj" resolve="parameter" />
+                  <node concept="30KbLJ" id="16Zc08rHWKE" role="34ocZn">
+                    <property role="TrG5h" value="method" />
                   </node>
                 </node>
+                <node concept="34odk1" id="16Zc08rHWKF" role="1dgzf0">
+                  <node concept="2kdhWc" id="16Zc08rHWKG" role="34ocZk">
+                    <node concept="727y6" id="16Zc08rHWKH" role="3zVzRQ">
+                      <ref role="3zVwH9" to="aq49:2Oko8unwV2v" resolve="params" />
+                    </node>
+                    <node concept="30NkWi" id="16Zc08rHWKI" role="2kdhYM">
+                      <ref role="XkjO9" node="16Zc08rHWKE" resolve="method" />
+                    </node>
+                  </node>
+                  <node concept="30KbLJ" id="16Zc08rHWKJ" role="34ocZn">
+                    <property role="TrG5h" value="parameter" />
+                  </node>
+                </node>
+                <node concept="34ocy7" id="16Zc08rHWKK" role="1dgzf0">
+                  <node concept="34ofUU" id="16Zc08rHWKL" role="34ocs8">
+                    <node concept="30NkWi" id="16Zc08rHWKM" role="34ocZk">
+                      <ref role="XkjO9" node="5jddR$DdE2B" resolve="x" />
+                    </node>
+                    <node concept="2kdhWc" id="16Zc08rHWKN" role="34ocZn">
+                      <node concept="727y6" id="16Zc08rHWKO" role="3zVzRQ">
+                        <ref role="3zVwH9" to="tpck:h0TrG11" resolve="name" />
+                      </node>
+                      <node concept="30NkWi" id="16Zc08rHWKP" role="2kdhYM">
+                        <ref role="XkjO9" node="16Zc08rHWKJ" resolve="parameter" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="30Nfyg" id="16Zc08rHWKQ" role="1dgzf0">
+                  <node concept="2kdhWc" id="16Zc08rHWKR" role="30Nf_D">
+                    <node concept="727y6" id="16Zc08rHWKS" role="3zVzRQ">
+                      <ref role="3zVwH9" to="aq49:2Oko8unwV2E" resolve="type" />
+                    </node>
+                    <node concept="30NkWi" id="16Zc08rHWKT" role="2kdhYM">
+                      <ref role="XkjO9" node="16Zc08rHWKJ" resolve="parameter" />
+                    </node>
+                  </node>
+                </node>
               </node>
             </node>
-            <node concept="30Nfyg" id="5jddR$DdJds" role="1dgzf0">
-              <node concept="2kdhWc" id="5jddR$DdJdt" role="30Nf_D">
-                <node concept="727y6" id="5jddR$DdJdu" role="3zVzRQ">
-                  <ref role="3zVwH9" to="aq49:2Oko8unwV2E" resolve="type" />
-                </node>
-                <node concept="30NkWi" id="5jddR$DdJdv" role="2kdhYM">
-                  <ref role="XkjO9" node="5jddR$DdJdj" resolve="parameter" />
-                </node>
-              </node>
-            </node>
+            <node concept="1XdyHe" id="16Zc08rI0QU" role="1dgzf0" />
             <node concept="27Pwox" id="5jddR$DdCkQ" role="3_$9z_">
               <node concept="2kdjtB" id="5jddR$DdE2s" role="27Pwoi">
                 <ref role="2UGuZ7" to="aq49:2Oko8unwfN3" resolve="Var" />
@@ -1283,74 +1345,6 @@
               <node concept="bFJCQ" id="5jddR$DdE2v" role="27Pwov">
                 <ref role="3zVwH8" to="tpck:h0TrG11" resolve="name" />
                 <node concept="27PwoL" id="5jddR$DdE2B" role="bFJCb">
-                  <property role="TrG5h" value="x" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3_zGKi" id="5jddR$DdU0G" role="3_zGzd">
-            <node concept="1XdyHb" id="5jddR$Df2Oa" role="1dgzf0">
-              <property role="1dubkF" value="reference to parameter of method declaration" />
-            </node>
-            <node concept="34odk1" id="5jddR$DdU0H" role="1dgzf0">
-              <node concept="2k1GkI" id="5jddR$DdU0I" role="34ocZk">
-                <node concept="2k1_uq" id="5jddR$DdU0J" role="2nKVj6">
-                  <ref role="2nKBpL" node="5YhdhgZAttZ" resolve="getContainingMethodDec" />
-                  <node concept="30NkWi" id="5jddR$DdU0K" role="2nKBpO">
-                    <ref role="XkjO9" node="5yJmYnVMTm1" resolve="expression" />
-                  </node>
-                </node>
-              </node>
-              <node concept="30KbLJ" id="5jddR$DdU0L" role="34ocZn">
-                <property role="TrG5h" value="method" />
-              </node>
-            </node>
-            <node concept="34odk1" id="5jddR$DdU0M" role="1dgzf0">
-              <node concept="2kdhWc" id="5jddR$DdU0N" role="34ocZk">
-                <node concept="727y6" id="5jddR$DdU0O" role="3zVzRQ">
-                  <ref role="3zVwH9" to="aq49:2Oko8unwV2v" resolve="params" />
-                </node>
-                <node concept="30NkWi" id="5jddR$DdU0P" role="2kdhYM">
-                  <ref role="XkjO9" node="5jddR$DdU0L" resolve="method" />
-                </node>
-              </node>
-              <node concept="30KbLJ" id="5jddR$DdU0Q" role="34ocZn">
-                <property role="TrG5h" value="parameter" />
-              </node>
-            </node>
-            <node concept="34ocy7" id="5jddR$DdU0R" role="1dgzf0">
-              <node concept="34ofUU" id="5jddR$DdU0S" role="34ocs8">
-                <node concept="30NkWi" id="5jddR$DdU0T" role="34ocZk">
-                  <ref role="XkjO9" node="5jddR$DdU14" resolve="x" />
-                </node>
-                <node concept="2kdhWc" id="5jddR$DdU0U" role="34ocZn">
-                  <node concept="727y6" id="5jddR$DdU0V" role="3zVzRQ">
-                    <ref role="3zVwH9" to="tpck:h0TrG11" resolve="name" />
-                  </node>
-                  <node concept="30NkWi" id="5jddR$DdU0W" role="2kdhYM">
-                    <ref role="XkjO9" node="5jddR$DdU0Q" resolve="parameter" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="30Nfyg" id="5jddR$DdU0X" role="1dgzf0">
-              <node concept="2kdhWc" id="5jddR$DdU0Y" role="30Nf_D">
-                <node concept="727y6" id="5jddR$DdU0Z" role="3zVzRQ">
-                  <ref role="3zVwH9" to="aq49:2Oko8unwV2E" resolve="type" />
-                </node>
-                <node concept="30NkWi" id="5jddR$DdU10" role="2kdhYM">
-                  <ref role="XkjO9" node="5jddR$DdU0Q" resolve="parameter" />
-                </node>
-              </node>
-            </node>
-            <node concept="1XdyHe" id="5jddR$DeVJl" role="1dgzf0" />
-            <node concept="27Pwox" id="5jddR$DdU11" role="3_$9z_">
-              <node concept="2kdjtB" id="5jddR$DdU12" role="27Pwoi">
-                <ref role="2UGuZ7" to="aq49:2Oko8unwfN3" resolve="Var" />
-              </node>
-              <node concept="bFJCQ" id="5jddR$DdU13" role="27Pwov">
-                <ref role="3zVwH8" to="tpck:h0TrG11" resolve="name" />
-                <node concept="27PwoL" id="5jddR$DdU14" role="bFJCb">
                   <property role="TrG5h" value="x" />
                 </node>
               </node>
@@ -4411,7 +4405,7 @@
       </node>
       <node concept="wzYhD" id="1ncYU_TIkfw" role="wzYgH" />
     </node>
-    <node concept="1XdyHe" id="5YhdhgZAtxo" role="1dubk0" />
+    <node concept="1XdyHe" id="16Zc08rOurQ" role="1dubk0" />
     <node concept="1XdyHb" id="5jddR$Duit3" role="1dubk0">
       <property role="1dubkF" value="foreach method in clazz.methods" />
     </node>
