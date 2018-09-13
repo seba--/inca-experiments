@@ -18,6 +18,7 @@
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
+      <concept id="6496299201655527393" name="jetbrains.mps.lang.behavior.structure.LocalBehaviorMethodCall" flags="nn" index="BsUDl" />
       <concept id="1225194240794" name="jetbrains.mps.lang.behavior.structure.ConceptBehavior" flags="ng" index="13h7C7">
         <reference id="1225194240799" name="concept" index="13h7C2" />
         <child id="1225194240805" name="method" index="13h7CS" />
@@ -48,6 +49,9 @@
       <concept id="1068580123132" name="jetbrains.mps.baseLanguage.structure.BaseMethodDeclaration" flags="ng" index="3clF44">
         <child id="1068580123133" name="returnType" index="3clF45" />
         <child id="1068580123135" name="body" index="3clF47" />
+      </concept>
+      <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
+        <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
@@ -111,6 +115,20 @@
         </node>
       </node>
       <node concept="17QB3L" id="5bpxsnTXdwn" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="5jmtwM__r7V" role="13h7CS">
+      <property role="TrG5h" value="getDetailedPresentation" />
+      <property role="2Ki8OM" value="false" />
+      <ref role="13i0hy" to="tpcu:22G2W3WJ92t" resolve="getDetailedPresentation" />
+      <node concept="3clFbS" id="5jmtwM__r7Y" role="3clF47">
+        <node concept="3clFbF" id="5jmtwM__rm$" role="3cqZAp">
+          <node concept="BsUDl" id="5jmtwM__rmz" role="3clFbG">
+            <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="5jmtwM__rfs" role="3clF45" />
+      <node concept="3Tm1VV" id="5jmtwM__rft" role="1B3o_S" />
     </node>
   </node>
   <node concept="13h7C7" id="2Oko8ulZUzG">
