@@ -18,7 +18,6 @@
     <import index="hqsm" ref="r:aa4c3470-43ab-4dad-b73e-20da0ee43be1(org.inca.core.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
-    <import index="oz0t" ref="f:diff_old#r:13e402d7-a6e1-476b-959a-d87eacd81349(FJAnalysis.plugin_matching@old)" implicit="true" />
   </imports>
   <registry>
     <language id="8c9a2720-9d21-4370-a226-819eb3e76e1e" name="org.inca.fun">
@@ -1010,7 +1009,7 @@
                     <ref role="3zVwH9" to="hqsm:7A0HCuGt5s2" resolve="next" />
                   </node>
                   <node concept="30NkWi" id="UgtRGDehXX" role="2kdhYM">
-                    <ref role="XkjO9" to="oz0t:UgtRGDehXD" resolve="clazz" />
+                    <ref role="XkjO9" node="UgtRGDehXD" resolve="clazz" />
                   </node>
                 </node>
               </node>
