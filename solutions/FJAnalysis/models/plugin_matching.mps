@@ -289,14 +289,14 @@
         <reference id="1024655549788599479" name="module" index="ws7DW" />
       </concept>
       <concept id="1024655549795904162" name="org.inca.core.structure.ProtectedVisibility" flags="ng" index="wzYhD" />
-      <concept id="7447605944634188286" name="org.inca.core.structure.NewMatchOperation" flags="ng" index="2ymhvr">
+      <concept id="7447605944634188286" name="org.inca.core.structure.NewTupleOperation" flags="ng" index="2ymhvr">
         <child id="7447605944634333569" name="bindings" index="2ynQY$" />
       </concept>
-      <concept id="7447605944634311434" name="org.inca.core.structure.PartialMatchParameterBinding" flags="ng" index="2ynNkJ">
+      <concept id="7447605944634311434" name="org.inca.core.structure.ParameterBinding" flags="ng" index="2ynNkJ">
         <reference id="7447605944634512798" name="parameter" index="2yn2eV" />
         <child id="7447605944634317224" name="value" index="2ynMYd" />
       </concept>
-      <concept id="7447605944636584242" name="org.inca.core.structure.IncaMatch" flags="ig" index="2yvosn">
+      <concept id="7447605944636584242" name="org.inca.core.structure.IncATuple" flags="ig" index="2yvosn">
         <reference id="7447605944636589388" name="pattern" index="2yvvdD" />
       </concept>
       <concept id="7996518772785670958" name="org.inca.core.structure.DataTypeReferenceType" flags="ng" index="2PmbLq">
@@ -313,7 +313,7 @@
       <concept id="8650544432874604370" name="org.inca.core.structure.IncaEvaluator" flags="ig" index="VdqW6">
         <reference id="8650544432874609807" name="pattern" index="Vdrjr" />
       </concept>
-      <concept id="8650544432877557562" name="org.inca.core.structure.CountMatchesOperation" flags="ng" index="VqFXI">
+      <concept id="8650544432877557562" name="org.inca.core.structure.CountTuplesOperation" flags="ng" index="VqFXI">
         <child id="8650544432877559371" name="partialMatch" index="VqFov" />
       </concept>
       <concept id="4074503452633891989" name="org.inca.core.structure.IPatternCall" flags="ng" index="1aOKZo">
@@ -1189,23 +1189,18 @@
                 <property role="TrG5h" value="clazz" />
               </node>
             </node>
-            <node concept="34ocy7" id="5jddR$Dd$EF" role="1dgzf0">
-              <node concept="34oehE" id="5jddR$Dd$EG" role="34ocs8">
-                <node concept="2kdjtB" id="5jddR$Dd$EH" role="2RGvlO">
-                  <ref role="2UGuZ7" to="aq49:2Oko8unwV2H" resolve="ClassDec" />
-                </node>
-                <node concept="30NkWi" id="5jddR$Dd$EI" role="2RGvhl">
-                  <ref role="XkjO9" node="5jddR$Dd$EE" resolve="clazz" />
-                </node>
-              </node>
-            </node>
             <node concept="30Nfyg" id="5jddR$Dd$EJ" role="1dgzf0">
               <node concept="2kdhWc" id="5jddR$Dd$EK" role="30Nf_D">
                 <node concept="727y6" id="5jddR$Dd$EL" role="3zVzRQ">
                   <ref role="3zVwH9" to="aq49:5dsqWpVfbYn" resolve="type" />
                 </node>
-                <node concept="30NkWi" id="5jddR$Dd$EM" role="2kdhYM">
-                  <ref role="XkjO9" node="5jddR$Dd$EE" resolve="clazz" />
+                <node concept="19Av4L" id="7PU92hibjAb" role="2kdhYM">
+                  <node concept="2kdjtB" id="7PU92hibkR3" role="19Av4m">
+                    <ref role="2UGuZ7" to="aq49:2Oko8unwV2H" resolve="ClassDec" />
+                  </node>
+                  <node concept="30NkWi" id="5jddR$Dd$EM" role="2kdhYN">
+                    <ref role="XkjO9" node="5jddR$Dd$EE" resolve="clazz" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -1937,7 +1932,7 @@
       </node>
     </node>
     <node concept="1XdyHe" id="5yJmYnVMHK8" role="1dubk0" />
-    <node concept="1XdyHe" id="5yJmYnVMzCn" role="1dubk0" />
+    <node concept="1XdyHe" id="6ZopJQQBQtN" role="1dubk0" />
     <node concept="3zyOaA" id="3zeNo8Pei0a" role="1dubk0">
       <property role="TrG5h" value="findMinimalMethod" />
       <node concept="3zV_Rz" id="3zeNo8Pei0b" role="3zVECS">
@@ -4128,7 +4123,7 @@
         </node>
       </node>
       <node concept="3TL$xT" id="5YhdhgZAtvS" role="3TLBbI">
-        <node concept="2kdjtB" id="5YhdhgZAtvT" role="1dukDx">
+        <node concept="2kdjtB" id="4qcXZpr0nRQ" role="1dukDx">
           <ref role="2UGuZ7" to="aq49:2Oko8unwV2H" resolve="ClassDec" />
         </node>
       </node>

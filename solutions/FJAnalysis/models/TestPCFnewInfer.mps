@@ -470,7 +470,6 @@
   </registry>
   <node concept="3TKv5i" id="51sf_bZHVXZ">
     <property role="TrG5h" value="Typing" />
-    <node concept="1XdyHe" id="51sf_bZHVY0" role="1dubk0" />
     <node concept="3zyOaB" id="51sf_bZHVY1" role="1dubk0">
       <property role="TrG5h" value="missingType" />
       <node concept="3zV_Rz" id="51sf_bZHVYv" role="3zVECS">
@@ -512,6 +511,39 @@
     <node concept="3zyOaB" id="51sf_bZHVY3" role="1dubk0">
       <property role="TrG5h" value="wrongType" />
       <node concept="3zV_Rz" id="51sf_bZHVYx" role="3zVECS">
+        <node concept="19sAKZ" id="6VVZNB96hNP" role="1dgzf0">
+          <node concept="30KbLJ" id="6VVZNB96hNR" role="19sVOa">
+            <property role="TrG5h" value="actual2" />
+          </node>
+          <node concept="19NcOh" id="6VVZNB96jCX" role="19sVOf">
+            <node concept="2k1GkI" id="6VVZNB96jCW" role="19NcOg">
+              <node concept="2k1_uq" id="6VVZNB96jCU" role="2nKVj6">
+                <ref role="2nKBpL" node="51sf_bZHVYb" resolve="actualTypeOf" />
+                <node concept="30NkWi" id="6VVZNB96kz3" role="2nKBpO">
+                  <ref role="XkjO9" node="51sf_bZHVYy" resolve="e" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="CU8gp" id="6VVZNB96hNU" role="19sVO2">
+            <node concept="19sAKZ" id="6VVZNB96mm0" role="1dgzf0">
+              <node concept="30KbLJ" id="6VVZNB96mm1" role="19sVOa">
+                <property role="TrG5h" value="expected2" />
+              </node>
+              <node concept="19NcOh" id="6VVZNB96p7G" role="19sVOf">
+                <node concept="2k1GkI" id="6VVZNB96p7F" role="19NcOg">
+                  <node concept="2k1_uq" id="6VVZNB96p7D" role="2nKVj6">
+                    <ref role="2nKBpL" node="51sf_bZHVY9" resolve="expectedTypeOf" />
+                    <node concept="30NkWi" id="6VVZNB96q24" role="2nKBpO">
+                      <ref role="XkjO9" node="51sf_bZHVYy" resolve="e" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="CU8gp" id="6VVZNB96mm3" role="19sVO2" />
+            </node>
+          </node>
+        </node>
         <node concept="34odk1" id="51sf_bZHVZ8" role="1dgzf0">
           <node concept="2k1GkI" id="51sf_bZHVZP" role="34ocZk">
             <node concept="2k1_uq" id="51sf_bZHW1b" role="2nKVj6">
@@ -633,7 +665,7 @@
         </node>
       </node>
     </node>
-    <node concept="1XdyHe" id="51sf_bZHVY4" role="1dubk0" />
+    <node concept="1XdyHe" id="6VVZNB95Tww" role="1dubk0" />
     <node concept="3zyOaA" id="51sf_bZHVY5" role="1dubk0">
       <property role="TrG5h" value="inferredTypeOf" />
       <node concept="3zV_Rz" id="51sf_bZHVYz" role="3zVECS">
@@ -3361,8 +3393,8 @@
           </node>
           <node concept="2SXtaR" id="51sf_bZHWhu" role="2Ub$4l" />
         </node>
-        <node concept="2SXtaN" id="51sf_bZHWgM" role="2Ub$4l">
-          <node concept="2SXtaR" id="51sf_bZHWhv" role="2SXtbO" />
+        <node concept="2SXtaN" id="6VVZNB95$HE" role="2Ub$4l">
+          <node concept="2SXtaR" id="6VVZNB95$HP" role="2SXtbO" />
           <node concept="2SXtaR" id="51sf_bZHWhw" role="2SXtbR" />
         </node>
       </node>
@@ -3586,8 +3618,12 @@
         </node>
         <node concept="2VITry" id="51sf_bZHWha" role="2VIToh">
           <property role="TrG5h" value="two" />
-          <node concept="2SYX1K" id="51sf_bZHWhQ" role="2VITok">
-            <property role="2SYX1Z" value="2" />
+          <node concept="13Yr5J" id="6VVZNB95$Ij" role="2VITok">
+            <property role="TrG5h" value="x" />
+            <node concept="13Yrah" id="6VVZNB95$Ix" role="13Yr5F">
+              <property role="TrG5h" value="x" />
+            </node>
+            <node concept="2SXtaR" id="6VVZNB95$Iq" role="2Ub$4l" />
           </node>
         </node>
         <node concept="2VITry" id="51sf_bZHWhb" role="2VIToh">
@@ -3770,6 +3806,7 @@
           <node concept="13Yrah" id="51sf_bZHWi8" role="13Yr5F">
             <property role="TrG5h" value="x" />
           </node>
+          <node concept="2SXtaR" id="6VVZNB95$Hu" role="2Ub$4l" />
         </node>
         <node concept="2SYX1K" id="51sf_bZHWhs" role="13Yr5O">
           <property role="2SYX1Z" value="123" />

@@ -30,6 +30,7 @@
     <language slang="l:e6d2ffd5-9c56-41f8-99ac-9d1ceb13daa2:org.inca.data" version="2" />
     <language slang="l:8c9a2720-9d21-4370-a226-819eb3e76e1e:org.inca.fun" version="0" />
     <language slang="l:cd2909da-ecb4-49dc-b176-33e5c619e516:org.inca.gp" version="0" />
+    <language slang="l:44040329-7bfd-4c13-9275-784e91191a9f:org.inca.integration.generic" version="0" />
     <language slang="l:80e42679-e00d-400f-8714-aee80946d2f9:org.inca.styles" version="0" />
   </languageVersions>
   <dependencyVersions>

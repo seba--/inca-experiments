@@ -6,6 +6,7 @@
       <modulePath path="$PROJECT_DIR$/languages/FeatherweightJava/FeatherweightJava.mpl" folder="core" />
       <modulePath path="$PROJECT_DIR$/languages/Hazel/Hazel.mpl" folder="analysis" />
       <modulePath path="$PROJECT_DIR$/languages/PCF/PCF.mpl" folder="core" />
+      <modulePath path="$PROJECT_DIR$/languages/test/test.mpl" folder="analysis" />
       <modulePath path="$PROJECT_DIR$/solutions/ChristiansenTest/ChristiansenTest.msd" folder="analysis" />
       <modulePath path="$PROJECT_DIR$/solutions/Experiment1/Experiment1.msd" folder="analysis" />
       <modulePath path="$PROJECT_DIR$/solutions/FJAnalysis/FJAnalysis.msd" folder="analysis" />
@@ -16,6 +17,7 @@
       <modulePath path="$PROJECT_DIR$/solutions/LanguageExtensions/LanguageExtensions.msd" folder="core" />
       <modulePath path="$PROJECT_DIR$/solutions/Matthijs.measurement/Matthijs.measurement.msd" folder="analysis" />
       <modulePath path="$PROJECT_DIR$/solutions/Matthijs/Matthijs.msd" folder="analysis" />
+      <modulePath path="$PROJECT_DIR$/solutions/testmodel/testmodel.msd" folder="analysis" />
     </projectModules>
   </component>
 </project>

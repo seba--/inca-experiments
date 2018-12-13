@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="8c9a2720-9d21-4370-a226-819eb3e76e1e" name="org.inca.fun" version="0" />
+    <use id="44040329-7bfd-4c13-9275-784e91191a9f" name="org.inca.integration.generic" version="0" />
   </languages>
   <imports>
     <import index="aq49" ref="r:6b19b2d8-619e-48bd-ba27-343f855d53e3(FeatherweightJava.structure)" />
@@ -63,6 +64,30 @@
       </concept>
       <concept id="1925259677761400360" name="org.inca.core.structure.IPathElement" flags="ng" index="3zVwHh">
         <reference id="1925259677761400369" name="interfacePart" index="3zVwH8" />
+      </concept>
+    </language>
+    <language id="44040329-7bfd-4c13-9275-784e91191a9f" name="org.inca.integration.generic">
+      <concept id="6488474582788840006" name="org.inca.integration.generic.structure.GenericName" flags="ng" index="Fj2G7">
+        <property id="6488474582788840007" name="name" index="Fj2G6" />
+      </concept>
+      <concept id="8059304773067058733" name="org.inca.integration.generic.structure.EmptyDeclaration" flags="ng" index="3oBszg" />
+      <concept id="8059304773064193239" name="org.inca.integration.generic.structure.SortNamed" flags="ng" index="3oKp8E" />
+      <concept id="8059304773064193224" name="org.inca.integration.generic.structure.SortBool" flags="ng" index="3oKp8P" />
+      <concept id="8059304773064193209" name="org.inca.integration.generic.structure.SortInteger" flags="ng" index="3oKp94" />
+      <concept id="8059304773064172941" name="org.inca.integration.generic.structure.ConstructorParam" flags="ng" index="3oKsdK">
+        <child id="8059304773064172953" name="sort" index="3oKsd$" />
+      </concept>
+      <concept id="8059304773064172891" name="org.inca.integration.generic.structure.ConstructorDeclaration" flags="ng" index="3oKseA">
+        <property id="8059304773064172892" name="name" index="3oKsex" />
+        <child id="8059304773064172896" name="params" index="3oKset" />
+        <child id="8059304773064172899" name="sort" index="3oKseu" />
+      </concept>
+      <concept id="8059304773065912135" name="org.inca.integration.generic.structure.SubsortDeclaration" flags="ng" index="3oV4AU">
+        <child id="8059304773065912163" name="sup" index="3oV4Au" />
+        <child id="8059304773065912136" name="sub" index="3oV4AP" />
+      </concept>
+      <concept id="8059304773065912134" name="org.inca.integration.generic.structure.File" flags="ng" index="3oV4AV">
+        <child id="8059304773065912302" name="content" index="3oV4$j" />
       </concept>
     </language>
     <language id="cd2909da-ecb4-49dc-b176-33e5c619e516" name="org.inca.gp">
@@ -279,6 +304,136 @@
       </node>
     </node>
     <node concept="1XdyHe" id="28bFZSiQKEv" role="1dubk0" />
+  </node>
+  <node concept="3oV4AV" id="6ZopJQRgZ98">
+    <node concept="3oV4AU" id="6ZopJQRhqRG" role="3oV4$j">
+      <node concept="3oKp8E" id="6ZopJQRhqRT" role="3oV4AP">
+        <property role="Fj2G6" value="Literal" />
+      </node>
+      <node concept="3oKp8E" id="6ZopJQRhqS0" role="3oV4Au">
+        <property role="Fj2G6" value="Expr" />
+      </node>
+    </node>
+    <node concept="3oBszg" id="6ZopJQRhYNt" role="3oV4$j" />
+    <node concept="3oKseA" id="6ZopJQRhqSc" role="3oV4$j">
+      <property role="3oKsex" value="Plus" />
+      <node concept="3oKp8E" id="6ZopJQRhqSt" role="3oKseu">
+        <property role="Fj2G6" value="BinOp" />
+      </node>
+    </node>
+    <node concept="3oKseA" id="6ZopJQRmjll" role="3oV4$j">
+      <property role="3oKsex" value="Minus" />
+      <node concept="3oKp8E" id="6ZopJQRmjlm" role="3oKseu">
+        <property role="Fj2G6" value="BinOp" />
+      </node>
+    </node>
+    <node concept="3oKseA" id="6ZopJQRmjlF" role="3oV4$j">
+      <property role="3oKsex" value="Times" />
+      <node concept="3oKp8E" id="6ZopJQRmjlG" role="3oKseu">
+        <property role="Fj2G6" value="BinOp" />
+      </node>
+    </node>
+    <node concept="3oKseA" id="6ZopJQRmjm5" role="3oV4$j">
+      <property role="3oKsex" value="DivBy" />
+      <node concept="3oKp8E" id="6ZopJQRmjm6" role="3oKseu">
+        <property role="Fj2G6" value="BinOp" />
+      </node>
+    </node>
+    <node concept="3oKseA" id="6ZopJQRmjmz" role="3oV4$j">
+      <property role="3oKsex" value="And" />
+      <node concept="3oKp8E" id="6ZopJQRmjm$" role="3oKseu">
+        <property role="Fj2G6" value="BinOp" />
+      </node>
+    </node>
+    <node concept="3oKseA" id="6ZopJQRmjn5" role="3oV4$j">
+      <property role="3oKsex" value="Or" />
+      <node concept="3oKp8E" id="6ZopJQRmjn6" role="3oKseu">
+        <property role="Fj2G6" value="BinOp" />
+      </node>
+    </node>
+    <node concept="3oKseA" id="6ZopJQRmjnF" role="3oV4$j">
+      <property role="3oKsex" value="Eq" />
+      <node concept="3oKp8E" id="6ZopJQRmjnG" role="3oKseu">
+        <property role="Fj2G6" value="BinOp" />
+      </node>
+    </node>
+    <node concept="3oBszg" id="6ZopJQRmjol" role="3oV4$j" />
+    <node concept="3oKseA" id="6ZopJQRmjpH" role="3oV4$j">
+      <property role="3oKsex" value="Neg" />
+      <node concept="3oKp8E" id="6ZopJQRmjpI" role="3oKseu">
+        <property role="Fj2G6" value="UnOp" />
+      </node>
+    </node>
+    <node concept="3oKseA" id="6ZopJQRmjqv" role="3oV4$j">
+      <property role="3oKsex" value="Not" />
+      <node concept="3oKp8E" id="6ZopJQRmjqw" role="3oKseu">
+        <property role="Fj2G6" value="UnOp" />
+      </node>
+    </node>
+    <node concept="3oBszg" id="6ZopJQRmjp0" role="3oV4$j" />
+    <node concept="3oKseA" id="6ZopJQRmjrl" role="3oV4$j">
+      <property role="3oKsex" value="BoolLit" />
+      <node concept="3oKsdK" id="6ZopJQRm_WS" role="3oKset">
+        <node concept="3oKp8P" id="6ZopJQRm_Xh" role="3oKsd$" />
+      </node>
+      <node concept="3oKp8E" id="6ZopJQRm_Xp" role="3oKseu">
+        <property role="Fj2G6" value="Literal" />
+      </node>
+    </node>
+    <node concept="3oKseA" id="6ZopJQRm_YB" role="3oV4$j">
+      <property role="3oKsex" value="NumberLit" />
+      <node concept="3oKsdK" id="6ZopJQRm_YC" role="3oKset">
+        <node concept="3oKp94" id="6ZopJQRmA0g" role="3oKsd$" />
+      </node>
+      <node concept="3oKp8E" id="6ZopJQRm_YE" role="3oKseu">
+        <property role="Fj2G6" value="Literal" />
+      </node>
+    </node>
+    <node concept="3oBszg" id="6ZopJQRm_XE" role="3oV4$j" />
+    <node concept="3oKseA" id="6ZopJQRmA1r" role="3oV4$j">
+      <property role="3oKsex" value="BinOpExpr" />
+      <node concept="3oKp8E" id="6ZopJQRmA5h" role="3oKseu">
+        <property role="Fj2G6" value="Expr" />
+      </node>
+      <node concept="3oKsdK" id="6ZopJQRmA4q" role="3oKset">
+        <property role="Fj2G6" value="left" />
+        <node concept="3oKp8E" id="6ZopJQRmA4$" role="3oKsd$">
+          <property role="Fj2G6" value="Expr" />
+        </node>
+      </node>
+      <node concept="3oKsdK" id="6ZopJQRmA4B" role="3oKset">
+        <property role="Fj2G6" value="op" />
+        <node concept="3oKp8E" id="6ZopJQRmA4P" role="3oKsd$">
+          <property role="Fj2G6" value="BinOp" />
+        </node>
+      </node>
+      <node concept="3oKsdK" id="6ZopJQRmA4S" role="3oKset">
+        <property role="Fj2G6" value="right" />
+        <node concept="3oKp8E" id="6ZopJQRmA5a" role="3oKsd$">
+          <property role="Fj2G6" value="Expr" />
+        </node>
+      </node>
+    </node>
+    <node concept="3oKseA" id="6ZopJQRmA5k" role="3oV4$j">
+      <property role="3oKsex" value="UnOpExpr" />
+      <node concept="3oKp8E" id="6ZopJQRmA5l" role="3oKseu">
+        <property role="Fj2G6" value="Expr" />
+      </node>
+      <node concept="3oKsdK" id="6ZopJQRmA5o" role="3oKset">
+        <property role="Fj2G6" value="op" />
+        <node concept="3oKp8E" id="6ZopJQRmA5p" role="3oKsd$">
+          <property role="Fj2G6" value="UnOp" />
+        </node>
+      </node>
+      <node concept="3oKsdK" id="6ZopJQRmA5q" role="3oKset">
+        <property role="Fj2G6" value="exp" />
+        <node concept="3oKp8E" id="6ZopJQRmA5r" role="3oKsd$">
+          <property role="Fj2G6" value="Expr" />
+        </node>
+      </node>
+    </node>
+    <node concept="3oBszg" id="5CbGk5LdS$5" role="3oV4$j" />
+    <node concept="3oBszg" id="5CbGk5LdS_A" role="3oV4$j" />
   </node>
 </model>
 
