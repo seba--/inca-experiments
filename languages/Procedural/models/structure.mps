@@ -405,5 +405,14 @@
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
+  <node concept="1TIwiD" id="6UJS8u6_IfK">
+    <property role="EcuMT" value="7975840337779680240" />
+    <property role="TrG5h" value="Mod" />
+    <property role="34LRSv" value="%" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="6UJS8u6_IfL" role="PzmwI">
+      <ref role="PrY4T" node="2Oko8umld5D" resolve="BinOp" />
+    </node>
+  </node>
 </model>
 
