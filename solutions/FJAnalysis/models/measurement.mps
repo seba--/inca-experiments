@@ -2,7 +2,7 @@
 <model ref="r:311436f1-22ba-44ad-866b-9cc412fde271(FJAnalysis.measurement)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
   </languages>
   <imports />
   <registry>

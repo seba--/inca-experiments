@@ -4,7 +4,7 @@
   <languages>
     <use id="607928f9-8031-45ad-a195-8e6dfe7ae786" name="ChristiansenBidirectional" version="0" />
     <use id="e6d2ffd5-9c56-41f8-99ac-9d1ceb13daa2" name="org.inca.data" version="2" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
     <use id="3a1c1f85-c745-4d04-a210-f97a7e31f9cc" name="org.inca.extensions" version="0" />
     <use id="b802a056-92a2-4fbc-902e-f8e5004c331f" name="org.inca.core" version="0" />
     <use id="cd2909da-ecb4-49dc-b176-33e5c619e516" name="org.inca.gp" version="0" />
@@ -368,9 +368,9 @@
       <concept id="3248327366706124013" name="ChristiansenBidirectional.structure.RecordTypeEntry" flags="ng" index="2VDFhE">
         <child id="3248327366706124059" name="type" index="2VDFms" />
       </concept>
-      <concept id="5790571747095872620" name="ChristiansenBidirectional.structure.Module" flags="ng" index="1gj3CZ">
+      <concept id="5790571747095872620" name="ChristiansenBidirectional.structure.Program" flags="ng" index="1gj3CZ">
         <child id="7997266186981963954" name="imports" index="2BHCub" />
-        <child id="5790571747095872621" name="elems" index="1gj3CY" />
+        <child id="5790571747095872621" name="exps" index="1gj3CY" />
       </concept>
       <concept id="5790571747095701056" name="ChristiansenBidirectional.structure.Fun" flags="ng" index="1gklwj">
         <child id="5790571747095701057" name="from" index="1gklwi" />
@@ -420,7 +420,7 @@
       </concept>
       <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
         <property id="709746936026609031" name="linkId" index="3V$3ak" />
-        <property id="709746936026609029" name="linkRole" index="3V$3am" />
+        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
       </concept>
       <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
         <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
